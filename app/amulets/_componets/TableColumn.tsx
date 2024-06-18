@@ -4,6 +4,7 @@ import { ArrowUpDown, MoreHorizontal } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
+import { categoryIcon } from "../_constants/category";
 
 export const columns: ColumnDef<Amulet>[] = [
   {
@@ -44,6 +45,21 @@ export const columns: ColumnDef<Amulet>[] = [
   {
     accessorKey: "category",
     header: "CATEGORY",
+    cell: ({ row }) => {
+      const category: string = row.getValue("category");
+      const path = categoryIcon.find((item) => item.name === category);
+      return path ? (
+        <Image
+          src={path.image}
+          alt={category}
+          width={50}
+          height={50}
+          className="mx-auto"
+        />
+      ) : (
+        <p className="text-center">{category}</p>
+      );
+    },
   },
   {
     accessorKey: "spec.status.hp",
