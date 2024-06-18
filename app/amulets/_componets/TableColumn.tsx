@@ -29,7 +29,7 @@ export const columns: ColumnDef<Amulet>[] = [
     header: "NAME",
     cell: ({ row }) => {
       const name: string = row.getValue("name");
-      // const fromatted =
+      // 文字数多いならフォーマット
       return <div className="text-ellipsis">{name}</div>;
     },
   },
@@ -59,6 +59,10 @@ export const columns: ColumnDef<Amulet>[] = [
         </Button>
       );
     },
+    cell: ({ row }) => {
+      const hp: string = row.getValue("spec_status.hp");
+      return <p className="text-center">{hp}</p>;
+    },
   },
   {
     accessorKey: "spec.status.atk",
@@ -73,6 +77,10 @@ export const columns: ColumnDef<Amulet>[] = [
           <ArrowUpDown className="ml-2 h-4 w-4" />
         </Button>
       );
+    },
+    cell: ({ row }) => {
+      const atk: string = row.getValue("spec_status.atk");
+      return <p className="text-center">{atk}</p>;
     },
   },
   {
@@ -89,6 +97,10 @@ export const columns: ColumnDef<Amulet>[] = [
         </Button>
       );
     },
+    cell: ({ row }) => {
+      const def: string = row.getValue("spec_status.def");
+      return <p className="text-center">{def}</p>;
+    },
   },
   {
     accessorKey: "spec.status.spd",
@@ -104,6 +116,10 @@ export const columns: ColumnDef<Amulet>[] = [
           <ArrowUpDown className="ml-2 h-4 w-4" />
         </Button>
       );
+    },
+    cell: ({ row }) => {
+      const spd: string = row.getValue("spec_status.spd");
+      return <p className="text-center">{spd}</p>;
     },
   },
   {
