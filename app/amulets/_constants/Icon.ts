@@ -1,3 +1,30 @@
+export const elementIcon = [
+  {
+    name: "FIRE",
+    image: "/images/element/fire.png",
+  },
+  {
+    name: "THUNDER",
+    image: "/images/element/thunder.png",
+  },
+  {
+    name: "EARTH",
+    image: "/images/element/earth.png",
+  },
+  {
+    name: "NATURE",
+    image: "/images/element/nature.png",
+  },
+  {
+    name: "POISEN",
+    image: "/images/element/poisen.png",
+  },
+  {
+    name: "WATER",
+    image: "/images/element/water.png",
+  },
+];
+
 export const categoryIcon = [
   {
     name: "ギャザラー",
@@ -46,5 +73,35 @@ export const categoryIcon = [
   {
     name: "パブリックサービス",
     image: "/images/category/publicService.webp",
+  },
+];
+
+export const typeIcon = [
+  {
+    name: "NORMAL",
+    image: "/images/type/normal.png",
+  },
+  {
+    name: "ANOTHER",
+    image: "/images/type/another.png",
+  },
+];
+
+export const rarityIcon = [
+  {
+    name: "LEGENDARY",
+    image: "/images/rarity/legendary.png",
+  },
+  {
+    name: "EPIC",
+    image: "/images/rarity/epic.png",
+  },
+  {
+    name: "RARE",
+    image: "/images/rarity/rare.png",
+  },
+  {
+    name: "COMMON",
+    image: "/images/rarity/common.png",
   },
 ];

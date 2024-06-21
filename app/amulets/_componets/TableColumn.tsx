@@ -4,7 +4,12 @@ import { ArrowUpDown, MoreHorizontal } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
-import { categoryIcon } from "../_constants/category";
+import {
+  categoryIcon,
+  elementIcon,
+  rarityIcon,
+  typeIcon,
+} from "../_constants/Icon";
 
 export const columns: ColumnDef<Amulet>[] = [
   {
@@ -35,12 +40,67 @@ export const columns: ColumnDef<Amulet>[] = [
     },
   },
   {
+    accessorKey: "rarity",
+    header: "RARITY",
+    cell: ({ row }) => {
+      const rarity: string = row.getValue("rarity");
+      const path = rarityIcon.find((item) => item.name === rarity);
+      return path ? (
+        <Image
+          src={path.image}
+          alt={rarity}
+          width={50}
+          height={50}
+          className="mx-auto"
+          placeholder="blur"
+          blurDataURL={"/images/blur.webp"}
+        />
+      ) : (
+        <p className="text-center">{rarity}</p>
+      );
+    },
+  },
+  {
     accessorKey: "element",
     header: "ELEMENT",
+    cell: ({ row }) => {
+      const element: string = row.getValue("element");
+      const path = elementIcon.find((item) => item.name === element);
+      return path ? (
+        <Image
+          src={path.image}
+          alt={element}
+          width={50}
+          height={50}
+          className="mx-auto"
+          placeholder="blur"
+          blurDataURL={"/images/blur.webp"}
+        />
+      ) : (
+        <p className="text-center">{element}</p>
+      );
+    },
   },
   {
     accessorKey: "type",
     header: "TYPE",
+    cell: ({ row }) => {
+      const type: string = row.getValue("type");
+      const path = typeIcon.find((item) => item.name === type);
+      return path ? (
+        <Image
+          src={path.image}
+          alt={type}
+          width={50}
+          height={50}
+          className="mx-auto"
+          placeholder="blur"
+          blurDataURL={"/images/blur.webp"}
+        />
+      ) : (
+        <p className="text-center">{type}</p>
+      );
+    },
   },
   {
     accessorKey: "category",
@@ -55,6 +115,8 @@ export const columns: ColumnDef<Amulet>[] = [
           width={50}
           height={50}
           className="mx-auto"
+          placeholder="blur"
+          blurDataURL={"/images/blur.webp"}
         />
       ) : (
         <p className="text-center">{category}</p>
