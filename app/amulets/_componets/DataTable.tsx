@@ -32,6 +32,7 @@ import FilterSelect from "./FilterSelect";
 import {
   columnFilterCategory,
   columnFilterElement,
+  columnFilterRarity,
   columnFilterType,
 } from "../_constants/dataTable";
 import { DataTableProps } from "../_types/types";
@@ -99,6 +100,7 @@ export function DataTable<TData, TValue>({
       />
       <div className="flex items-end py-3">
         <div className="space-y-3">
+          <FilterSelect table={table} column={columnFilterRarity} />
           <FilterSelect table={table} column={columnFilterElement} />
           <FilterSelect table={table} column={columnFilterCategory} />
           <FilterSelect table={table} column={columnFilterType} />

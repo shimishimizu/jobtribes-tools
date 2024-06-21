@@ -29,6 +29,7 @@ export type Element = {
 export type Amulet = {
   id: string;
   name: string;
+  rarity: string;
   element: "FIRE" | "NATURE" | "WATER" | "EARTH" | "THUNDER" | "POISEN";
   image: string;
   info: string;
