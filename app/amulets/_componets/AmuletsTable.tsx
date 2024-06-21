@@ -13,7 +13,7 @@ import { AMULETS_DATA } from "../_constants/amulets";
 //   const data = await getData();
 const AmuletsTable = () => {
   return (
-    <div className="mx-auto max-w-6xl px-3 py-10">
+    <div className="mx-auto w-full max-w-6xl px-3 py-10">
       <DataTable columns={columns} data={AMULETS_DATA} />
     </div>
   );
