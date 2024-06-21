@@ -1,3 +1,14 @@
+export const columnFilterRarity = {
+  name: "レアリティ",
+  id: "rarity",
+  options: [
+    { value: "legendary", label: "LEGENDARY" },
+    { value: "epic", label: "EPIC" },
+    { value: "rare", label: "RARE" },
+    { value: "common", label: "COMMON" },
+  ],
+};
+
 export const columnFilterElement = {
   name: "属性",
   id: "element",
