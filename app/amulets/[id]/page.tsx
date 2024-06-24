@@ -25,6 +25,7 @@ const AmuletDetail = ({ params }: { params: { id: string } }) => {
     nft,
     handleChangeLevel,
     handleChangeNft,
+    calclateStatus,
   } = useAmulet(params.id);
 
   return (
@@ -52,13 +53,11 @@ const AmuletDetail = ({ params }: { params: { id: string } }) => {
           <div className="flex flex-col gap-y-10">
             {statusIncreasePerLevelValues && statusIncreasePerNFTValues && (
               <Status
-                amulet={amulet}
-                statusIncreasePerLevelValues={statusIncreasePerLevelValues}
-                statusIncreasePerNFTValues={statusIncreasePerNFTValues}
                 level={level}
                 nft={nft}
                 handleChangeLevel={handleChangeLevel}
                 handleChangeNft={handleChangeNft}
+                calclateStatus={calclateStatus}
               />
             )}
 

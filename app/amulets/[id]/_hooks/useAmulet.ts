@@ -4,6 +4,7 @@ import {
   statusIncreasePerNFT,
 } from "../../_constants/status";
 import { AMULETS_DATA as data } from "../../_constants/amulets";
+import { Amulet } from "../../_types/types";
 
 export const useAmulet = (id: string) => {
   const [level, setLevel] = useState(70);
@@ -28,6 +29,30 @@ export const useAmulet = (id: string) => {
     (item) => item.rarity === amulet?.rarity,
   );
 
+  // ステータス計算
+  const calclateStatus = () => {
+    const initStatus: Amulet["spec"]["status"] = amulet?.spec.status!;
+    const calculatedStatus = {
+      hp:
+        initStatus?.hp! +
+        (level - 1) * statusIncreasePerLevelValues?.hp! +
+        nft * statusIncreasePerNFTValues?.hp!,
+      atk:
+        initStatus?.atk! +
+        (level - 1) * statusIncreasePerLevelValues?.atk! +
+        nft * statusIncreasePerNFTValues?.atk!,
+      def:
+        initStatus?.def! +
+        (level - 1) * statusIncreasePerLevelValues?.def! +
+        nft * statusIncreasePerNFTValues?.def!,
+      spd:
+        initStatus?.spd! +
+        (level - 1) * statusIncreasePerLevelValues?.spd! +
+        nft * statusIncreasePerNFTValues?.spd!,
+    };
+    return calculatedStatus;
+  };
+
   const amuletInfo = {
     amulet,
     statusIncreasePerLevelValues,
@@ -36,6 +61,7 @@ export const useAmulet = (id: string) => {
     nft,
     handleChangeLevel,
     handleChangeNft,
+    calclateStatus,
   };
 
   return amuletInfo;

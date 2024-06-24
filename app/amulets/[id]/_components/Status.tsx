@@ -5,24 +5,22 @@ import { Label } from "@/components/ui/label";
 import { Amulet } from "../../_types/types";
 
 type Props = {
-  amulet: Amulet;
-  statusIncreasePerLevelValues: any;
-  statusIncreasePerNFTValues: any;
   level: number;
   nft: number;
   handleChangeLevel: (e: React.ChangeEvent<HTMLInputElement>) => void;
   handleChangeNft: (e: React.ChangeEvent<HTMLInputElement>) => void;
+  calclateStatus: () => Amulet["spec"]["status"];
 };
 
 const Status = ({
-  amulet,
-  statusIncreasePerLevelValues,
-  statusIncreasePerNFTValues,
   level,
   nft,
   handleChangeLevel,
   handleChangeNft,
+  calclateStatus,
 }: Props) => {
+  const calclatedStatus = calclateStatus();
+
   return (
     <div className="mx-auto flex w-[80%] flex-col space-y-5">
       <div>
@@ -58,35 +56,19 @@ const Status = ({
       <div className="flex justify-center gap-6 text-center text-lg">
         <dl>
           <dt className="font-bold">HP</dt>
-          <dd>
-            {amulet.spec.status.hp +
-              (level - 1) * statusIncreasePerLevelValues.hp +
-              nft * statusIncreasePerNFTValues.hp}
-          </dd>
+          <dd>{calclatedStatus.hp}</dd>
         </dl>
         <dl>
           <dt className="font-bold">ATK</dt>
-          <dd>
-            {amulet.spec.status.atk +
-              (level - 1) * statusIncreasePerLevelValues.atk +
-              nft * statusIncreasePerNFTValues.atk}
-          </dd>
+          <dd>{calclatedStatus.atk}</dd>
         </dl>
         <dl>
           <dt className="font-bold">DEF</dt>
-          <dd>
-            {amulet.spec.status.def +
-              (level - 1) * statusIncreasePerLevelValues.def +
-              nft * statusIncreasePerNFTValues.def}
-          </dd>
+          <dd>{calclatedStatus.def}</dd>
         </dl>
         <dl>
           <dt className="font-bold">SPD</dt>
-          <dd>
-            {amulet.spec.status.spd +
-              (level - 1) * statusIncreasePerLevelValues.spd +
-              nft * statusIncreasePerNFTValues.spd}
-          </dd>
+          <dd>{calclatedStatus.spd}</dd>
         </dl>
       </div>
     </div>
