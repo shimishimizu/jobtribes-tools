@@ -25,7 +25,7 @@ const Status = ({
     <div className="mx-auto flex w-[80%] flex-col space-y-5">
       <div>
         <Label htmlFor="level" className="text-lg">
-          レベル：{level}
+          Lv：{level}
         </Label>
         <Input
           id="level"
@@ -40,7 +40,7 @@ const Status = ({
       </div>
       <div>
         <Label htmlFor="nft" className="text-lg">
-          NFT + 値：{nft}
+          NFT + {nft}
         </Label>
         <Input
           id="nft"

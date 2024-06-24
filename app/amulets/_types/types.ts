@@ -57,7 +57,7 @@ export type Amulet = {
     skill: {
       title: string;
       desc: string;
-      budget: number;
+      budget?: number;
     }[];
     ability?: {
       title: string;
