@@ -12,7 +12,7 @@ type Props = {
   calclateStatus: () => Amulet["spec"]["status"];
 };
 
-const Status = ({
+const AmuletDetailStatus = ({
   level,
   nft,
   handleChangeLevel,
@@ -75,4 +75,4 @@ const Status = ({
   );
 };
 
-export default Status;
+export default AmuletDetailStatus;
