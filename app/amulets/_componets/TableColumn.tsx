@@ -65,7 +65,7 @@ export const columns: ColumnDef<Amulet>[] = [
           alt={rarity}
           width={50}
           height={50}
-          className="mx-auto"
+          className="mx-auto rounded-[8px]"
           placeholder="blur"
           blurDataURL={"/images/blur.webp"}
         />
@@ -86,7 +86,7 @@ export const columns: ColumnDef<Amulet>[] = [
           alt={element}
           width={50}
           height={50}
-          className="mx-auto"
+          className="mx-auto rounded-[8px]"
           placeholder="blur"
           blurDataURL={"/images/blur.webp"}
         />
@@ -107,7 +107,7 @@ export const columns: ColumnDef<Amulet>[] = [
           alt={type}
           width={50}
           height={50}
-          className="mx-auto"
+          className="mx-auto rounded-[8px]"
           placeholder="blur"
           blurDataURL={"/images/blur.webp"}
         />
