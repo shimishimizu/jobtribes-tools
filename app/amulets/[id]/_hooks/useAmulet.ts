@@ -5,6 +5,7 @@ import {
 } from "../../_constants/status";
 import { AMULETS_DATA as data } from "../../_constants/amulets";
 import { Amulet } from "../../_types/types";
+import { categoryIcon, rarityIcon, typeIcon } from "../../_constants/Icon";
 
 export const useAmulet = (id: string) => {
   const [level, setLevel] = useState(70);
@@ -16,6 +17,15 @@ export const useAmulet = (id: string) => {
     setNft(+e.target.value);
 
   const amulet = data.find((item) => item.id === id);
+
+  // アイコン
+  const rarityIconImage = rarityIcon.find(
+    (item) => item.name === amulet?.rarity,
+  );
+  const typeIconImage = typeIcon.find((item) => item.name === amulet?.type);
+  const categoryIconImage = categoryIcon.find(
+    (item) => item.name === amulet?.category,
+  );
 
   // 1レベル毎のステータス上昇値
   const statusIncreasePerLevelValues = statusIncreasePerLevel.find(
@@ -55,6 +65,9 @@ export const useAmulet = (id: string) => {
 
   const amuletInfo = {
     amulet,
+    rarityIconImage,
+    typeIconImage,
+    categoryIconImage,
     statusIncreasePerLevelValues,
     statusIncreasePerNFTValues,
     level,
