@@ -5,27 +5,6 @@ export interface DataTableProps<TData, TValue> {
   data: TData[];
 }
 
-export type Rarity = {
-  legendary: boolean;
-  epic: boolean;
-  rare: boolean;
-  common: boolean;
-};
-
-export type Type = {
-  normal: boolean;
-  another: boolean;
-};
-
-export type Element = {
-  fire: boolean;
-  nature: boolean;
-  water: boolean;
-  earth: boolean;
-  thunder: boolean;
-  poisen: boolean;
-};
-
 export type Amulet = {
   id: string;
   name: string;
