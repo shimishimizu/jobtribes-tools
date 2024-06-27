@@ -1,5 +1,6 @@
 import { useState } from "react";
 import {
+  anotherAdditionalStatus,
   statusIncreasePerLevel,
   statusIncreasePerNFT,
 } from "../../_constants/status";
@@ -30,10 +31,25 @@ export const useAmulet = (id: string) => {
   // 1レベル毎のステータス上昇値
   const statusIncreasePerLevelValues = statusIncreasePerLevel.find(
     (item) =>
-      item.rarity === amulet?.rarity &&
-      item.element === amulet?.element &&
-      item.type === amulet?.type,
+      item.rarity === amulet?.rarity && item.element === amulet?.element,
   );
+
+  // 1レベル毎のステータス上昇値(ANOTHERを考慮)
+  const statusIncreasePerLevelValuesWithAnother = {
+    hp:
+      statusIncreasePerLevelValues?.hp! +
+      (amulet?.type === "ANOTHER" ? anotherAdditionalStatus.hp : 0),
+    atk:
+      statusIncreasePerLevelValues?.atk! +
+      (amulet?.type === "ANOTHER" ? anotherAdditionalStatus.atk : 0),
+    def:
+      statusIncreasePerLevelValues?.def! +
+      (amulet?.type === "ANOTHER" ? anotherAdditionalStatus.def : 0),
+    spd:
+      statusIncreasePerLevelValues?.spd! +
+      (amulet?.type === "ANOTHER" ? anotherAdditionalStatus.spd : 0),
+  };
+
   // NFT1枚毎のステータス上昇値
   const statusIncreasePerNFTValues = statusIncreasePerNFT.find(
     (item) => item.rarity === amulet?.rarity,
@@ -42,22 +58,23 @@ export const useAmulet = (id: string) => {
   // ステータス計算
   const calclateStatus = () => {
     const initStatus: Amulet["spec"]["status"] = amulet?.spec.status!;
+
     const calculatedStatus = {
       hp:
         initStatus?.hp! +
-        (level - 1) * statusIncreasePerLevelValues?.hp! +
+        (level - 1) * statusIncreasePerLevelValuesWithAnother.hp! +
         nft * statusIncreasePerNFTValues?.hp!,
       atk:
         initStatus?.atk! +
-        (level - 1) * statusIncreasePerLevelValues?.atk! +
+        (level - 1) * statusIncreasePerLevelValuesWithAnother.atk! +
         nft * statusIncreasePerNFTValues?.atk!,
       def:
         initStatus?.def! +
-        (level - 1) * statusIncreasePerLevelValues?.def! +
+        (level - 1) * statusIncreasePerLevelValuesWithAnother.def! +
         nft * statusIncreasePerNFTValues?.def!,
       spd:
         initStatus?.spd! +
-        (level - 1) * statusIncreasePerLevelValues?.spd! +
+        (level - 1) * statusIncreasePerLevelValuesWithAnother.spd! +
         nft * statusIncreasePerNFTValues?.spd!,
     };
     return calculatedStatus;
@@ -68,7 +85,7 @@ export const useAmulet = (id: string) => {
     rarityIconImage,
     typeIconImage,
     categoryIconImage,
-    statusIncreasePerLevelValues,
+    statusIncreasePerLevelValuesWithAnother,
     statusIncreasePerNFTValues,
     level,
     nft,
