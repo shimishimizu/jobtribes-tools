@@ -10,8 +10,14 @@ import {
   rarityIcon,
   typeIcon,
 } from "../_constants/Icon";
+import { IoIosLink } from "react-icons/io";
 
 export const columns: ColumnDef<Amulet>[] = [
+  // データ追加時のID確認用
+  // {
+  //   accessorKey: "id",
+  //   header: "ID",
+  // },
   {
     accessorKey: "image",
     header: "IMAGE",
@@ -35,8 +41,16 @@ export const columns: ColumnDef<Amulet>[] = [
     header: "NAME",
     cell: ({ row }) => {
       const name: string = row.getValue("name");
+      const id: string = row.getValue("id");
       // 文字数多いならフォーマット
-      return <div className="text-ellipsis">{name}</div>;
+      return (
+        <div className="text-ellipsis">
+          <Link href={`amulets/${id}`} className="underline">
+            {name}
+            <IoIosLink className="inline" />
+          </Link>
+        </div>
+      );
     },
   },
   {
@@ -51,7 +65,7 @@ export const columns: ColumnDef<Amulet>[] = [
           alt={rarity}
           width={50}
           height={50}
-          className="mx-auto"
+          className="mx-auto rounded-[8px]"
           placeholder="blur"
           blurDataURL={"/images/blur.webp"}
         />
@@ -72,7 +86,7 @@ export const columns: ColumnDef<Amulet>[] = [
           alt={element}
           width={50}
           height={50}
-          className="mx-auto"
+          className="mx-auto rounded-[8px]"
           placeholder="blur"
           blurDataURL={"/images/blur.webp"}
         />
@@ -93,7 +107,7 @@ export const columns: ColumnDef<Amulet>[] = [
           alt={type}
           width={50}
           height={50}
-          className="mx-auto"
+          className="mx-auto rounded-[8px]"
           placeholder="blur"
           blurDataURL={"/images/blur.webp"}
         />
@@ -208,7 +222,7 @@ export const columns: ColumnDef<Amulet>[] = [
       return (
         <Button asChild variant={"outline"} size={"lg"}>
           <Link href={`amulets/${id}`} className="">
-            詳細
+            詳細を見る
           </Link>
         </Button>
       );
