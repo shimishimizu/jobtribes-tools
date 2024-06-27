@@ -46,6 +46,7 @@ export function DataTable<TData, TValue>({
   const [columnVisibility, setColumnVisibility] = useState<VisibilityState>({
     element: false, // デフォルトで非表示
     type: false,
+    id: false,
   });
   const table = useReactTable({
     data,
