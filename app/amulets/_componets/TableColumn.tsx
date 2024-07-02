@@ -27,8 +27,8 @@ export const columns: ColumnDef<Amulet>[] = [
       return (
         <Image
           src={path}
-          width={80}
-          height={80}
+          width={70}
+          height={70}
           alt={name}
           placeholder="blur"
           blurDataURL={"/images/blur.webp"}
