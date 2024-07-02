@@ -56,7 +56,9 @@ const AmuletDetail = ({ params }: { params: { id: string } }) => {
               height={200}
               alt={amulet.name}
               priority
-              className="w-[50%] max-w-[200px]"
+              className="w-[40%] max-w-[200px] shrink-0 md:w-[50%]"
+              placeholder="blur"
+              blurDataURL={"/images/blur.webp"}
             />
             <p dangerouslySetInnerHTML={{ __html: amulet.info }}></p>
           </div>
