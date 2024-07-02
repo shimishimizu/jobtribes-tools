@@ -142,6 +142,9 @@ export function DataTable<TData, TValue>({
           </DropdownMenuContent>
         </DropdownMenu>
       </div>
+      <p className="mb-1 px-2 text-sm font-semibold text-muted-foreground">
+        {table.getRowModel().rows.length}件表示
+      </p>
       <div className="rounded-md border">
         <Table>
           <TableHeader>
