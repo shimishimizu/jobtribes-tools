@@ -9,6 +9,7 @@ import {
   getCoreRowModel,
   getFilteredRowModel,
   getSortedRowModel,
+  // getPaginationRowModel,
   useReactTable,
 } from "@tanstack/react-table";
 import {
@@ -52,6 +53,7 @@ export function DataTable<TData, TValue>({
     data,
     columns,
     getCoreRowModel: getCoreRowModel(),
+    // getPaginationRowModel: getPaginationRowModel(),
     onSortingChange: setSorting,
     getSortedRowModel: getSortedRowModel(),
     onColumnFiltersChange: setColumnFilters,
@@ -62,6 +64,11 @@ export function DataTable<TData, TValue>({
       columnFilters,
       columnVisibility,
     },
+    // initialState: {
+    //   pagination: {
+    //     pageSize: 10,
+    //   },
+    // },
   });
 
   const changeDisplayValue = (value: string) => {
@@ -135,6 +142,9 @@ export function DataTable<TData, TValue>({
           </DropdownMenuContent>
         </DropdownMenu>
       </div>
+      <p className="mb-1 px-2 text-sm font-semibold text-muted-foreground">
+        {table.getRowModel().rows.length}件表示
+      </p>
       <div className="rounded-md border">
         <Table>
           <TableHeader>
@@ -188,6 +198,24 @@ export function DataTable<TData, TValue>({
           </TableBody>
         </Table>
       </div>
+      {/* <div className="flex items-center justify-end space-x-2 py-4">
+        <Button
+          variant="outline"
+          size="sm"
+          onClick={() => table.previousPage()}
+          disabled={!table.getCanPreviousPage()}
+        >
+          Previous
+        </Button>
+        <Button
+          variant="outline"
+          size="sm"
+          onClick={() => table.nextPage()}
+          disabled={!table.getCanNextPage()}
+        >
+          Next
+        </Button>
+      </div> */}
     </div>
   );
 }
