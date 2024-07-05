@@ -35,12 +35,16 @@ const Header = () => {
               </button>
             </DropdownMenuTrigger>
             <DropdownMenuContent className="mr-4 w-[200px]">
-              <DropdownMenuItem className="text-base">
-                <Link href={"/amulets"}>アミュレット一覧</Link>
+              <DropdownMenuItem className="p-0 text-base">
+                <Link href={"/amulets"} className="block w-full px-2 py-1">
+                  アミュレット一覧
+                </Link>
               </DropdownMenuItem>
               <DropdownMenuSeparator className="mx-0" />
-              <DropdownMenuItem className="text-base">
-                <Link href={"/terms"}>利用規約</Link>
+              <DropdownMenuItem className="p-0 text-base">
+                <Link href={"/terms"} className="block w-full px-2 py-1">
+                  利用規約
+                </Link>
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
