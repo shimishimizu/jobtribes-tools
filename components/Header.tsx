@@ -1,12 +1,24 @@
 import Link from "next/link";
 import React from "react";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import { HamburgerMenuIcon } from "@radix-ui/react-icons";
 
 const Header = () => {
   return (
     <header className="fixed z-10 w-full bg-black text-white">
-      <div className="container mx-auto flex h-16 items-center justify-between gap-4">
-        <div>LOGO</div>
-        <ul className="flex items-center gap-4">
+      <div className="container mx-auto flex h-16 items-center justify-between gap-4 px-3 md:px-8">
+        <div className="font-semibold">
+          <Link href={"/"}>JobTribes Tools...</Link>
+        </div>
+        {/* PC */}
+        <ul className="hidden items-center gap-4 md:flex">
           <li>
             <Link href={"/amulets"}>アミュレット一覧</Link>
           </li>
@@ -14,6 +26,25 @@ const Header = () => {
             <Link href={"/terms"}>利用規約</Link>
           </li>
         </ul>
+        {/* SP */}
+        <div className="block md:hidden">
+          <DropdownMenu>
+            <DropdownMenuTrigger asChild>
+              <button className="h-12 w-12">
+                <HamburgerMenuIcon className="m-auto scale-[2]" />
+              </button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent className="mr-4 w-[200px]">
+              <DropdownMenuItem className="text-base">
+                <Link href={"/amulets"}>アミュレット一覧</Link>
+              </DropdownMenuItem>
+              <DropdownMenuSeparator className="mx-0" />
+              <DropdownMenuItem className="text-base">
+                <Link href={"/terms"}>利用規約</Link>
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
+        </div>
       </div>
     </header>
   );
