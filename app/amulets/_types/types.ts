@@ -9,7 +9,7 @@ export type Amulet = {
   id: string;
   name: string;
   rarity: string;
-  element: "FIRE" | "NATURE" | "WATER" | "EARTH" | "THUNDER" | "POISEN";
+  element: "FIRE" | "NATURE" | "WATER" | "EARTH" | "THUNDER" | "POISON";
   image: string;
   info: string;
   category:
