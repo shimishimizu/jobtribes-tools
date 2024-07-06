@@ -18,7 +18,7 @@ export const columnFilterElement = {
     { value: "nature", label: "🍃 NATURE" },
     { value: "earth", label: "🌏 EARTH" },
     { value: "thunder", label: "⚡️ THUNDER" },
-    { value: "poisen", label: "☠️ POISEN" },
+    { value: "poison", label: "☠️ POISON" },
   ],
 };
 
