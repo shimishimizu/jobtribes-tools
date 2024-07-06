@@ -16,8 +16,8 @@ export const elementIcon = [
     image: "/images/element/nature.png",
   },
   {
-    name: "POISEN",
-    image: "/images/element/poisen.png",
+    name: "POISON",
+    image: "/images/element/poison.png",
   },
   {
     name: "WATER",

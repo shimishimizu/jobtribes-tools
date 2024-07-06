@@ -34,7 +34,7 @@ export const statusIncreasePerLevel = [
   },
   {
     rarity: "LEGENDARY",
-    element: "POISEN",
+    element: "POISON",
     hp: 95,
     atk: 32,
     def: 27,

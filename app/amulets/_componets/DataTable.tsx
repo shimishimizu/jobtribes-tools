@@ -97,7 +97,7 @@ export function DataTable<TData, TValue>({
   };
 
   return (
-    <div>
+    <>
       <Input
         placeholder="アミュレット名で絞り込む ..."
         value={(table.getColumn("name")?.getFilterValue() as string) ?? ""}
@@ -216,6 +216,6 @@ export function DataTable<TData, TValue>({
           Next
         </Button>
       </div> */}
-    </div>
+    </>
   );
 }
