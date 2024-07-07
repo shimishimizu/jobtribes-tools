@@ -1,4 +1,4 @@
-import { ColumnDef } from "@tanstack/react-table";
+import { ColumnDef, FilterFn, Row } from "@tanstack/react-table";
 import { Amulet } from "../_types/types";
 import { ArrowUpDown, MoreHorizontal } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -11,6 +11,19 @@ import {
   typeIcon,
 } from "../_constants/Icon";
 import { IoIosLink } from "react-icons/io";
+
+// カスタムフィルタ関数を定義
+const exactTextFilterFn: FilterFn<Amulet> = (
+  row: Row<Amulet>,
+  columnId: string,
+  filterValue: string,
+) => {
+  const rowValue = row.getValue(columnId);
+  return rowValue !== undefined ? rowValue === filterValue : true;
+};
+
+// フィルタ関数を自動的に削除する条件を設定
+exactTextFilterFn.autoRemove = (val) => !val;
 
 export const columns: ColumnDef<Amulet>[] = [
   // データ追加時のID確認用
@@ -119,6 +132,7 @@ export const columns: ColumnDef<Amulet>[] = [
   {
     accessorKey: "category",
     header: "CATEGORY",
+    filterFn: exactTextFilterFn,
     cell: ({ row }) => {
       const category: string = row.getValue("category");
       const path = categoryIcon.find((item) => item.name === category);
