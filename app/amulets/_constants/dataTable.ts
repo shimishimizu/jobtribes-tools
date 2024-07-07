@@ -36,7 +36,7 @@ export const columnFilterCategory = {
     { value: "クラフター", label: "クラフター" },
     { value: "医療", label: "医療" },
     { value: "教育", label: "教育" },
-    { value: "パフリックサービス", label: "パフリックサービス" },
+    { value: "パブリックサービス", label: "パブリックサービス" },
     { value: "ギャザラー", label: "ギャザラー" },
   ],
 };

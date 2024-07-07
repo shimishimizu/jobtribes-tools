@@ -1858,4 +1858,1372 @@ export const AMULETS_DATA: Amulet[] = [
       ],
     },
   },
+  {
+    id: "cljs2uv2a107108l904dq5o18",
+    rarity: "LEGENDARY",
+    element: "FIRE",
+    image: "/images/amulets/legendary/cljs2uv2a107108l904dq5o18.webp",
+    info: "人界から緊急の要請ではせ参じた4つの腕を持つ神。\n自慢の腕で繰り出される熱波は世界中のサウナ愛好家を虜にしている。",
+    category: "サービス",
+    type: "NORMAL",
+    name: "アウフギーサー(Fire)",
+    spec: {
+      status: { hp: 1860, atk: 665, def: 512, spd: 405 },
+      skill: [
+        {
+          title: "魅了のアロマオイル",
+          desc: "敵全員のDEFを下げる。3ターン有効",
+        },
+        { title: "全力ロウリュ", desc: "ランダムな敵に3回ダメージ" },
+        { title: "うちわ4刀流熱波", desc: "敵全員に大ダメージ" },
+      ],
+    },
+  },
+  {
+    id: "cljs2r0sq017908l3fv5mivrh",
+    rarity: "LEGENDARY",
+    element: "WATER",
+    image: "/images/amulets/legendary/cljs2r0sq017908l3fv5mivrh.webp",
+    info: "人界の航空会社をサポートするために天より派遣された使者。乱気流もなんのその、乗客の不安を取り除いて回るのが彼女の仕事である。",
+    category: "サービス",
+    type: "NORMAL",
+    name: "キャビンアテンダント(Water)",
+    spec: {
+      status: { hp: 2010, atk: 645, def: 536, spd: 369 },
+      skill: [
+        {
+          title: "ふわふわ羽の安心サポート",
+          desc: "召喚時に確率で自分のHPを3ターン回復状態にする",
+        },
+        {
+          title: "ウィスパーアナウンス",
+          desc: "味方1体のATKを大幅に上げるが、SPDが下がる。3ターン有効",
+        },
+        {
+          title: "ヘヴンorチキン?",
+          desc: "敵1体に特大ダメージをあたえ、自分のDEFをあげる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cljm91k1i2086408l3nvgwp74q",
+    rarity: "LEGENDARY",
+    element: "THUNDER",
+    image: "/images/amulets/legendary/cljm91k1i2086408l3nvgwp74q.webp",
+    info: "迷宮クエストの管理者。ありとあらゆる職業神の力をコピーし、迷宮クエストの番人として使役する。",
+    category: "アンノウン",
+    type: "ANOTHER",
+    name: "迷宮の支配者(Thunder)",
+    spec: {
+      status: { hp: 1905, atk: 685, def: 540, spd: 423 },
+      skill: [
+        {
+          title: "ラビリンスウォール",
+          desc: "自分にバリアをはる。攻撃されても1ターンダメージを受けない。さらにこのスキルは必ず先制で発動する。",
+        },
+        {
+          title: "支配者の覇気",
+          desc: "敵1体を麻痺状態にする。 麻痺状態中はATK,DEF,SPDが大幅に低下する。2ターン有効",
+        },
+        { title: "「あなた失格、出てって」", desc: "敵1体に特大ダメージ" },
+      ],
+      ability: [
+        {
+          title: "ポイズンレジストLv3",
+          desc: "戦闘開始時、フィールドを展開する。そのフィールド下では、敵のフィールドによる毒状態を一定確率で防ぐ。フィールドの持続は長め",
+        },
+      ],
+    },
+  },
+  {
+    id: "clijz9iyh247608jr5emgcsfs",
+    rarity: "LEGENDARY",
+    element: "THUNDER",
+    image: "/images/amulets/legendary/clijz9iyh247608jr5emgcsfs.webp",
+    info: "見た目とは裏腹にあっと驚く天ぷらを揚げる職人。\nその技術は先代とは違い、少々奇抜にはなっているが腕は確かなもの。",
+    category: "スペシャリスト",
+    type: "NORMAL",
+    name: "天ぷら職人(Thunder)",
+    spec: {
+      status: { hp: 1920, atk: 690, def: 512, spd: 378 },
+      skill: [
+        {
+          title: "しいたけしいるど",
+          desc: "召喚時に確率でDEFを大幅にあげる。1ターン有効",
+        },
+        {
+          title: "えびてんあたっく",
+          desc: "敵1体に特大ダメージをあたえ、自分のATKをあげる。3ターン有効",
+        },
+        { title: "おうぎ「はなさかせ」", desc: "敵1体に特大ダメージ" },
+      ],
+    },
+  },
+  {
+    id: "clijz5i022185308lblmpvmomw",
+    rarity: "LEGENDARY",
+    element: "EARTH",
+    image: "/images/amulets/legendary/clijz5i022185308lblmpvmomw.webp",
+    info: "飴で様々なものを表現するのに長けた職人。\n「鉄と一緒だ、熱いうちにやるんだよ」",
+    category: "スペシャリスト",
+    type: "NORMAL",
+    name: "飴細工職人(Earth)",
+    spec: {
+      status: { hp: 1995, atk: 630, def: 540, spd: 378 },
+      skill: [
+        {
+          title: "龍ノ髭",
+          desc: "召喚時に確率で自分にバリアをはる。攻撃されても1回ダメージを受けない。",
+        },
+        {
+          title: "飴武将「異徒輝魔裏」",
+          desc: "敵1体にダメージを与え、バジェットを増やす",
+        },
+        { title: "秘術「魂者」", desc: "味方全員のHP回復" },
+      ],
+    },
+  },
+  {
+    id: "clijz24812138208lb9pg7woga",
+    rarity: "LEGENDARY",
+    element: "FIRE",
+    image: "/images/amulets/legendary/clijz24812138208lb9pg7woga.webp",
+    info: "芸妓になるため修業中の女の子。\n対男性相手には無類の強さを誇る遊びのスペシャリストである。",
+    category: "エンターテイナー",
+    type: "NORMAL",
+    name: "舞妓(Fire)",
+    spec: {
+      status: { hp: 1965, atk: 660, def: 536, spd: 369 },
+      skill: [
+        {
+          title: "番傘幻術：桜花散残",
+          desc: "敵全員のATKとDEFを下げる。3ターン有効",
+        },
+        { title: "金比羅船々", desc: "味方全員のSPDを上げる。3ターン有効" },
+        { title: "投扇興", desc: "敵全員に大ダメージ" },
+      ],
+    },
+  },
+  {
+    id: "clijy18b12403508l8azs7mmw9",
+    rarity: "LEGENDARY",
+    element: "WATER",
+    image: "/images/amulets/legendary/clijy18b12403508l8azs7mmw9.webp",
+    info: '"電子の世界から音を成業するプログラマー。\n「結局全部0と1で表現できちゃうんだよねー」"',
+    category: "スペシャリスト",
+    type: "NORMAL",
+    name: "サウンドプログラマー(Water)",
+    spec: {
+      status: { hp: 1890, atk: 690, def: 512, spd: 384 },
+      skill: [
+        {
+          title: "イベントフェードイン",
+          desc: "召喚時に確率でATKを大幅にあげる。1ターン有効",
+        },
+        {
+          title: "フィールド中のＳＥ",
+          desc: "味方全員のDEFとSPDを上げる。3ターン有効",
+        },
+        { title: "サウンドファイルマージ", desc: "敵1体に特大ダメージ" },
+      ],
+    },
+  },
+  {
+    id: "clijxvxlv647408lb8yyen4s6",
+    rarity: "LEGENDARY",
+    element: "WATER",
+    image: "/images/amulets/legendary/clijxvxlv647408lb8yyen4s6.webp",
+    info: "後世のために化学を伝授する教師。\n博士級の頭脳をもつため生徒がたまについていけなくなることもしばしば。",
+    category: "教育",
+    type: "NORMAL",
+    name: "化学教師(Poison)",
+    spec: {
+      status: { hp: 1890, atk: 670, def: 536, spd: 378 },
+      skill: [
+        {
+          title: "教科書通りの原子論",
+          desc: "味方全員のATKとDEFを上げる。3ターン有効",
+        },
+        {
+          title: "雲の流れの天候化学",
+          desc: "召喚時に確率でSPDをあげる。3ターン有効",
+        },
+        { title: "逸脱した実験授業", desc: "ランダムな敵に3回ダメージ" },
+      ],
+    },
+  },
+  {
+    id: "cli1286ec096108l7jkeh6am3",
+    rarity: "LEGENDARY",
+    element: "FIRE",
+    image: "/images/amulets/legendary/cli1286ec096108l7jkeh6am3.webp",
+    info: 'JobTribes3周年を記念した"祭り"\n「3年間いろんなことがあったね！！」\n「うん、とりあえず給料日改修はよ」',
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "【3rd Anniv】リカ＆キリ(Fire)",
+    spec: {
+      status: { hp: 1950, atk: 650, def: 520, spd: 390 },
+      skill: [
+        {
+          title: "「3周年！おめでとー！！」",
+          desc: "ランダムな敵に3回ダメージ",
+        },
+        {
+          title: "「これからもよろしくね！！」",
+          desc: "召喚時に確率でATKとSPDを大幅に上げる。1ターン有効",
+        },
+        {
+          title: "「ふふ、私たちはまだ変身を残している…」",
+          desc: "味方全員のHP回復",
+        },
+      ],
+    },
+  },
+  {
+    id: "clhybxsu8670808mgxg6xb5vf",
+    rarity: "LEGENDARY",
+    element: "WATER",
+    image: "/images/amulets/legendary/clhybxsu8670808mgxg6xb5vf.webp",
+    info: "歯科医師の右腕とも呼べる助手。\nある程度のツールをプロ級に使えるため、医師と遜色ない実力を発揮することもある。",
+    category: "医療",
+    type: "NORMAL",
+    name: "歯科助手(Water)",
+    spec: {
+      status: { hp: 2010, atk: 625, def: 544, spd: 375 },
+      skill: [
+        {
+          title: "技巧：デンティストレース",
+          desc: "この能力は召喚時に100％の確率で発動し、バジェットを2ターン後に大きく増やす。このアミュレットが破壊されると効果は消える",
+        },
+        {
+          title: "裏側ミラーチェック",
+          desc: "敵全員のDEFを下げる。3ターン有効",
+        },
+        {
+          title: "「うがいをどうぞ～」",
+          desc: "敵1体にダメージを与え、自分のHPを回復する",
+        },
+      ],
+    },
+  },
+  {
+    id: "clhybtudr652908mgzcdui2rq",
+    rarity: "LEGENDARY",
+    element: "THUNDER",
+    image: "/images/amulets/legendary/clhybtudr652908mgzcdui2rq.webp",
+    info: "人界の産婦人科を助けるべく遣わされた天界の遣い。\n異世界では勇者や賢者をとりあげている凄腕。",
+    category: "医療",
+    type: "NORMAL",
+    name: "助産師(Thunder)",
+    spec: {
+      status: { hp: 1875, atk: 660, def: 552, spd: 375 },
+      skill: [
+        {
+          title: "24時間受け入れ体制",
+          desc: "召喚時に確率で自分のHPを3ターン回復状態にする",
+        },
+        {
+          title: "守護術：ベイビーキャッチ",
+          desc: "味方全員のDEFを上げる。3ターン有効",
+        },
+        {
+          title: "神速お包み",
+          desc: "敵1体に特大ダメージをあたえ、自分のDEFをあげる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "clhyboqqf033208mnky70cwg1",
+    rarity: "LEGENDARY",
+    element: "EARTH",
+    image: "/images/amulets/legendary/clhyboqqf033208mnky70cwg1.webp",
+    info: "動物や魔物と心を通わせることができる治癒魔法使い。\n変人の類に思われがちだが、紛うことなく天才である。",
+    category: "医療",
+    type: "NORMAL",
+    name: "獣医(Nature)",
+    spec: {
+      status: { hp: 1830, atk: 640, def: 536, spd: 408 },
+      skill: [
+        {
+          title: "話術：ビーストーク",
+          desc: "召喚時に低確率で味方全員のDEFを上げる。1ターン有効",
+        },
+        {
+          title: "「グリフォンのグリフ～！」",
+          desc: "ランダムな敵に3回ダメージ",
+        },
+        { title: "治癒術：ペタヒール", desc: "味方1体のHPを大回復。" },
+      ],
+    },
+  },
+  {
+    id: "clh4e7j6m797208l0i678nwbd",
+    rarity: "LEGENDARY",
+    element: "POISON",
+    image: "/images/amulets/legendary/clh4e7j6m797208l0i678nwbd.webp",
+    info: '警察の中でも秀でた才能を持つ者にしかなれない特殊な役職。\n「あら？あなたは私を"目で追えた"のね」',
+    category: "パブリックサービス",
+    type: "NORMAL",
+    name: "警察特殊部隊員(Poison)",
+    spec: {
+      status: { hp: 1905, atk: 655, def: 500, spd: 411 },
+      skill: [
+        { title: "命令：抹殺", desc: "敵1体に特大ダメージ" },
+        { title: "奈落のダガー", desc: "ランダムな敵に3回ダメージ" },
+        {
+          title: "暗殺ステップ",
+          desc: "召喚時に確率でATKとSPDをあげる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "clh4e10wx876208mh08itotw6",
+    rarity: "LEGENDARY",
+    element: "THUNDER",
+    image: "/images/amulets/legendary/clh4e10wx876208mh08itotw6.webp",
+    info: "子供たちが眠った後にこっそりぬいぐるみたちを治す妖精たち。\n子供たちはみな一様にそれらを「魔法」と呼称する。",
+    category: "クラフター",
+    type: "NORMAL",
+    name: "ハンドメイド作家(Thunder)",
+    spec: {
+      status: { hp: 1875, atk: 645, def: 520, spd: 408 },
+      skill: [
+        {
+          title: "「ちくちくぬいぬい…」",
+          desc: "敵全員のSPDを下げる。3ターン有効",
+        },
+        { title: "「きのみぐちゃぐちゃ…」", desc: "味方全員のHP回復" },
+        {
+          title: "「か～んせ～！！」",
+          desc: "敵1体に特大ダメージをあたえ、DEFを下げる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "clh4drtzv11441408l5xk1gw61h",
+    rarity: "LEGENDARY",
+    element: "NATURE",
+    image: "/images/amulets/legendary/clh4drtzv11441408l5xk1gw61h.webp",
+    info: "姫の護衛を生業としている巨竜。\n生意気な彼女が眠りについても、城の見回りや砦のメンテナンスと、彼の仕事はまだまだ終わらない。",
+    category: "サービス",
+    type: "NORMAL",
+    name: "ボディーガード(Nature)",
+    spec: {
+      status: { hp: 2055, atk: 650, def: 532, spd: 360 },
+      skill: [
+        {
+          title: "「ちゃんと守りなさいよね！」",
+          desc: "召喚時に確率でDEFをあげる。3ターン有効",
+        },
+        {
+          title: "「困った姫様だ…」",
+          desc: "味方1体にバリアをはる。攻撃されても2ターンダメージを受けない。",
+        },
+        {
+          title: "この方を護る誇り",
+          desc: "敵1体にダメージを与え、敵のバジェットを減らす",
+        },
+      ],
+    },
+  },
+  {
+    id: "clh4dl2fg249708l6hia5ogyf",
+    rarity: "LEGENDARY",
+    element: "EARTH",
+    image: "/images/amulets/legendary/clh4dl2fg249708l6hia5ogyf.webp",
+    info: "精霊が作った熊の木彫りが命を得た職人。\n大きな体躯からは想像できないほど精巧な木彫りを作ることができる。",
+    category: "クラフター",
+    type: "NORMAL",
+    name: "木彫り職人(Earth)",
+    spec: {
+      status: { hp: 1935, atk: 680, def: 532, spd: 366 },
+      skill: [
+        {
+          title: "情熱山の如し",
+          desc: "召喚時に確率で自分をカウンター状態にする。1度だけ受けるダメージを半減し、受けたダメージを攻撃した相手に与える。",
+        },
+        {
+          title: "お手伝い鮭「噛助」",
+          desc: "味方全員のATKを上げる。3ターン有効",
+        },
+        { title: "木彫剣クマノアギト", desc: "敵全員に大ダメージ" },
+      ],
+    },
+  },
+  {
+    id: "clh4dcws9028608l6o71carvr",
+    rarity: "LEGENDARY",
+    element: "WATER",
+    image: "/images/amulets/legendary/clh4dcws9028608l6o71carvr.webp",
+    info: "ガラス細工とあらばどんなものでも形にできるマエストロ。\n自分の作品は納得のいくまで作らないと落ち着かないが、壊すことができずにいる。",
+    category: "クラフター",
+    type: "NORMAL",
+    name: "ガラス職人(Water)",
+    spec: {
+      status: { hp: 1920, atk: 670, def: 524, spd: 381 },
+      skill: [
+        {
+          title: "彩りは透明に",
+          desc: "召喚時に確率で自分にバリアをはる。攻撃されても1回ダメージを受けない。",
+        },
+        { title: "軽業師の妙技", desc: "味方全員のSPDを上げる。3ターン有効" },
+        { title: "創造魔法：千本の花", desc: "ランダムな敵に3回ダメージ" },
+      ],
+    },
+  },
+  {
+    id: "clh4d71gi11038408l5wmgk3c7r",
+    rarity: "LEGENDARY",
+    element: "FIRE",
+    image: "/images/amulets/legendary/clh4d71gi11038408l5wmgk3c7r.webp",
+    info: "古の時代から諜報活動を続けている魔人。\n仮面を付け替えることで人格や技術、性格まで入れ替えることができる。",
+    category: "情報・運輸",
+    type: "NORMAL",
+    name: "諜報員(Fire)",
+    spec: {
+      status: { hp: 1935, atk: 655, def: 516, spd: 393 },
+      skill: [
+        {
+          title: "隠密ノ面「化狐」",
+          desc: "味方1体にバリアをはる。攻撃されても2ターンダメージを受けない。",
+        },
+        {
+          title: "道化ノ面「七福」",
+          desc: "敵1体にダメージを与え、バジェットを増やす",
+        },
+        {
+          title: "戦ノ面「鬼神」",
+          desc: "敵1体に特大ダメージをあたえ、SPDを下げる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "clh4cxr784109208l6irg4nke4",
+    rarity: "LEGENDARY",
+    element: "EARTH",
+    image: "/images/amulets/legendary/clh4cxr784109208l6irg4nke4.webp",
+    info: "真夜中にのみ開かれる人形劇があるという。\nその手さばきはまるで魔術のようであり、人形たちは生きているかのように動き、観客を異次元の世界に誘い込むと言われている。",
+    category: "エンターテイナー",
+    type: "NORMAL",
+    name: "人形師(Earth)",
+    spec: {
+      status: { hp: 1920, atk: 680, def: 504, spd: 390 },
+      skill: [
+        {
+          title: "闇夜の幕開け",
+          desc: "召喚時に確率でATKをあげる。3ターン有効",
+        },
+        { title: "八腕の舞踏", desc: "ランダムな敵に3回ダメージ" },
+        {
+          title: "魂の誘い",
+          desc: "敵のバジェットを減らし、自分のバジェットを増やす。",
+        },
+      ],
+    },
+  },
+  {
+    id: "clgvskvl5272908mrg83tbx1m",
+    rarity: "LEGENDARY",
+    element: "THUNDER",
+    image: "/images/amulets/legendary/clgvskvl5272908mrg83tbx1m.webp",
+    info: 'ムシカ「な、な、なんやのん？ここどこやねん？」\n綿職人「ここがJobTribesの世界よ」\nユリィ「どうやらここも"無秩序"の世界のようじゃのォ」\nニャンニャン「にしし…どんないたずらしてやろうかのぉ～？」',
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "ふわふわんだーらんど(Thunder)",
+    spec: {
+      status: { hp: 2025, atk: 675, def: 500, spd: 375 },
+      skill: [
+        {
+          title: "混沌のコットン",
+          desc: "味方1体にバリアをはる。攻撃されても2ターンダメージを受けない。",
+        },
+        {
+          title: "ビリビリ帯電綿ボール",
+          desc: "敵1体に特大ダメージをあたえ、SPDを下げる。3ターン有効",
+        },
+        {
+          title: "耳の綿毛みたいやん…",
+          desc: "召喚時に100％の確率で発動し、バジェットを3ターンの間増やし続ける。このアミュレットが破壊されると効果は消える。",
+        },
+      ],
+    },
+  },
+  {
+    id: "clgvk18q5017208jszzmi2het",
+    rarity: "LEGENDARY",
+    element: "POISON",
+    image: "/images/amulets/legendary/clgvk18q5017208jszzmi2het.webp",
+    info: "魔界からやってきた敏腕交渉術者。\nあらゆるスキルを使って数多の取引の現場を裏からコントロールしている。",
+    category: "スペシャリスト",
+    type: "NORMAL",
+    name: "交渉人(Poison)",
+    spec: {
+      status: { hp: 1875, atk: 680, def: 500, spd: 402 },
+      skill: [
+        {
+          title: "視察術：キャンディアイズ",
+          desc: "敵1体のDEFを下げる。3ターン有効",
+        },
+        {
+          title: "口渉術：デザイアウィスパー",
+          desc: "味方全員のATKを上げる。3ターン有効",
+        },
+        { title: "隷鞭：月陽様", desc: "ランダムな敵に3回ダメージ" },
+      ],
+    },
+  },
+  {
+    id: "clgvjrrcp984108l8udbznhpw",
+    rarity: "LEGENDARY",
+    element: "EARTH",
+    image: "/images/amulets/legendary/clgvjrrcp984108l8udbznhpw.webp",
+    info: "命を人間の道具に変える職人。\n「人に技を明かすほど、自分は器用じゃないんで...」",
+    category: "スペシャリスト",
+    type: "NORMAL",
+    name: "革職人(Earth)",
+    spec: {
+      status: { hp: 1935, atk: 660, def: 552, spd: 363 },
+      skill: [
+        {
+          title: "角圧ディアプレッシャー",
+          desc: "召喚時に確率で味方全員のATKを上げる。1ターン有効",
+        },
+        { title: "硬突アリゲータックル", desc: "敵1体に特大ダメージ" },
+        { title: "命獣レザーラッシュ", desc: "ランダムな敵に3回ダメージ" },
+      ],
+    },
+  },
+  {
+    id: "clgvjjjzt919508l87wrgonz0",
+    rarity: "LEGENDARY",
+    element: "FIRE",
+    image: "/images/amulets/legendary/clgvjjjzt919508l87wrgonz0.webp",
+    info: "消防現場に登場した対火災現場の新型装甲。\n右左背中に救命用の装備が積まれており、今まで不可能と言われた\n消防車の小型化に成功した。",
+    category: "医療",
+    type: "NORMAL",
+    name: "消防士(Fire)",
+    spec: {
+      status: { hp: 1920, atk: 680, def: 536, spd: 366 },
+      skill: [
+        { title: "緊急破壊斧：アックスライト", desc: "敵1体に特大ダメージ" },
+        { title: "激流水砲：スプラッシュレフト", desc: "敵全員に大ダメージ" },
+        {
+          title: "超距離救命：デラックスリフト",
+          desc: "味方全員のDEFを上げる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "clgna5qod1823408l75op2mprz",
+    rarity: "LEGENDARY",
+    element: "NATURE",
+    image: "/images/amulets/legendary/clgna5qod1823408l75op2mprz.webp",
+    info: "自分の思いを歌詞に込めて今日も彼女は歌う\n彼女にとって音楽は世界なのである。",
+    category: "エンターテイナー",
+    type: "ANOTHER",
+    name: "シンガーソングライター(Nature)",
+    spec: {
+      status: { hp: 2070, atk: 690, def: 528, spd: 396 },
+      skill: [
+        {
+          title: "聞き惚れる即興曲",
+          desc: "自分にバリアをはる。攻撃されても1ターンダメージを受けない。さらにこのスキルは必ず先制で発動する。",
+        },
+        {
+          title: "心揺さぶる熱唱",
+          desc: "敵1体に特大ダメージを与え、高確率で混乱状態にする。 混乱状態のアミュレットは、ターン開始時に入力する行動を自分で決められない。３ターン有効",
+        },
+        {
+          title: "安らぎのトレモロ",
+          desc: "味方全員のATKとSPDを上げる。3ターン有効",
+        },
+      ],
+      ability: [
+        {
+          title: "スリープレジストLv3",
+          desc: "戦闘開始時、フィールドを展開する。そのフィールド下では、敵のフィールドによる眠り状態を一定確率で防ぐ。フィールドの持続は長め",
+        },
+      ],
+    },
+  },
+  {
+    id: "clgna1cma1385709ldd31elpsd",
+    rarity: "LEGENDARY",
+    element: "WATER",
+    image: "/images/amulets/legendary/clgna1cma1385709ldd31elpsd.webp",
+    info: "図書館のすべての本は彼女によって管理されている。\n彼女の知りえない蔵書はあってはならないのである。",
+    category: "パブリックサービス",
+    type: "ANOTHER",
+    name: "図書館司書(Water)",
+    spec: {
+      status: { hp: 2085, atk: 655, def: 560, spd: 390 },
+      skill: [
+        {
+          title: "そびえる本棚",
+          desc: "自分にバリアをはる。攻撃されても1ターンダメージを受けない。さらにこのスキルは必ず先制で発動する。",
+        },
+        {
+          title: "静寂による支配",
+          desc: "敵1体に特大ダメージを与え、高確率で眠り状態にする。 眠り状態中は行動できなくなるが、ダメージを受けると解除される。2ターン有効",
+        },
+        { title: "禁帯出制限魔法「黒烏」", desc: "ランダムな敵に3回ダメージ" },
+      ],
+      ability: [
+        {
+          title: "バーンレジストLv3",
+          desc: "戦闘開始時、フィールドを展開する。そのフィールド下では、敵のフィールドによる火傷状態を一定確率で防ぐ。フィールドの持続は長め",
+        },
+      ],
+    },
+  },
+  {
+    id: "clgn9vzl41624808l7hu9ma60v",
+    rarity: "LEGENDARY",
+    element: "FIRE",
+    image: "/images/amulets/legendary/clgn9vzl41624808l7hu9ma60v.webp",
+    info: "町のあらゆる箇所に存在する点字を読み取る能力を持つ。\n「なぞるだけで全部わかっちまうんだよ、感謝も命令も「全部」な」",
+    category: "スペシャリスト",
+    type: "ANOTHER",
+    name: "点字通訳者(Fire)",
+    spec: {
+      status: { hp: 1965, atk: 695, def: 528, spd: 414 },
+      skill: [
+        {
+          title: "速射エンボスバレット",
+          desc: "自分にバリアをはる。攻撃されても1ターンダメージを受けない。さらにこのスキルは必ず先制で発動する。",
+        },
+        {
+          title: "燃える通訳への情熱",
+          desc: "敵1体に特大ダメージを与え、高確率で火傷状態にする。 火傷状態中は、スキルのバジェット消費量が増大する。2ターン有効",
+        },
+        { title: "インターポイントバレット", desc: "敵全員に大ダメージ" },
+      ],
+      ability: [
+        {
+          title: "コンフューズレジストLv3",
+          desc: "戦闘開始時、フィールドを展開する。そのフィールド下では、敵のフィールドによる混乱状態を一定確率で防ぐ。フィールドの持続は長め",
+        },
+      ],
+    },
+  },
+  {
+    id: "cleqlk4y2502308l9mrdcx8ik",
+    rarity: "LEGENDARY",
+    element: "EARTH",
+    image: "/images/amulets/legendary/cleqlk4y2502308l9mrdcx8ik.webp",
+    info: "土地、建物に歴史あり。物件の新たな担い手に伝えるべき知恵を、彼女は知っている。",
+    category: "金融・不動産",
+    type: "ANOTHER",
+    name: "宅地建物取引士(Earth)",
+    spec: {
+      status: { hp: 2025, atk: 680, def: 540, spd: 402 },
+      skill: [
+        {
+          title: "ハザードマップの備え",
+          desc: "自分にバリアをはる。攻撃されても1ターンダメージを受けない。さらにこのスキルは必ず先制で発動する。",
+        },
+        {
+          title: "説明ラッシュ",
+          desc: "敵1体に特大ダメージを与え、高確率で暗闇状態にする。暗闇状態中は全ての行動が一定確率でミスになる。2ターン有効",
+        },
+        {
+          title: "円満な不動産契約",
+          desc: "味方全員のATKとSPDを上げる。3ターン有効",
+        },
+      ],
+      ability: [
+        {
+          title: "パライズレジストLv3",
+          desc: "戦闘開始時、フィールドを展開する。そのフィールド下では、敵のフィールドによる麻痺状態を一定確率で防ぐ。フィールドの持続は長め",
+        },
+      ],
+    },
+  },
+  {
+    id: "cleql9tvd171308jwmxqpeala",
+    rarity: "LEGENDARY",
+    element: "THUNDER",
+    image: "/images/amulets/legendary/cleql9tvd171308jwmxqpeala.webp",
+    info: "画家とは異なる形で、彼女もまた見る者の心の動きを自在に操る。",
+    category: "スペシャリスト",
+    type: "ANOTHER",
+    name: "ゲームグラフィッカー(Thunder)",
+    spec: {
+      status: { hp: 2040, atk: 675, def: 536, spd: 405 },
+      skill: [
+        {
+          title: "低負荷のバリアエフェクト",
+          desc: "自分にバリアをはる。攻撃されても1ターンダメージを受けない。さらにこのスキルは必ず先制で発動する。",
+        },
+        {
+          title: "視線を誘導するインターフェイス",
+          desc: "敵1体に特大ダメージを与え、高確率で麻痺状態にする。 麻痺状態中はATK,DEF,SPDが大幅に低下する。2ターン有効",
+        },
+        {
+          title: "動き出すモンスターグラフィック",
+          desc: "ランダムな敵に3回ダメージ",
+        },
+      ],
+      ability: [
+        {
+          title: "ポイズンレジストLv3",
+          desc: "戦闘開始時、フィールドを展開する。そのフィールド下では、敵のフィールドによる毒状態を一定確率で防ぐ。フィールドの持続は長め",
+        },
+      ],
+    },
+  },
+  {
+    id: "cleqep2uy068608ml05nn4oe0",
+    rarity: "LEGENDARY",
+    element: "POISON",
+    image: "/images/amulets/legendary/cleqep2uy068608ml05nn4oe0.webp",
+    info: "ヒット曲を世に出すためには一切の妥協は許されず、それは命をかけた戦いに似ている。",
+    category: "情報・運輸",
+    type: "ANOTHER",
+    name: "音楽プロデューサー(Poison)",
+    spec: {
+      status: { hp: 2025, atk: 680, def: 540, spd: 402 },
+      skill: [
+        {
+          title: "音速のトレンドリサーチ",
+          desc: "自分にバリアをはる。攻撃されても1ターンダメージを受けない。さらにこのスキルは必ず先制で発動する。",
+        },
+        {
+          title: "容赦なきリテイク",
+          desc: "敵1体に特大ダメージを与え、高確率で毒状態にする。 毒状態中はターン終了ごとに割合ダメージを受ける。3ターン有効",
+        },
+        {
+          title: "苛烈なプロモーション",
+          desc: "敵1体に特大ダメージを与え、自分のHPを回復する",
+        },
+      ],
+      ability: [
+        {
+          title: "ダークネスレジストLv3",
+          desc: "戦闘開始時、フィールドを展開する。そのフィールド下では、敵のフィールドによる暗闇状態を一定確率で防ぐ。フィールドの持続は長め",
+        },
+      ],
+    },
+  },
+  {
+    id: "clefevvn7191008l5o25l1lqq",
+    rarity: "LEGENDARY",
+    element: "EARTH",
+    image: "/images/amulets/legendary/clefevvn7191008l5o25l1lqq.webp",
+    info: "世界を創造する神々、その頂点に君臨する者。\n「そんな風には見えないだって？\n　お転婆な彼女だからこそ、子供の気持ちを真に理解できるってものさ」ゲーム音楽作曲家談",
+    category: "情報・運輸",
+    type: "NORMAL",
+    name: "ゲームプロデューサー(Earth)",
+    spec: {
+      status: { hp: 2003, atk: 638, def: 514, spd: 392 },
+      skill: [
+        {
+          title: "創造世界の支配者",
+          desc: "召喚時に高確率でSPDを少しあげる。3ターン有効",
+        },
+        {
+          title: "インジェニュイティ・スケジューリング",
+          desc: "敵のバジェットを減らし、自分のバジェットを増やす。",
+        },
+        {
+          title: "これでマスターアップよ！",
+          desc: "ランダムな敵に3回ダメージ",
+        },
+      ],
+    },
+  },
+  {
+    id: "clef2y19n11405108mhcgx52991",
+    rarity: "LEGENDARY",
+    element: "EARTH",
+    image: "/images/amulets/legendary/clef2y19n11405108mhcgx52991.webp",
+    info: "優勝だけが球団の目的ではない。応援してくれる人々に喜びと興奮をもたらす事が彼の使命である。",
+    category: "エンターテイナー",
+    type: "NORMAL",
+    name: "球団オーナー(Earth)",
+    spec: {
+      status: { hp: 1905, atk: 690, def: 508, spd: 384 },
+      skill: [
+        { title: "連戦連勝！", desc: "ランダムな敵に3回ダメージ" },
+        {
+          title: "地元ファンの声援",
+          desc: "敵1体に特大ダメージをあたえ、自分のDEFをあげる。3ターン有効",
+        },
+        {
+          title: "ドラフト一位獲得！",
+          desc: "召喚時に確率でATKをあげる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "clef2txsu3747508la4envz551",
+    rarity: "LEGENDARY",
+    element: "POISON",
+    image: "/images/amulets/legendary/clef2txsu3747508la4envz551.webp",
+    info: "様々な取引が通信だけで可能となり、店舗が実世界から姿を消していく中、銀行も例外ではなかった。",
+    category: "金融・不動産",
+    type: "NORMAL",
+    name: "ネット銀行員(Poison)",
+    spec: {
+      status: { hp: 2010, atk: 650, def: 512, spd: 384 },
+      skill: [
+        {
+          title: "コンビニATM提携",
+          desc: "敵1体にダメージを与え、自分のHPを回復する",
+        },
+        {
+          title: "定期預金",
+          desc: "この能力は召喚時に100％の確率で発動し、バジェットを2ターン後に大きく増やす。このアミュレットが破壊されると効果は消える",
+        },
+        {
+          title: "スマホで決済",
+          desc: "敵1体にダメージを与え、敵のバジェットを減らす",
+        },
+      ],
+    },
+  },
+  {
+    id: "clef2cbsu372608lav5wumtlv",
+    rarity: "LEGENDARY",
+    element: "THUNDER",
+    image: "/images/amulets/legendary/clef2cbsu372608lav5wumtlv.webp",
+    info: "選手と強い絆で結ばれたリーダー。責任と重圧をものともしない精神力の持ち主にしか務まらない。",
+    category: "エンターテイナー",
+    type: "NORMAL",
+    name: "野球監督(Thunder)",
+    spec: {
+      status: { hp: 1845, atk: 640, def: 544, spd: 399 },
+      skill: [
+        { title: "ヒット連発の打線", desc: "ランダムな敵に3回ダメージ" },
+        {
+          title: "先発投手への信頼",
+          desc: "召喚時に確率でDEFをあげる。3ターン有効",
+        },
+        {
+          title: "選手交代！",
+          desc: "味方1体にバリアをはる。攻撃されても2ターンダメージを受けない。",
+        },
+      ],
+    },
+  },
+  {
+    id: "clef27etj033808mhj686aly7",
+    rarity: "LEGENDARY",
+    element: "NATURE",
+    image: "/images/amulets/legendary/clef27etj033808mhj686aly7.webp",
+    info: "旅に出たいなら、彼女に相談するといいだろう。切符も宿も、漏れなく手配してくれる筈だ。そもそも目的地すら任せてもいい。",
+    category: "サービス",
+    type: "NORMAL",
+    name: "旅行代理店社員(Nature)",
+    spec: {
+      status: { hp: 2055, atk: 610, def: 544, spd: 375 },
+      skill: [
+        {
+          title: "指定席の予約ですね",
+          desc: "味方全員のSPDを上げる。3ターン有効",
+        },
+        {
+          title: "帰りの座席も予約します",
+          desc: "味方1体をカウンター状態にする。2ターンの間、受けたダメージの一部を攻撃した敵に与える。",
+        },
+        { title: "たくさんの旅の思い出を", desc: "ランダムな敵に3回ダメージ" },
+      ],
+    },
+  },
+  {
+    id: "clef22s1p329408laqgmwkssg",
+    rarity: "LEGENDARY",
+    element: "WATER",
+    image: "/images/amulets/legendary/clef22s1p329408laqgmwkssg.webp",
+    info: "家に居ながら、彼はどんな映像でも届けてくれる。コンサートも、ドラマも、映画も。熱く激しい戦場の様子も。",
+    category: "情報・運輸",
+    type: "NORMAL",
+    name: "映像配信事業者(Water)",
+    spec: {
+      status: { hp: 2055, atk: 635, def: 544, spd: 360 },
+      skill: [
+        {
+          title: "見逃し配信",
+          desc: "敵全員に大ダメージを与え、味方全体のSPDを少し上げる。3ターン有効",
+        },
+        {
+          title: "定額見放題",
+          desc: "召喚時に確率で自分のHPを3ターン回復状態にする",
+        },
+        {
+          title: "ストリーミング再生",
+          desc: "敵のバジェットを減らし、自分のバジェットを増やす。",
+        },
+      ],
+    },
+  },
+  {
+    id: "clef1evbs148208muuf7ewwrj",
+    rarity: "LEGENDARY",
+    element: "FIRE",
+    image: "/images/amulets/legendary/clef1evbs148208muuf7ewwrj.webp",
+    info: "入店、退店、開店、閉店、全て彼女には縁がない。\n年中無休。それは戦場においても同じだった。",
+    category: "マーチャンダイザー",
+    type: "NORMAL",
+    name: "ネットショップ店員(Fire)",
+    spec: {
+      status: { hp: 1860, atk: 665, def: 520, spd: 399 },
+      skill: [
+        {
+          title: "買い物カゴに入れる",
+          desc: "敵1体にダメージを与え、自分のHPを回復する",
+        },
+        {
+          title: "ポイントバックキャンペーン",
+          desc: "召喚時に確率で自分をカウンター状態にする。1度だけ受けるダメージを半減し、受けたダメージを攻撃した相手に与える。",
+        },
+        {
+          title: "あなたも出店しませんか？",
+          desc: "味方全員のATKとSPDを上げる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cldi62mo1781308mmgjzxrrk8",
+    rarity: "LEGENDARY",
+    element: "WATER",
+    image: "/images/amulets/legendary/cldi62mo1781308mmgjzxrrk8.webp",
+    info: "日本の漫画家あさみ青子による描き下ろしイラスト。\n\n「今日はどんな靴をご所望だい？空を飛べるようになる靴？ 魔法のガラスの靴？それとも…死ぬまで踊り続ける靴かな？」",
+    category: "サービス",
+    type: "NORMAL",
+    name: "靴職人(Water)",
+    spec: {
+      status: { hp: 1935, atk: 615, def: 540, spd: 399 },
+      skill: [
+        {
+          title: "アサルト・ピンサーペンチ",
+          desc: "敵1体に特大ダメージをあたえ、自分のSPDをあげる。3ターン有効",
+        },
+        {
+          title: "魔法：12時のガラスの靴",
+          desc: "味方全員のSPDを上げる。3ターン有効",
+        },
+        { title: "戒め：永久舞踏の靴", desc: "敵全員に大ダメージ" },
+      ],
+    },
+  },
+  {
+    id: "cldi5tz2v103908mm8atbs330",
+    rarity: "LEGENDARY",
+    element: "EARTH",
+    image: "/images/amulets/legendary/cldi5tz2v103908mm8atbs330.webp",
+    info: "日本のアニメとアメリカンコミックの影響を受けた作風を特徴とし、2020年夏にフランスでのコミック発売が予定されているフランス在住のキャラクターデザイナー、イラストレーター及びコミック作家Ntochaによる描き下ろし作品。\n\n彼らは猛き魂を以ってハンマーを振るい、あらゆる武器を灼熱の焔から生み出す。\n——聖剣でも、魔槍でも。必要とする者がいるならば。",
+    category: "クラフター",
+    type: "NORMAL",
+    name: "鍛冶職人(Earth)",
+    spec: {
+      status: { hp: 1920, atk: 630, def: 544, spd: 390 },
+      skill: [
+        { title: "ヴァルカン・ハンマー", desc: "ランダムな敵に3回ダメージ" },
+        { title: "鍛造：鉄壁の大楯", desc: "敵全員のATKを下げる。3ターン有効" },
+        { title: "業火のトランスファープレス", desc: "敵1体に特大ダメージ" },
+      ],
+    },
+  },
+  {
+    id: "cldi5kosn153308lav2y6spwz",
+    rarity: "LEGENDARY",
+    element: "POISON",
+    image: "/images/amulets/legendary/cldi5kosn153308lav2y6spwz.webp",
+    info: "大人気アニメ「ジョジョの奇妙な冒険 ダイヤモンドは砕けない」のキャラクターデザインを手掛けた西位輝実による描き下ろし作品。\n\n「神は土をこね、竈で焼くことで人間を造り出したという。我らがのはその神の技よ」",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "陶芸家(Poison)",
+    spec: {
+      status: { hp: 1950, atk: 650, def: 508, spd: 399 },
+      skill: [
+        { title: "透かし彫りの舞", desc: "敵1体に特大ダメージ" },
+        { title: "満開：桜花文様", desc: "味方全員のDEFを上げる。3ターン有効" },
+        {
+          title: "浄化：高速ろくろストリーム",
+          desc: "ランダムな敵に3回ダメージ",
+        },
+      ],
+    },
+  },
+  {
+    id: "cldi5dwpf018108lah8isvnyp",
+    rarity: "LEGENDARY",
+    element: "FIRE",
+    image: "/images/amulets/legendary/cldi5dwpf018108lah8isvnyp.webp",
+    info: "日本のイラストレーター ミユキルリアによる描き下ろし作品。\n\n人々の祈りを舞へと変えて神に伝え、神の声を託宣として人々に伝える。\nそんな彼女は時として、ジョブ・ロードとジョブ・トライブスの喧嘩を仲裁することもあるという。",
+    category: "スペシャリスト",
+    type: "NORMAL",
+    name: "巫女(Fire)",
+    spec: {
+      status: { hp: 1958, atk: 618, def: 546, spd: 389 },
+      skill: [
+        { title: "平定の神託", desc: "敵全員のATKとDEFを下げる。3ターン有効" },
+        {
+          title: "浄化の神酒",
+          desc: "敵1体にダメージを与え、自分のHPを回復する",
+        },
+        {
+          title: "鎮魂の神楽",
+          desc: "敵1体に特大ダメージをあたえ、SPDを下げる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cldi56iue950308l0wy0jqawi",
+    rarity: "LEGENDARY",
+    element: "NATURE",
+    image: "/images/amulets/legendary/cldi56iue950308l0wy0jqawi.webp",
+    info: "日本のイラストレーター・漫画家小梅けいとによる描き下ろし作品。\n\n読者に最も近い存在は、等身大が最大のアピールポイント。\n幅広い交友関係による口コミ拡散力は侮れない。\nただ、この職業で居続けるのはかなり難しい。",
+    category: "エンターテイナー",
+    type: "NORMAL",
+    name: "読者モデル(Nature)",
+    spec: {
+      status: { hp: 1958, atk: 632, def: 534, spd: 389 },
+      skill: [
+        {
+          title: "映え写真UP",
+          desc: "味方1体にバリアをはる。攻撃されても2ターンダメージを受けない。",
+        },
+        { title: "着回しコーデ", desc: "味方全員のHPを3ターン回復し続ける。" },
+        {
+          title: "インフルエンス・ウェーブ",
+          desc: "敵1体に特大ダメージをあたえ、自分のSPDをあげる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cldi510vs894508l091sgfvmc",
+    rarity: "LEGENDARY",
+    element: "POISON",
+    image: "/images/amulets/legendary/cldi510vs894508l091sgfvmc.webp",
+    info: "彼女の務めは訪れる者に楽しいひと時を与えるだけではない。ある時は悩みを聞き、美酒と共にアドバイスや深い言葉をおくる。それが夜を統べる女王の使命なのだ。\nイラスト：たけみや",
+    category: "エンターテイナー",
+    type: "NORMAL",
+    name: "ホステス(Poison)",
+    spec: {
+      status: { hp: 1890, atk: 640, def: 536, spd: 396 },
+      skill: [
+        { title: "夜の女王の話術", desc: "敵1体に特大ダメージ" },
+        {
+          title: "魅惑のウィスキー（水割り）",
+          desc: "敵全員のDEFを下げる。3ターン有効",
+        },
+        { title: "常夜の楽園", desc: "敵全員に大ダメージ" },
+      ],
+    },
+  },
+  {
+    id: "cld8c5qg9153708la2egi99bz",
+    rarity: "LEGENDARY",
+    element: "EARTH",
+    image: "/images/amulets/legendary/cld8c5qg9153708la2egi99bz.webp",
+    info: "温かみのあるレトロSFタッチで大人気のイラストレーター・イトウケイイチロウによる描き下ろし作品。\n\n千里眼は、あらゆるものを見通す力。\n距離も時間も関係なく、隠れているものさえ暴き出す。\n「我が眼より逃れられるものなし」",
+    category: "サービス",
+    type: "NORMAL",
+    name: "千里眼師(Earth)",
+    spec: {
+      status: { hp: 1958, atk: 633, def: 518, spd: 400 },
+      skill: [
+        { title: "ヴィルーパークシャ", desc: "2回攻撃する。" },
+        { title: "プロビデンスの目", desc: "バジェットを増やす" },
+        {
+          title: "秘されし悪事の暴露",
+          desc: "敵全員のDEFを下げる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cld8c0qn8087408laouzwdknt",
+    rarity: "LEGENDARY",
+    element: "NATURE",
+    image: "/images/amulets/legendary/cld8c0qn8087408laouzwdknt.webp",
+    info: "インドネシアのイラストレーターDcrossboneによる描き下ろし作品。\n\n渇きにあえぐ民の声を受けて、\n天空を舞う水神をその身に降ろし、\n自ら龍となりて恵みの雨を齎せしもの。",
+    category: "スペシャリスト",
+    type: "NORMAL",
+    name: "レインシャーマン(Nature)",
+    spec: {
+      status: { hp: 1928, atk: 628, def: 534, spd: 397 },
+      skill: [
+        { title: "干天の慈雨", desc: "ランダムな敵に3回ダメージ" },
+        {
+          title: "風雨乱舞",
+          desc: "召喚時に確率で自分のHPを3ターン回復状態にする",
+        },
+        { title: "水神の咆哮：豪雨招来", desc: "敵1体に特大ダメージ" },
+      ],
+    },
+  },
+  {
+    id: "cld8bvpzy023908lakx2yf6ig",
+    rarity: "LEGENDARY",
+    element: "THUNDER",
+    image: "/images/amulets/legendary/cld8bvpzy023908lakx2yf6ig.webp",
+    info: "人気の女性サンタ。年末には世界中を飛び回っている。実はそろそろ100歳になるが、その話をすると危険である。\n「私が100歳？ あなたもプレゼントの材料にしちゃいますよ？」\nイラスト：SAA",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "サンタクロース（レッド）(Thunder)",
+    spec: {
+      status: { hp: 1965, atk: 615, def: 552, spd: 384 },
+      skill: [
+        {
+          title: "ウィンターローズの祈り",
+          desc: "召喚時に確率でDEFをあげる。3ターン有効",
+        },
+        { title: "シャイニングもみの木ランス", desc: "敵1体に特大ダメージ" },
+        {
+          title: "癒しのイルミネーションシャワー",
+          desc: "味方全員のHPを3ターン回復し続ける。",
+        },
+      ],
+    },
+  },
+  {
+    id: "cld8br0mk643708l51b0iz0j0",
+    rarity: "LEGENDARY",
+    element: "EARTH",
+    image: "/images/amulets/legendary/cld8br0mk643708l51b0iz0j0.webp",
+    info: "西尾維新の〈物語〉シリーズ、忘却探偵シリーズのカバーイラストで人気を博す、台湾のイラストレーターVOFANによる描き下ろし作品。\n\n薄皮に包まれた魅惑の肉汁。その誘惑に負けて火傷する者は、太古の昔から後を絶たない。\n「蓮華に乗せて、皮を破るといいんだゾ！」",
+    category: "クラフター",
+    type: "NORMAL",
+    name: "小籠包職人(Earth)",
+    spec: {
+      status: { hp: 1973, atk: 632, def: 522, spd: 395 },
+      skill: [
+        { title: "ムチムチ包子ガトリング", desc: "敵全員に大ダメージ" },
+        {
+          title: "防御的蒸籠カッター",
+          desc: "召喚時に確率でDEFをあげる。3ターン有効",
+        },
+        {
+          title: "みなぎる熱々スープ",
+          desc: "自分のATKとSPDを上げる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cld8bn3fh577608l54mh7eiye",
+    rarity: "LEGENDARY",
+    element: "POISON",
+    image: "/images/amulets/legendary/cld8bn3fh577608l54mh7eiye.webp",
+    info: "日本のイラストレーターふーみによる描き下ろし作品。\n\n「未来をお知りになりたいのですか？ それとも、意中の相手の胸の内？ いずれにせよ、星の導きとカードが紡ぐ言葉は、悩めるあなたの道しるべとなるでしょう」",
+    category: "クラフター",
+    type: "NORMAL",
+    name: "占い師(Poison)",
+    spec: {
+      status: { hp: 1875, atk: 635, def: 540, spd: 399 },
+      skill: [
+        {
+          title: "星詠みのヴェーダ",
+          desc: "味方全員のHPを3ターン回復し、さらにDEFを上げる。",
+        },
+        {
+          title: "大アルカナXXI：世界",
+          desc: "敵1体に特大ダメージをあたえ、自分のDEFをあげる。3ターン有効",
+        },
+        {
+          title: "小アルカナ：剣のナイト",
+          desc: "敵1体に特大ダメージをあたえ、ATKを下げる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cld8biuru527608l599ymaity",
+    rarity: "LEGENDARY",
+    element: "FIRE",
+    image: "/images/amulets/legendary/cld8biuru527608l599ymaity.webp",
+    info: "日本のイラストレーターiximaによる描き下ろし作品。\n\n「商品を買ってもらって満足するようでは甘いわ。\n完璧な接客でお客様にリピーターになって頂く事……\nそれが私の使命であり喜びなのよ」",
+    category: "マーチャンダイザー",
+    type: "NORMAL",
+    name: "衣料品販売員(Fire)",
+    spec: {
+      status: { hp: 1958, atk: 618, def: 526, spd: 403 },
+      skill: [
+        {
+          title: "リピーター・メイカー",
+          desc: "味方全員のATKとSPDを上げる。3ターン有効",
+        },
+        {
+          title: "察知：季節を先取る者",
+          desc: "敵1体に特大ダメージをあたえ、自分のDEFをあげる。3ターン有効",
+        },
+        {
+          title: "優しき声かけの極意",
+          desc: "味方1体にバリアをはる。攻撃されても2ターンダメージを受けない。",
+        },
+      ],
+    },
+  },
+  {
+    id: "cld8bdz77464108l5obabzgao",
+    rarity: "LEGENDARY",
+    element: "FIRE",
+    image: "/images/amulets/legendary/cld8bdz77464108l5obabzgao.webp",
+    info: "漫画『マリーグレイブ』、『アトランティド』などで知られる山地ひでのりによる書き下ろし作品。\n\n「よく言うだろ？　タネがわからない手品は魔法と変わらないってことさ」",
+    category: "エンターテイナー",
+    type: "NORMAL",
+    name: "マジシャン(Fire)",
+    spec: {
+      status: { hp: 1935, atk: 660, def: 524, spd: 384 },
+      skill: [
+        { title: "幻惑の乱舞トランプマジック", desc: "敵全員に大ダメージ" },
+        {
+          title: "華麗なるイリュージョンマジック",
+          desc: "敵1体に特大ダメージ",
+        },
+        {
+          title: "透視魔術：マインドハック",
+          desc: "敵1体のDEFを下げる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "clbomev0o000108ledvd7m9c2",
+    rarity: "LEGENDARY",
+    element: "WATER",
+    image: "/images/amulets/legendary/clbomev0o000108ledvd7m9c2.webp",
+    info: "点検・整備・修理。\n彼女の持つ完全無欠な知識と賢明な管理能力により、運航の安全は保たれている。\n彼女の手にかかることは飛行機にとっても幸せなことだろう。\nイラスト：猪熊しのぶ",
+    category: "サービス",
+    type: "NORMAL",
+    name: "航空整備士(Water)",
+    spec: {
+      status: { hp: 1905, atk: 625, def: 532, spd: 405 },
+      skill: [
+        {
+          title: "万全の措置",
+          desc: "敵全員に大ダメージを与え、味方全体のATKを少し上げる。3ターン有効",
+        },
+        {
+          title: "スピーディーかつ丁寧に",
+          desc: "召喚時に確率でSPDを上げる。3ターン有効",
+        },
+        {
+          title: "完璧な整備",
+          desc: "味方1体をカウンター状態にする。2ターンの間、受けたダメージの一部を攻撃した敵に与える。",
+        },
+      ],
+    },
+  },
+  {
+    id: "clajcdsj7138708l1yrxl4bkq",
+    rarity: "LEGENDARY",
+    element: "POISON",
+    image: "/images/amulets/legendary/clajcdsj7138708l1yrxl4bkq.webp",
+    info: "日本のイラストレーター藤ちょこによる描き下ろし作品。\n化粧品と化粧道具の扱いを極めたプロフェッショナルにして\n美しくありたい者の守護者であり、美に至る道を説く者。\n彼女の繰り出す無限の色彩が、誰をも美しく変貌させる。",
+    category: "サービス",
+    type: "ANOTHER",
+    name: "美容部員(Poison)",
+    spec: {
+      status: { hp: 1912, atk: 632, def: 538, spd: 395 },
+      skill: [
+        {
+          title: "ラッシュエキスパンション",
+          desc: "自分のATKをあげ、敵1体に特大ダメージを与える。3ターン有効",
+        },
+        {
+          title: "攻防一体：ヒアルロンアタック",
+          desc: "敵1体に特大ダメージをあたえ、自分のDEFをあげる。3ターン有効",
+        },
+        {
+          title: "魔爪結界：紅蓮のペデュキュア",
+          desc: "召喚時に確率でSPDをあげる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "clajbro76000108l7ntfl6fch",
+    rarity: "LEGENDARY",
+    element: "WATER",
+    image: "/images/amulets/legendary/clajbro76000108l7ntfl6fch.webp",
+    info: "日本のイラストレーター田中健一による描き下ろし作品。\n\n国家の門番。偽造書類も変装も、彼女の天眼は欺けない。\nこのアミュレットを持つジョブ・トライブスは、常にダークワーカトライブたちの恐怖の的である。",
+    category: "パブリックサービス",
+    type: "NORMAL",
+    name: "入国警備官(Water)",
+    spec: {
+      status: { hp: 1897, atk: 637, def: 542, spd: 392 },
+      skill: [
+        {
+          title: "許可なき者は誰も通さん！",
+          desc: "ランダムな敵に3回ダメージ",
+        },
+        {
+          title: "パスポートとビザを見せろ",
+          desc: "敵1体に特大ダメージをあたえ、DEFを下げる。3ターン有効",
+        },
+        {
+          title: "私を欺けると思うな！！",
+          desc: "敵1体のATKとDEFを下げる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "claicfvq1010708mhr9u1ggj0",
+    rarity: "LEGENDARY",
+    element: "FIRE",
+    image: "/images/amulets/legendary/claicfvq1010708mhr9u1ggj0.webp",
+    info: "NFT Market Place\nそこは未来の資産が取引される夢の市場\n彼女は今日もNFTを創造しデジタルの未来を動かしていく。\n「いらっしゃいませ！ 当店自慢のNFT、沢山見て行ってくださいね！」",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "NFTマーケットプレイス店長(Fire)",
+    spec: {
+      status: { hp: 1860, atk: 635, def: 532, spd: 408 },
+      skill: [
+        {
+          title: "マーケットリサーチ",
+          desc: "味方1体をカウンター状態にする。2ターンの間、受けたダメージの一部を攻撃した敵に与える。",
+        },
+        {
+          title: "スペシャルセール開催！",
+          desc: "召喚時に高確率でSPDを少しあげる。3ターン有効",
+        },
+        {
+          title: "限定NFT販売",
+          desc: "敵1体にダメージを与え、自分のHPを回復する",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9z75cjh010809l304q5f8bo",
+    rarity: "LEGENDARY",
+    element: "EARTH",
+    image: "/images/amulets/legendary/cl9z75cjh010809l304q5f8bo.webp",
+    info: "そこは美容を世に送る最前線\n全ての人が自分に自信を持てる世界を創るため\n彼女が打ち出すはあらゆる美に関する情報の集積体\nその一射は既存の概念を覆し、トレンドを創り出す\nイラスト：緒方剛志",
+    category: "サービス",
+    type: "NORMAL",
+    name: "化粧品広報(Earth)",
+    spec: {
+      status: { hp: 1890, atk: 670, def: 508, spd: 402 },
+      skill: [
+        {
+          title: "恋色伝道師",
+          desc: "この能力は召喚時に100％の確率で発動し、バジェットを2ターン後に大きく増やす。このアミュレットが破壊されると効果は消える",
+        },
+        {
+          title: "ブランドマニピュレーションガン",
+          desc: "敵1体にダメージを与え、バジェットを増やす",
+        },
+        {
+          title: "プレスリリースディフューザー",
+          desc: "敵全員に大ダメージを与え、敵全体のSPDを少し下げる。3ターン有効",
+        },
+      ],
+    },
+  },
 ];
