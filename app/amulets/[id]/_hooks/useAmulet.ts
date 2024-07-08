@@ -1,6 +1,7 @@
 import { useState } from "react";
 import {
   anotherAdditionalStatus,
+  oldLegendaryAmulets,
   statusIncreasePerLevel,
   statusIncreasePerNFT,
 } from "../../_constants/status";
@@ -55,6 +56,26 @@ export const useAmulet = (id: string) => {
     (item) => item.rarity === amulet?.rarity,
   );
 
+  // 旧レジェの考慮
+  // HP 980 - 784
+  // ATK 330 - 264
+  // DEF 260 - 208
+  // SPD 200 - 160
+  const statusIncreasePerNFTValuesWithOldLegendary = {
+    hp: oldLegendaryAmulets.includes(amulet?.name!)
+      ? 784
+      : statusIncreasePerNFTValues?.hp!,
+    atk: oldLegendaryAmulets.includes(amulet?.name!)
+      ? 264
+      : statusIncreasePerNFTValues?.atk!,
+    def: oldLegendaryAmulets.includes(amulet?.name!)
+      ? 208
+      : statusIncreasePerNFTValues?.def!,
+    spd: oldLegendaryAmulets.includes(amulet?.name!)
+      ? 160
+      : statusIncreasePerNFTValues?.spd!,
+  };
+
   // ステータス計算
   const calclateStatus = () => {
     const initStatus: Amulet["spec"]["status"] = amulet?.spec.status!;
@@ -63,19 +84,19 @@ export const useAmulet = (id: string) => {
       hp:
         initStatus?.hp! +
         (level - 1) * statusIncreasePerLevelValuesWithAnother.hp! +
-        nft * statusIncreasePerNFTValues?.hp!,
+        nft * statusIncreasePerNFTValuesWithOldLegendary?.hp!,
       atk:
         initStatus?.atk! +
         (level - 1) * statusIncreasePerLevelValuesWithAnother.atk! +
-        nft * statusIncreasePerNFTValues?.atk!,
+        nft * statusIncreasePerNFTValuesWithOldLegendary?.atk!,
       def:
         initStatus?.def! +
         (level - 1) * statusIncreasePerLevelValuesWithAnother.def! +
-        nft * statusIncreasePerNFTValues?.def!,
+        nft * statusIncreasePerNFTValuesWithOldLegendary?.def!,
       spd:
         initStatus?.spd! +
         (level - 1) * statusIncreasePerLevelValuesWithAnother.spd! +
-        nft * statusIncreasePerNFTValues?.spd!,
+        nft * statusIncreasePerNFTValuesWithOldLegendary?.spd!,
     };
     return calculatedStatus;
   };
