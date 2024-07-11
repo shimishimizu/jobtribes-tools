@@ -228,18 +228,18 @@ export const columns: ColumnDef<Amulet>[] = [
       return <p className="text-center">{spd}</p>;
     },
   },
-  {
-    accessorKey: "id",
-    header: "",
-    cell: ({ row }) => {
-      const id: string = row.getValue("id");
-      return (
-        <Button asChild variant={"outline"} size={"lg"}>
-          <Link href={`amulets/${id}`} className="">
-            詳細を見る
-          </Link>
-        </Button>
-      );
-    },
-  },
+  // {
+  //   accessorKey: "id",
+  //   header: "",
+  //   cell: ({ row }) => {
+  //     const id: string = row.getValue("id");
+  //     return (
+  //       <Button asChild variant={"outline"} size={"lg"}>
+  //         <Link href={`amulets/${id}`} className="">
+  //           詳細を見る
+  //         </Link>
+  //       </Button>
+  //     );
+  //   },
+  // },
 ];
