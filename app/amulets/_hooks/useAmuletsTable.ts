@@ -8,7 +8,7 @@ import {
   getCoreRowModel,
   getFilteredRowModel,
   getSortedRowModel,
-  // getPaginationRowModel,
+  getPaginationRowModel,
   useReactTable,
 } from "@tanstack/react-table";
 
@@ -20,13 +20,13 @@ export const useAmuletsTable = () => {
     element: false,
     type: false,
     category: false,
-    // id: false,
+    id: false,
   });
   const table = useReactTable({
     data,
     columns,
     getCoreRowModel: getCoreRowModel(),
-    // getPaginationRowModel: getPaginationRowModel(),
+    getPaginationRowModel: getPaginationRowModel(),
     onSortingChange: setSorting,
     getSortedRowModel: getSortedRowModel(),
     onColumnFiltersChange: setColumnFilters,
@@ -37,11 +37,11 @@ export const useAmuletsTable = () => {
       columnFilters,
       columnVisibility,
     },
-    // initialState: {
-    //   pagination: {
-    //     pageSize: 10,
-    //   },
-    // },
+    initialState: {
+      pagination: {
+        pageSize: 10,
+      },
+    },
   });
 
   const changeDisplayValue = (value: string) => {
