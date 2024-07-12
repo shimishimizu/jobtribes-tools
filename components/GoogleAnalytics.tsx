@@ -2,7 +2,7 @@
 
 import { usePathname, useSearchParams } from "next/navigation";
 import Script from "next/script";
-import { useEffect } from "react";
+import { Suspense, useEffect } from "react";
 import { IS_GATAG, GA_TAG_ID, pageview } from "@/lib/gtag";
 
 const GoogleAnalytics = () => {
@@ -37,4 +37,14 @@ const GoogleAnalytics = () => {
   );
 };
 
-export default GoogleAnalytics;
+export default function Analytics() {
+  return (
+    <>
+      {IS_GATAG && (
+        <Suspense>
+          <GoogleAnalytics />
+        </Suspense>
+      )}
+    </>
+  );
+}
