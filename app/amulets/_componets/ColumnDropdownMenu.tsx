@@ -19,7 +19,7 @@ const ColumnDropdownMenu = ({ table, changeDisplayValue }: Props) => {
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <Button variant="outline" className="ml-auto">
-          項目編集
+          表示項目
           <ChevronDown className="ml-2 h-4 w-4" />
         </Button>
       </DropdownMenuTrigger>
