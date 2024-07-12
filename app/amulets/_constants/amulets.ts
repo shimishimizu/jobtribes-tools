@@ -1532,7 +1532,7 @@ export const AMULETS_DATA: Amulet[] = [
     image: "/images/amulets/legendary/cl65eabf19d28b41edaec5e827.webp",
     info: "煌光のトレジャーコンプリーター\n世界中に眠るお宝を集める逞しき冒険者。\nこの世のどんな場所にも一人で果敢に捜索しに行く。あなたがどこに宝物を隠しても、彼はすぐに見つけ出すだろう。",
     category: "スペシャリスト",
-    type: "ANOTHER",
+    type: "NORMAL",
     name: "エクスプローラー(Water)",
     spec: {
       status: { hp: 1980, atk: 640, def: 544, spd: 372 },
@@ -2137,7 +2137,7 @@ export const AMULETS_DATA: Amulet[] = [
   {
     id: "clhyboqqf033208mnky70cwg1",
     rarity: "LEGENDARY",
-    element: "EARTH",
+    element: "NATURE",
     image: "/images/amulets/legendary/clhyboqqf033208mnky70cwg1.webp",
     info: "動物や魔物と心を通わせることができる治癒魔法使い。\n変人の類に思われがちだが、紛うことなく天才である。",
     category: "医療",
@@ -3125,7 +3125,7 @@ export const AMULETS_DATA: Amulet[] = [
     image: "/images/amulets/legendary/clajcdsj7138708l1yrxl4bkq.webp",
     info: "日本のイラストレーター藤ちょこによる描き下ろし作品。\n化粧品と化粧道具の扱いを極めたプロフェッショナルにして\n美しくありたい者の守護者であり、美に至る道を説く者。\n彼女の繰り出す無限の色彩が、誰をも美しく変貌させる。",
     category: "サービス",
-    type: "ANOTHER",
+    type: "NORMAL",
     name: "美容部員(Poison)",
     spec: {
       status: { hp: 1912, atk: 632, def: 538, spd: 395 },
@@ -3223,6 +3223,1302 @@ export const AMULETS_DATA: Amulet[] = [
           title: "プレスリリースディフューザー",
           desc: "敵全員に大ダメージを与え、敵全体のSPDを少し下げる。3ターン有効",
         },
+      ],
+    },
+  },
+  {
+    id: "cl9cofn0c0jnc1umj8rnd5phf",
+    rarity: "LEGENDARY",
+    element: "FIRE",
+    image: "/images/amulets/legendary/cl9cofn0c0jnc1umj8rnd5phf.webp",
+    info: "罪を犯した者を厳しく見張り、社会に復帰できるよう指導を行う監督者。\n多少の事では動じない、強靭な肉体と精神力を持つ。\n一方で、悩める受刑者の相談に乗る優しい面もある。\nイラスト：鈴木マサカズ",
+    category: "パブリックサービス",
+    type: "NORMAL",
+    name: "刑務官(Fire)",
+    spec: {
+      status: { hp: 1995, atk: 635, def: 544, spd: 372 },
+      skill: [
+        {
+          title: "闇夜の監視者",
+          desc: "召喚時に高確率でDEFを少し上げる。3ターン有効",
+        },
+        {
+          title: "一斉捜索：持ち物検査",
+          desc: "敵1体にダメージを与え、自分のHPを回復する",
+        },
+        {
+          title: "懲罰房送り",
+          desc: "自分のATKを上げ、敵1体に特大ダメージを与える。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cofldz0jea1umjhk7k074k",
+    rarity: "LEGENDARY",
+    element: "NATURE",
+    image: "/images/amulets/legendary/cl9cofldz0jea1umjhk7k074k.webp",
+    info: "何千もの設定から生み出される幻想世界の新しい命。\n彼こそがその姿を形作る神である。\n勇者や魔王、村人……全てが彼の走らせる筆によって\n生み出されるのだ。\nイラスト：緒方雄一",
+    category: "スペシャリスト",
+    type: "NORMAL",
+    name: "キャラクターデザイナー(Nature)",
+    spec: {
+      status: { hp: 1905, atk: 625, def: 536, spd: 402 },
+      skill: [
+        {
+          title: "生命の創造主",
+          desc: "味方1体をカウンター状態にする。2ターンの間、受けたダメージの一部を攻撃した敵に与える。",
+        },
+        {
+          title: "新規案件発生中",
+          desc: "味方全員のATKとSPDを上げる。3ターン有効",
+        },
+        {
+          title: "1000 コンセプトの軍勢",
+          desc: "敵1体にダメージを与え、バジェットを増やす",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9coep090eam1umjczwxenhd",
+    rarity: "LEGENDARY",
+    element: "WATER",
+    image: "/images/amulets/legendary/cl9coep090eam1umjczwxenhd.webp",
+    info: "篠原重工が開発した次期MPL計画用１号機。野明はアルフォンスの愛称で呼んでいる。",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "【機動警察パトレイバー】98式AV イングラム１号機(Water)",
+    spec: {
+      status: { hp: 2040, atk: 625, def: 508, spd: 396 },
+      skill: [
+        {
+          title: "スタンスティック",
+          desc: "敵1体にダメージを与え、自分のHPを回復する",
+        },
+        {
+          title: "捕獲用ワイヤー",
+          desc: "敵全員のATKとSPDを下げる。3ターン有効",
+        },
+        { title: "リボルバーカノン", desc: "ランダムな敵に3回ダメージ" },
+      ],
+    },
+  },
+  {
+    id: "cl9coexsc0fof1umj0s287q8y",
+    rarity: "LEGENDARY",
+    element: "THUNDER",
+    image: "/images/amulets/legendary/cl9coexsc0fof1umj0s287q8y.webp",
+    info: "スポンサーのロゴを背負い、周囲への気配りも抜かりなく。\n笑顔を絶やさない勝利のシンボルは、選び抜かれた花である。\nillust：信長アキラ",
+    category: "エンターテイナー",
+    type: "NORMAL",
+    name: "レースクイーン(Thunder)",
+    spec: {
+      status: { hp: 2025, atk: 655, def: 512, spd: 378 },
+      skill: [
+        {
+          title: "鮮烈のサーキットパラソル",
+          desc: "味方1体をカウンター状態にする。2ターンの間、受けたダメージの一部を攻撃した敵に与える。",
+        },
+        {
+          title: "パドックキャンペーン",
+          desc: "召喚時に確率でSPDを上げる。3ターン有効",
+        },
+        {
+          title: "勝利を祝うファンサービス",
+          desc: "敵1体にダメージを与え、バジェットを増やす",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cof2lb0gfm1umjaoj62sak",
+    rarity: "LEGENDARY",
+    element: "POISON",
+    image: "/images/amulets/legendary/cl9cof2lb0gfm1umjaoj62sak.webp",
+    info: "罪人の罪を立証し正当な罰へと導く行政の執行人。\n「己が心に正義のある限り、悪が花開く事なぞ許しておかぬ！」\nillust：東風孝広",
+    category: "パブリックサービス",
+    type: "NORMAL",
+    name: "検察官(Poison)",
+    spec: {
+      status: { hp: 2025, atk: 655, def: 512, spd: 378 },
+      skill: [
+        {
+          title: "勧善懲悪の証人尋問",
+          desc: "敵1体にダメージを与え、自分のHPを回復する",
+        },
+        {
+          title: "異議を禁ずる証拠品",
+          desc: "敵全員のDEFを下げる。3ターン有効",
+        },
+        { title: "訴追の芭蕉扇", desc: "ランダムな敵に3回ダメージ" },
+      ],
+    },
+  },
+  {
+    id: "cl9cofq3k0k4p1umj77ac6x1a",
+    rarity: "LEGENDARY",
+    element: "EARTH",
+    image: "/images/amulets/legendary/cl9cofq3k0k4p1umj77ac6x1a.webp",
+    info: "事件のある所に必ず現れる存在。\nどんなに複雑な状況でも鮮やかに推理し、犯人を追いつめる。\n彼が訪れた舞台は、全て解決へ導かれるのだ。\nillust：森田崇",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "名探偵(Earth)",
+    spec: {
+      status: { hp: 1950, atk: 655, def: 540, spd: 372 },
+      skill: [
+        {
+          title: "推理：真相解明への論理的考察",
+          desc: "召喚時に100％の確率で発動し、敵のバジェットを2ターン後に大きく減らす。このアミュレットが破壊されると効果は消える。",
+        },
+        {
+          title: "観察：探偵の眼",
+          desc: "味方全員のDEFを上げる。3ターン有効。さらに敵のバジェットを減らす。",
+        },
+        { title: "Q.E.D", desc: "敵1体にダメージを与え、自分のHPを回復する" },
+      ],
+    },
+  },
+  {
+    id: "cl9cofzkl0lmh1umj2qk0fc6h",
+    rarity: "LEGENDARY",
+    element: "THUNDER",
+    image: "/images/amulets/legendary/cl9cofzkl0lmh1umj2qk0fc6h.webp",
+    info: "稲妻のごとく投資家のストップ狩りを繰り出す、ストップハンターひろぴー。その手には爆益の蕾が握られている。\nイラスト：小池田マヤ",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "【ひろぴーコラボ】ストップハンター ひろぴー(Thunder)",
+    spec: {
+      status: { hp: 1935, atk: 667, def: 500, spd: 397 },
+      skill: [
+        { title: "ストップハント", desc: "ランダムな敵に3回ダメージ" },
+        {
+          title: "フラッシュクラッシュ！",
+          desc: "召喚時に確率でATKをあげる。3ターン有効",
+        },
+        {
+          title: "ハイレバレッジ",
+          desc: "敵1体にダメージを与え、敵のバジェットを減らす",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cofz3f0ljq1umj9l2o8hql",
+    rarity: "LEGENDARY",
+    element: "NATURE",
+    image: "/images/amulets/legendary/cl9cofz3f0ljq1umj9l2o8hql.webp",
+    info: "クリプト業界の先駆者！威風堂々と攻める経営スタイルに定評あり。\nイラスト：小池田マヤ",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "【ひろぴーコラボ】社長トレーダー ひろぴー(Nature)",
+    spec: {
+      status: { hp: 1860, atk: 680, def: 508, spd: 399 },
+      skill: [
+        {
+          title: "ゴールデンクロス",
+          desc: "自分のATKをあげ、敵1体に特大ダメージを与える。3ターン有効",
+        },
+        {
+          title: "Let'sバブル",
+          desc: "敵1体にダメージを与え、味方全員のHPを回復する",
+        },
+        {
+          title: "ListingRush",
+          desc: "召喚時に確率でSPDをあげる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9coeuum0f7s1umj89dudvfp",
+    rarity: "LEGENDARY",
+    element: "EARTH",
+    image: "/images/amulets/legendary/cl9coeuum0f7s1umj89dudvfp.webp",
+    info: "釣りでも投資でもチャンスがきたら逃さない！華麗なる手捌きで大物を仕留める！\nイラスト：小池田マヤ",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "【ひろぴーコラボ】釣りトレーダー ひろぴー(Earth)",
+    spec: {
+      status: { hp: 1897, atk: 672, def: 506, spd: 397 },
+      skill: [
+        {
+          title: "ランカーハンティング",
+          desc: "敵1体にダメージを与え、自分のHPを回復する",
+        },
+        {
+          title: "バックラッシュ",
+          desc: "召喚時に確率でSPDをあげる。3ターン有効",
+        },
+        {
+          title: "ノーフィッシュ",
+          desc: "敵1体にダメージを与え、敵のバジェットを減らす",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cofuxr0kw21umj3z591vfg",
+    rarity: "LEGENDARY",
+    element: "WATER",
+    image: "/images/amulets/legendary/cl9cofuxr0kw21umj3z591vfg.webp",
+    info: "チャートの波動を先冷静に分析し投資家心理を味方につける波乗りトレーダーひろぴー参上！「波動を感じろ！」\nイラスト：小池田マヤ",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "【ひろぴーコラボ】波乗りＦＸトレーダー ひろぴー(Water)",
+    spec: {
+      status: { hp: 1965, atk: 645, def: 504, spd: 402 },
+      skill: [
+        { title: "エリオットウェーブ", desc: "敵のバジェットを減らす" },
+        {
+          title: "バンドウォーク",
+          desc: "召喚時に確率でDEFをあげる。3ターン有効",
+        },
+        { title: "第3波", desc: "ランダムな敵に3回ダメージ" },
+      ],
+    },
+  },
+  {
+    id: "cl9coeyme0ft71umj352n1f5e",
+    rarity: "LEGENDARY",
+    element: "POISON",
+    image: "/images/amulets/legendary/cl9coeyme0ft71umj352n1f5e.webp",
+    info: "精鋭部隊を引き連れ華麗にオタ芸でお祈り！「俺の買いポジ上がれ〜！」\nイラスト：小池田マヤ",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "【ひろぴーコラボ】お祈りトレーダー ひろぴー(Poison)",
+    spec: {
+      status: { hp: 1875, atk: 650, def: 532, spd: 396 },
+      skill: [
+        { title: "アルトドレイン", desc: "ランダムな敵に3回ダメージ" },
+        { title: "To the Moon", desc: "味方全員のATKを上げる。3ターン有効" },
+        {
+          title: "Goxx",
+          desc: "敵のバジェットを減らし、自分のバジェットを増やす。",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9coetp90f1a1umj1els4hjh",
+    rarity: "LEGENDARY",
+    element: "FIRE",
+    image: "/images/amulets/legendary/cl9coetp90f1a1umj1els4hjh.webp",
+    info: "債権回収に奔走する取り立て屋ひろぴー。どんな獲物も見逃さない、徹底的に追いつめる。\nイラスト：小池田マヤ",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "【ひろぴーコラボ】取り立て屋 ひろぴー(Fire)",
+    spec: {
+      status: { hp: 1905, atk: 670, def: 512, spd: 393 },
+      skill: [
+        {
+          title: "マージンコール",
+          desc: "敵1体にダメージを与え、敵のバジェットを減らす",
+        },
+        { title: "損切りアタック", desc: "敵1体に特大ダメージ" },
+        {
+          title: "追加入金",
+          desc: "バジェットを3ターン増やし続ける。このアミュレットが破壊されると効果は消える",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cofsvg0kkf1umjcmvh9bkm",
+    rarity: "LEGENDARY",
+    element: "WATER",
+    image: "/images/amulets/legendary/cl9cofsvg0kkf1umjcmvh9bkm.webp",
+    info: "混沌を極めるデジタル空間。\nたった一人で秩序を守り続けるホワイトハッカーの一撃は、あらゆる悪を消滅させる。\nイラスト：渡辺けんじ",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "ホワイトハッカー(Water)",
+    spec: {
+      status: { hp: 1860, atk: 645, def: 508, spd: 420 },
+      skill: [
+        {
+          title: "アンチウィルスショット",
+          desc: "敵全員に大ダメージを与え、味方全体のSPDを少し上げる。3ターン有効",
+        },
+        {
+          title: "パーフェクトセキュリティ",
+          desc: "味方全員のDEFを上げる。3ターン有効",
+        },
+        {
+          title: "デリート",
+          desc: "敵1体にダメージを与え、敵のバジェットを減らす",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cof4fl0gq41umjfdiv6ehf",
+    rarity: "LEGENDARY",
+    element: "EARTH",
+    image: "/images/amulets/legendary/cl9cof4fl0gq41umjfdiv6ehf.webp",
+    info: "9999990じゃ満足できないんだろ。答えは出てるじゃないか",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "【大東京トイボックス】天川太陽(影)(Earth)",
+    spec: {
+      status: { hp: 1890, atk: 675, def: 532, spd: 378 },
+      skill: [
+        { title: "ソードクロニクルIV", desc: "ランダムな敵に3回ダメージ" },
+        {
+          title: "ドン・キホーテ",
+          desc: "自分のATKを大幅に上げる。3ターン有効",
+        },
+        {
+          title: "ネジ",
+          desc: "敵1体に特大ダメージをあたえ、自分のSPDをあげる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9coex140fk31umj8jynfqjq",
+    rarity: "LEGENDARY",
+    element: "FIRE",
+    image: "/images/amulets/legendary/cl9coex140fk31umj8jynfqjq.webp",
+    info: "世界を創造する神々、その頂点に君臨する者。\n「そんな風には見えないだって？\n　お転婆な彼女だからこそ、子供の気持ちを真に理解できるってものさ」ゲーム音楽作曲家談",
+    category: "情報・運輸",
+    type: "NORMAL",
+    name: "ゲームプロデューサー(Fire)",
+    spec: {
+      status: { hp: 2003, atk: 638, def: 514, spd: 392 },
+      skill: [
+        {
+          title: "創造世界の支配者",
+          desc: "召喚時に高確率でSPDを少しあげる。3ターン有効",
+        },
+        {
+          title: "インジェニュイティ・スケジューリング",
+          desc: "敵のバジェットを減らし、自分のバジェットを増やす。",
+        },
+        {
+          title: "これでマスターアップよ！",
+          desc: "ランダムな敵に3回ダメージ",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cofrs90ke81umjchrucz4s",
+    rarity: "LEGENDARY",
+    element: "FIRE",
+    image: "/images/amulets/legendary/cl9cofrs90ke81umjchrucz4s.webp",
+    info: "この星にだっていろんな夢を持ってる奴がたくさんいる…\nその夢を全部奪うつもりなら\nオレたちは命を懸けて貴様を止める！",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "【ジバクくん】爆＆ジバクくん(Fire)",
+    spec: {
+      status: { hp: 1935, atk: 670, def: 512, spd: 387 },
+      skill: [
+        {
+          title: "俺の夢は世界制覇だ！",
+          desc: "敵1体にダメージを与え、自分のHPを回復する",
+        },
+        {
+          title: "夢に命を懸けられる奴は本物だ！",
+          desc: "味方全員のATKを上げる。3ターン有効",
+        },
+        { title: '"大"バクシンハ!!!', desc: "敵全員に大ダメージ" },
+      ],
+    },
+  },
+  {
+    id: "cl9coeze30fxi1umj3c5t7w3r",
+    rarity: "LEGENDARY",
+    element: "NATURE",
+    image: "/images/amulets/legendary/cl9coeze30fxi1umj3c5t7w3r.webp",
+    info: "誰が小僧だ！パプワというれっきとした名前があるわい\n礼儀を知らん奴は困るよナ　チャッピー！",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "【南国少年パプワくん】パプワ＆チャッピー(Nature)",
+    spec: {
+      status: { hp: 1988, atk: 638, def: 508, spd: 399 },
+      skill: [
+        {
+          title: "今日からおまえも友達だ！",
+          desc: "味方全員のDEFとSPDを上げる。3ターン有効",
+        },
+        {
+          title: "チャッピー、エサ！",
+          desc: "敵1体に特大ダメージをあたえ、SPDを下げる。3ターン有効",
+        },
+        {
+          title: "シットロト踊り",
+          desc: "自分のATKとDEFとSPDを上げる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9coej340dd41umjhoybgy2k",
+    rarity: "LEGENDARY",
+    element: "NATURE",
+    image: "/images/amulets/legendary/cl9coej340dd41umjhoybgy2k.webp",
+    info: "2022年3月 第2回 JobTribes PvP チャンピオンシップ、グランドチャンピオン、ajihurai。\n大いなる覇者はまたしてもJobtribesの伝説となった。”分析・戦略・運”の全てを力に変え、猛者達を圧倒。前人未到のチャンピオンシップ2連覇を成し遂げた。",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "【2代目PvPグランドチャンピオン】アジフライ(ajihurai)(Nature)",
+    spec: {
+      status: { hp: 1890, atk: 645, def: 524, spd: 405 },
+      skill: [
+        {
+          title: "ファイナル・ディスティニー",
+          desc: "敵1体にダメージを与え、バジェットを増やす。",
+        },
+        { title: "ラストエリクシア", desc: "バジェットを増やす" },
+        { title: "流麗：美獣の姿焼き", desc: "ランダムな敵に3回ダメージ" },
+      ],
+    },
+  },
+  {
+    id: "cl9cofnmy0jqu1umj6jcb1i73",
+    rarity: "LEGENDARY",
+    element: "NATURE",
+    image: "/images/amulets/legendary/cl9cofnmy0jqu1umj6jcb1i73.webp",
+    info: "美味しい茶を届けるために、陰に日なたに飛び回る妖精。\n一番活発になるのは初夏の朝早くだ、という噂がある。",
+    category: "ギャザラー",
+    type: "NORMAL",
+    name: "茶畑経営者(Nature)",
+    spec: {
+      status: { hp: 2003, atk: 638, def: 514, spd: 392 },
+      skill: [
+        {
+          title: "茶葉摘みバサミ",
+          desc: "敵1体にダメージを与え、自分のHPを回復する",
+        },
+        {
+          title: "淹れたての新茶",
+          desc: "バジェットを3ターン増やし続ける。このアミュレットが破壊されると効果は消える",
+        },
+        {
+          title: "早朝の茶摘み",
+          desc: "味方全員のHPを3ターン回復し、さらにSPDを上げる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9coevfw0fb21umj1bvhfos8",
+    rarity: "LEGENDARY",
+    element: "THUNDER",
+    image: "/images/amulets/legendary/cl9coevfw0fb21umj1bvhfos8.webp",
+    info: "要人の傍ら、工事現場の片隅、公共施設の入り口出口。あらゆる所に彼女達の眼は存在する。\n「怪しい動きはしない方が、身の為です！」",
+    category: "パブリックサービス",
+    type: "NORMAL",
+    name: "警備員(Thunder)",
+    spec: {
+      status: { hp: 1913, atk: 648, def: 536, spd: 387 },
+      skill: [
+        {
+          title: "警戒スタンバトン",
+          desc: "敵1体にダメージを与え、敵のバジェットを減らす",
+        },
+        {
+          title: "不動のシールド",
+          desc: "味方1体にバリアをはる。攻撃されても2ターンダメージを受けない。",
+        },
+        { title: "立哨警備", desc: "味方全員のDEFを上げる。3ターン有効" },
+      ],
+    },
+  },
+  {
+    id: "cl9cofj360j141umj3vr7bxwc",
+    rarity: "LEGENDARY",
+    element: "WATER",
+    image: "/images/amulets/legendary/cl9cofj360j141umj3vr7bxwc.webp",
+    info: "やるからには勝ちたい！　絶対に負けたくない！",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "【インベスターZ】財前孝史(Water)",
+    spec: {
+      status: { hp: 1950, atk: 650, def: 504, spd: 402 },
+      skill: [
+        {
+          title: "ビギナーズラック",
+          desc: "召喚時に確率でATKをあげる。3ターン有効",
+        },
+        {
+          title: "負けず嫌い",
+          desc: "味方1体のHP回復。SPDを上げる。3ターン有効",
+        },
+        {
+          title: "投資の神様",
+          desc: "敵1体にダメージを与え、バジェットを増やす",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cof7hc0h7d1umj4h7z99qj",
+    rarity: "LEGENDARY",
+    element: "EARTH",
+    image: "/images/amulets/legendary/cl9cof7hc0h7d1umj4h7z99qj.webp",
+    info: "だまされたくなかったら……損して負けたくなかったらお前ら……勉強しろ",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "【ドラゴン桜2】桜木建二(Earth)",
+    spec: {
+      status: { hp: 1995, atk: 635, def: 524, spd: 387 },
+      skill: [
+        {
+          title: "東大合格100人",
+          desc: "敵1体にダメージを与え、バジェットを増やす",
+        },
+        {
+          title: "プラチナチケット",
+          desc: "味方全員のATKとDEFを上げる。3ターン有効",
+        },
+        {
+          title: "型にはまれ！",
+          desc: "味方1体のHP回復。DEFを上げる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9coeyf50fs21umj6flb38x6",
+    rarity: "LEGENDARY",
+    element: "NATURE",
+    image: "/images/amulets/legendary/cl9coeyf50fs21umj6flb38x6.webp",
+    info: "胸を張れっ・・・・！\n手痛く負けたときこそ・・・・胸をっ・・・・！",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "【カイジ】伊藤開司(Nature)",
+    spec: {
+      status: { hp: 1973, atk: 650, def: 508, spd: 395 },
+      skill: [
+        {
+          title: "沼・攻略",
+          desc: "敵1体にダメージを与え、敵のバジェットを減らす",
+        },
+        {
+          title: "鉄骨渡り",
+          desc: "この能力は召喚時に100％の確率で発動し、バジェットを2ターン後に大きく増やす。このアミュレットが破壊されると効果は消える",
+        },
+        {
+          title: "圧倒的 閃きっ‥‥‥‥!!",
+          desc: "自分のATKとSPDを上げるが、DEFを下げる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cof9sp0hkh1umje1kvglnt",
+    rarity: "LEGENDARY",
+    element: "POISON",
+    image: "/images/amulets/legendary/cl9cof9sp0hkh1umje1kvglnt.webp",
+    info: "文字を書く、ただそれだけなのに、その所作が人を魅了する。\nそして魂が込められた書もまた、見るものの魂を揺さぶるのだ。",
+    category: "スペシャリスト",
+    type: "NORMAL",
+    name: "書道家(Poison)",
+    spec: {
+      status: { hp: 1958, atk: 648, def: 524, spd: 387 },
+      skill: [
+        { title: "墨汁炸裂弾", desc: "2回攻撃する。" },
+        { title: "逆入平出", desc: "召喚時に確率でDEFをあげる。3ターン有効" },
+        { title: "永字八法", desc: "召喚時に確率でATKをあげる。3ターン有効" },
+      ],
+    },
+  },
+  {
+    id: "cl9cofuix0ktq1umj9zrkgj7a",
+    rarity: "LEGENDARY",
+    element: "THUNDER",
+    image: "/images/amulets/legendary/cl9cofuix0ktq1umj9zrkgj7a.webp",
+    info: "大学という組織の縁の下の力持ち。\n学生の様々な生活を支援し、研究者の事務作業を受け持つ。\n派手さはないが、その存在なしには大学の運営はままならない。",
+    category: "教育",
+    type: "NORMAL",
+    name: "大学職員(Thunder)",
+    spec: {
+      status: { hp: 1942, atk: 662, def: 522, spd: 383 },
+      skill: [
+        {
+          title: "産学官連携",
+          desc: "敵1体にダメージを与え、味方全員のDEFを上げる。3ターン有効",
+        },
+        {
+          title: "オープンキャンパス開催",
+          desc: "召喚時に確率で自分にバリアをはる。攻撃されても1回ダメージを受けない。",
+        },
+        { title: "大学入試キャノン", desc: "敵1体に特大ダメージ" },
+      ],
+    },
+  },
+  {
+    id: "cl9coff0m0ie51umj9wyv4qs5",
+    rarity: "LEGENDARY",
+    element: "EARTH",
+    image: "/images/amulets/legendary/cl9coff0m0ie51umj9wyv4qs5.webp",
+    info: "「2022年は、大きく世界が変わる年だ！ さぁ、世界を変えるために皆で叫べ！ HAPPY NEW YEAR！」",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "ハッピーニューイヤーマン2022(Earth)",
+    spec: {
+      status: { hp: 1973, atk: 640, def: 528, spd: 386 },
+      skill: [
+        {
+          title: "ハッピーオーラ2022",
+          desc: "味方全員のDEFを上げる。3ターン有効",
+        },
+        {
+          title: "ニューイヤー爆竹",
+          desc: "敵1体にダメージを与え、バジェットを増やす",
+        },
+        {
+          title: "金運招来！ ゴールデンフラッシュ！",
+          desc: "バジェットを3ターン増やし続ける。このアミュレットが破壊されると効果は消える",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9coforv0jx71umj1khz4jz1",
+    rarity: "LEGENDARY",
+    element: "EARTH",
+    image: "/images/amulets/legendary/cl9coforv0jx71umj1khz4jz1.webp",
+    info: "「今年もお仕事の日がやってきましたね。はい、準備万端です。1年たーっぷりお休みしましたから」",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "トナカイ(Earth)",
+    spec: {
+      status: { hp: 1935, atk: 652, def: 518, spd: 393 },
+      skill: [
+        { title: "プレゼント投下", desc: "敵1体に特大ダメージ" },
+        {
+          title: "空駆けるソリ",
+          desc: "敵1体に特大ダメージをあたえ、自分のSPDをあげる。3ターン有効",
+        },
+        { title: "聖夜の奇跡", desc: "味方全員のSPDを上げる。3ターン有効" },
+      ],
+    },
+  },
+  {
+    id: "cl9coeop60e8v1umj47dmf8yu",
+    rarity: "LEGENDARY",
+    element: "FIRE",
+    image: "/images/amulets/legendary/cl9coeop60e8v1umj47dmf8yu.webp",
+    info: "2021年8月 第1回 JobTribes PvP チャンピオンシップ、グランドチャンピオン、アジフライ。\nアナリティカル・デーモンは、大いなる覇者となった。\n息をもつかせぬ速さで繰り出された数々の攻撃はまさに圧巻。JobTribes史の伝説となり後世まで語り継がれるであろう。",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "【初代PvPグランドチャンピオン】アジフライ(ajihurai)(Fire)",
+    spec: {
+      status: { hp: 1912, atk: 650, def: 520, spd: 398 },
+      skill: [
+        {
+          title: "伝説の英雄：ajihurai",
+          desc: "敵1体にダメージを与え、バジェットを増やす",
+        },
+        { title: "平和の鐘", desc: "召喚時に確率でSPDをあげる。3ターン有効" },
+        {
+          title: "深紅の絆：エンシェントフレイム",
+          desc: "ランダムな敵に3回ダメージ",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cofe6x0i9i1umj5lzs7mmg",
+    rarity: "LEGENDARY",
+    element: "EARTH",
+    image: "/images/amulets/legendary/cl9cofe6x0i9i1umj5lzs7mmg.webp",
+    info: "医者は……自らが医者でありたいと願うから医者なんです……",
+    category: "医療",
+    type: "NORMAL",
+    name: "【BJによろしく】泌尿器科研修医斉藤(Earth)",
+    spec: {
+      status: { hp: 2018, atk: 635, def: 524, spd: 383 },
+      skill: [
+        {
+          title: "先進医療",
+          desc: "味方1体にバリアをはる。攻撃されても1回ダメージを受けない。さらに味方1体のATKを上げる。3ターン有効。",
+        },
+        { title: "生体間移植", desc: "2回攻撃する。" },
+        { title: "クロスマッチ", desc: "味方全員のDEFを上げる。3ターン有効" },
+      ],
+    },
+  },
+  {
+    id: "cl9coejvc0dhh1umj0cg64vsp",
+    rarity: "LEGENDARY",
+    element: "FIRE",
+    image: "/images/amulets/legendary/cl9coejvc0dhh1umj0cg64vsp.webp",
+    info: "クラゲは透明だから、そこにいることを許されているのではないでしょうか……？",
+    category: "医療",
+    type: "NORMAL",
+    name: "【BJによろしく】心療内科研修医斉藤(Fire)",
+    spec: {
+      status: { hp: 2018, atk: 635, def: 524, spd: 383 },
+      skill: [
+        {
+          title: "オーベン",
+          desc: "召喚時に確率で自分のHPを3ターン回復状態にする",
+        },
+        { title: "退院手続き", desc: "味方全員のHPを3ターン回復し続ける。" },
+        {
+          title: "医師学会",
+          desc: "敵1体にダメージを与え、自分のHPを回復する",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9coep2n0eb01umjfsewbuqj",
+    rarity: "LEGENDARY",
+    element: "POISON",
+    image: "/images/amulets/legendary/cl9coep2n0eb01umjfsewbuqj.webp",
+    info: "僕は……医者が好きなんだ！！",
+    category: "医療",
+    type: "NORMAL",
+    name: "【BJによろしく】外科研修医斉藤(Poison)",
+    spec: {
+      status: { hp: 2018, atk: 635, def: 524, spd: 383 },
+      skill: [
+        { title: "未承認薬", desc: "味方全員のHP回復" },
+        { title: "セデーション", desc: "2回攻撃する。" },
+        { title: "集中治療室", desc: "味方全員のSPDを上げる。3ターン有効" },
+      ],
+    },
+  },
+  {
+    id: "cl9cofgct0ilq1umj2xwi2w96",
+    rarity: "LEGENDARY",
+    element: "THUNDER",
+    image: "/images/amulets/legendary/cl9cofgct0ilq1umj2xwi2w96.webp",
+    info: "この子達は生きようとしてる……。それはだれにも止められないんだ……！",
+    category: "医療",
+    type: "NORMAL",
+    name: "【BJによろしく】小児科研修医斉藤(Thunder)",
+    spec: {
+      status: { hp: 2018, atk: 635, def: 524, spd: 383 },
+      skill: [
+        { title: "新薬治験", desc: "味方全員のHPを3ターン回復し続ける。" },
+        {
+          title: "NICU",
+          desc: "味方1体にバリアをはる。攻撃されても1回ダメージを受けない。さらに味方1体のATKを上げる。3ターン有効。",
+        },
+        {
+          title: "高濃度酸素投与",
+          desc: "敵1体にダメージを与え、自分のHPを回復する",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cof48i0goz1umj8e8efzve",
+    rarity: "LEGENDARY",
+    element: "NATURE",
+    image: "/images/amulets/legendary/cl9cof48i0goz1umj8e8efzve.webp",
+    info: "僕は、医者だ……！！",
+    category: "医療",
+    type: "NORMAL",
+    name: "【BJによろしく】内科研修医斉藤(Nature)",
+    spec: {
+      status: { hp: 2018, atk: 635, def: 524, spd: 383 },
+      skill: [
+        { title: "酸素投与", desc: "味方全員のATKとDEFを上げる。3ターン有効" },
+        {
+          title: "点滴投与",
+          desc: "敵1体にダメージを与え、自分のHPを回復する",
+        },
+        {
+          title: "救急医療",
+          desc: "召喚時に確率で自分のHPを3ターン回復状態にする",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cofn9z0jou1umjcmmqhq09",
+    rarity: "LEGENDARY",
+    element: "WATER",
+    image: "/images/amulets/legendary/cl9cofn9z0jou1umjcmmqhq09.webp",
+    info: "医師免許を取った瞬間からお前は普通の人間ではない。医者なんだ。",
+    category: "医療",
+    type: "NORMAL",
+    name: "【BJによろしく】研修医斉藤(Water)",
+    spec: {
+      status: { hp: 2018, atk: 635, def: 524, spd: 383 },
+      skill: [
+        {
+          title: "ゴッドハンド",
+          desc: "敵1体にダメージを与え、自分のHPを回復する",
+        },
+        {
+          title: "救命医療",
+          desc: "味方全員を大幅に回復するが、自分はダメージを受ける。",
+        },
+        {
+          title: "緊急手術",
+          desc: "召喚時に確率で自分にバリアをはる。攻撃されても1回ダメージを受けない。",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cof3qm0gm51umj0z7w5e53",
+    rarity: "LEGENDARY",
+    element: "FIRE",
+    image: "/images/amulets/legendary/cl9cof3qm0gm51umj0z7w5e53.webp",
+    info: "さすがだよボヤッキー、頭良いね～秀才だね～天才だね～！",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "【ヤッターマン】ドロンジョ(Fire)",
+    spec: {
+      status: { hp: 1875, atk: 658, def: 514, spd: 405 },
+      skill: [
+        {
+          title: "ドクロキセル",
+          desc: "味方全員のSPDを上げる。3ターン有効。さらに自分のバジェットを増やす。",
+        },
+        { title: "ドロンボーメカ", desc: "敵1体に特大ダメージ" },
+        {
+          title: "やっておしまい！",
+          desc: "敵全員にダメージをあたえ、さらに自分のATKを上げる。",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9coff6k0if31umj0qgx3uvf",
+    rarity: "LEGENDARY",
+    element: "WATER",
+    image: "/images/amulets/legendary/cl9coff6k0if31umj0qgx3uvf.webp",
+    info: "この世界でも稀有な職業神姉弟の姉。果実酒や料理、旅、文化、そして人間をこよなく愛し、施しを授けたという。",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "伝説の語り部ユウコ・キバヤシ(Water)",
+    spec: {
+      status: { hp: 1920, atk: 633, def: 534, spd: 396 },
+      skill: [
+        {
+          title: "クラッシング",
+          desc: "敵1体にダメージを与え、味方全員のSPDを上げる。3ターン有効",
+        },
+        {
+          title: "インシピッド",
+          desc: "敵1体にダメージを与え、敵のバジェットを減らす",
+        },
+        { title: "フランク", desc: "召喚時に確率でATKをあげる。3ターン有効" },
+      ],
+    },
+  },
+  {
+    id: "cl9cofrnq0kdi1umj9y44cmdx",
+    rarity: "LEGENDARY",
+    element: "THUNDER",
+    image: "/images/amulets/legendary/cl9cofrnq0kdi1umj9y44cmdx.webp",
+    info: "稀有な存在である職業神姉弟の弟。シンは姉と同様に様々な文化全般に、多くの英雄を生み出して、人々を救ったという。",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "神話の語り部シン・キバヤシ(Thunder)",
+    spec: {
+      status: { hp: 1920, atk: 660, def: 534, spd: 380 },
+      skill: [
+        {
+          title: "アシッド",
+          desc: "敵1体にダメージを与え、味方全員のATKを上げる。3ターン有効",
+        },
+        {
+          title: "ハーベスト",
+          desc: "敵1体にダメージを与え、バジェットを増やす",
+        },
+        { title: "エステル", desc: "召喚時に確率でSPDをあげる。3ターン有効" },
+      ],
+    },
+  },
+  {
+    id: "cl9cog0d60lqz1umj4qsgfxgy",
+    rarity: "LEGENDARY",
+    element: "EARTH",
+    image: "/images/amulets/legendary/cl9cog0d60lqz1umj4qsgfxgy.webp",
+    info: "日本のイラストレーター天野喜孝による描き下ろし作品。\n\n「かつて存在したグリウスという帝国は、王がルティヤーを狩ろうとした事の報復を受け、一夜にして大陸から消滅したと伝えられている」",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "火山の守り手ルティヤー(Earth)",
+    spec: {
+      status: { hp: 2025, atk: 663, def: 526, spd: 387 },
+      skill: [
+        { title: "マグマの奔流", desc: "敵全員に大ダメージ" },
+        { title: "火山の怒り", desc: "自分のATKを上げる。3ターン有効" },
+        { title: "火山榴弾", desc: "敵1体に特大ダメージ" },
+      ],
+    },
+  },
+  {
+    id: "cl9cof52h0gts1umj4lzl3zdx",
+    rarity: "LEGENDARY",
+    element: "POISON",
+    image: "/images/amulets/legendary/cl9cof52h0gts1umj4lzl3zdx.webp",
+    info: "日本のイラストレーター天野喜孝による描き下ろし作品。\n\n「アルマダはその鬼神のごとき外見と苛烈な武勇から恐れられることが多かったが、その実、優しく花や蝶を愛でる男であったという」",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "黒翼の僧兵アルマダ(Poison)",
+    spec: {
+      status: { hp: 1958, atk: 658, def: 530, spd: 401 },
+      skill: [
+        {
+          title: "金触斬",
+          desc: "敵1体にダメージを与え、敵のバジェットを減らす",
+        },
+        { title: "神剣凱法", desc: "味方全員のATKを上げる。3ターン有効" },
+        {
+          title: "剣流鎧消",
+          desc: "敵1体に特大ダメージをあたえ、DEFを下げる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9coekc20dk31umj4ef8e6qa",
+    rarity: "LEGENDARY",
+    element: "NATURE",
+    image: "/images/amulets/legendary/cl9coekc20dk31umj4ef8e6qa.webp",
+    info: "日本のイラストレーター天野喜孝による描き下ろし作品。\n\n「ディアナは高いところを好んだ。丘や塔の上に立ち、その祝福の槍を携え、遥か彼方を見据える。自分がかつて生きた世界を」",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "祝福の槍騎兵ディアナ(Nature)",
+    spec: {
+      status: { hp: 1973, atk: 635, def: 532, spd: 410 },
+      skill: [
+        {
+          title: "ルバリア",
+          desc: "召喚時に確率で自分にバリアをはる。攻撃されても1回ダメージを受けない。",
+        },
+        {
+          title: "ケアスティング",
+          desc: "敵1体にダメージを与え、味方全員のHPを回復する",
+        },
+        {
+          title: "プロスピード",
+          desc: "味方全員のDEFとSPDを上げる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cof9mx0hjk1umj649rggnz",
+    rarity: "LEGENDARY",
+    element: "WATER",
+    image: "/images/amulets/legendary/cl9cof9mx0hjk1umj649rggnz.webp",
+    info: "温かみのあるレトロSFタッチで大人気のイラストレーター・イトウケイイチロウによる描き下ろし作品。\n\n千里眼は、あらゆるものを見通す力。\n距離も時間も関係なく、隠れているものさえ暴き出す。\n「我が眼より逃れられるものなし」",
+    category: "サービス",
+    type: "NORMAL",
+    name: "千里眼師(Water)",
+    spec: {
+      status: { hp: 1958, atk: 633, def: 518, spd: 400 },
+      skill: [
+        { title: "ヴィルーパークシャ", desc: "2回攻撃する。" },
+        { title: "プロビデンスの目", desc: "バジェットを増やす" },
+        {
+          title: "秘されし悪事の暴露",
+          desc: "敵全員のDEFを下げる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9coew5r0ff41umjdtbh459i",
+    rarity: "LEGENDARY",
+    element: "NATURE",
+    image: "/images/amulets/legendary/cl9coew5r0ff41umjdtbh459i.webp",
+    info: "日本のイラストレーター・漫画家、高畑雪による描き下ろし作品。\n\n「まずは、池に飛び込むことが目標よ」\n彼女はそう言って、シーズンを開始した。\n今年のメジャーも楽しみだね。",
+    category: "エンターテイナー",
+    type: "NORMAL",
+    name: "女性プロゴルファー(Nature)",
+    spec: {
+      status: { hp: 1950, atk: 660, def: 512, spd: 390 },
+      skill: [
+        {
+          title: "パワフルショット",
+          desc: "敵全員にダメージをあたえ、さらに自分のATKを上げる。",
+        },
+        {
+          title: "スロープレイ・ペナルティ",
+          desc: "敵全員のSPDを下げる。3ターン有効",
+        },
+        { title: "イーグルアタック", desc: "敵1体に特大ダメージ" },
+      ],
+    },
+  },
+  {
+    id: "cl9coeui30f5u1umj85wr3xu0",
+    rarity: "LEGENDARY",
+    element: "POISON",
+    image: "/images/amulets/legendary/cl9coeui30f5u1umj85wr3xu0.webp",
+    info: '『カードファイト!! ヴァンガード』に登場するユニット。\n"ロイヤルパラディン"と袂を分かった影の騎士団“シャドウパラディン”の戦士。\n「ブラスター・ブレード」への憎しみの感情により闇に堕ちた。',
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "【Vanguard】ブラスター・ダーク(Poison)",
+    spec: {
+      status: { hp: 1942, atk: 633, def: 534, spd: 391 },
+      skill: [
+        { title: "薙ぎ払う漆黒の剣", desc: "敵全員に大ダメージ" },
+        {
+          title: "常闇より現れし漆黒の亡霊",
+          desc: "味方1体にバリアをはる。攻撃されても2ターンダメージを受けない。",
+        },
+        { title: "覚悟の剣 ブラスター・ダーク", desc: "敵1体に特大ダメージ" },
+      ],
+    },
+  },
+  {
+    id: "cl9cofbnl0hv31umj2set5mgl",
+    rarity: "LEGENDARY",
+    element: "FIRE",
+    image: "/images/amulets/legendary/cl9cofbnl0hv31umj2set5mgl.webp",
+    info: '『カードファイト!! ヴァンガード』に登場するユニット。\n軍事国家の航空攻撃部隊・"かげろう"の指揮官。\n地獄の業火「エターナル・フレイム」が放たれた時、すべての者は絶望に恐れおののく。',
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "【Vanguard】ドラゴニック・オーバーロード(Fire)",
+    spec: {
+      status: { hp: 1958, atk: 667, def: 518, spd: 380 },
+      skill: [
+        {
+          title: "黙示録の剣",
+          desc: "敵1体に特大ダメージをあたえ、自分のATKをあげる。3ターン有効",
+        },
+        { title: "黙示録の風", desc: "味方全員のSPDを上げる。3ターン有効" },
+        { title: "黙示録の炎", desc: "敵全員に大ダメージ" },
+      ],
+    },
+  },
+  {
+    id: "cl9cof4wo0gsv1umjbl3p164f",
+    rarity: "LEGENDARY",
+    element: "THUNDER",
+    image: "/images/amulets/legendary/cl9cof4wo0gsv1umjbl3p164f.webp",
+    info: '『カードファイト!! ヴァンガード』に登場するユニット。\n神聖国家の正規軍・"ロイヤルパラディン"の精鋭騎士。\n「勇気」を力に変える「ブラスター・ブレード」の力を発揮し、その名を受け継ぐ英雄。',
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "【Vanguard】ブラスター・ブレード(Thunder)",
+    spec: {
+      status: { hp: 1897, atk: 648, def: 522, spd: 400 },
+      skill: [
+        { title: "バースト・ブレード", desc: "ランダムな敵に3回ダメージ" },
+        {
+          title: "決して挫けぬ勇気",
+          desc: "味方1体のATK&DEFを上げる。3ターン有効",
+        },
+        { title: "光の剣 ブラスター・ブレード", desc: "敵1体に特大ダメージ" },
+      ],
+    },
+  },
+  {
+    id: "cl9coepj00edm1umj3coadhwy",
+    rarity: "LEGENDARY",
+    element: "POISON",
+    image: "/images/amulets/legendary/cl9coepj00edm1umj3coadhwy.webp",
+    info: "日本のイラストレーター・漫画家七六による描き下ろし作品。\n\n人は「傭兵」と呼ぶが、我々はあくまでも「警備会社」だ。\n依頼されれば、後方支援だけでなく前線での各種サービスも提供しているにすぎない。",
+    category: "スペシャリスト",
+    type: "NORMAL",
+    name: "民間軍事会社警備員(Poison)",
+    spec: {
+      status: { hp: 1912, atk: 662, def: 522, spd: 389 },
+      skill: [
+        {
+          title: "前線輸送任務",
+          desc: "敵1体にダメージを与え、自分のHPを回復する",
+        },
+        { title: "人質奪還作戦", desc: "敵全員に大ダメージ" },
+        {
+          title: "策源地構築",
+          desc: "味方1体にバリアをはる。攻撃されても2ターンダメージを受けない。",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cofkde0j8g1umj5e0dbm7s",
+    rarity: "LEGENDARY",
+    element: "FIRE",
+    image: "/images/amulets/legendary/cl9cofkde0j8g1umj5e0dbm7s.webp",
+    info: "スペインのバンド・デシネ作家ケニールイスにより描き下ろし作品。\n\n一期一会で歌われるカンテと奏でられるギターに合わせ、時には炎ように陽気に、時には熾火のように苦し気に踊る。\n彼女はバイラオーラ。",
+    category: "エンターテイナー",
+    type: "NORMAL",
+    name: "フラメンコダンサー(Fire)",
+    spec: {
+      status: { hp: 1927, atk: 657, def: 514, spd: 394 },
+      skill: [
+        {
+          title: "サパテアード",
+          desc: "敵全員にダメージをあたえ、さらに自分のSPDを上げる。",
+        },
+        { title: "ブラッソ", desc: "敵1体に特大ダメージ" },
+        { title: "パリージョ", desc: "召喚時に確率でSPDをあげる。3ターン有効" },
+      ],
+    },
+  },
+  {
+    id: "cl9cofwl80l5i1umj6hfydbap",
+    rarity: "LEGENDARY",
+    element: "EARTH",
+    image: "/images/amulets/legendary/cl9cofwl80l5i1umj6hfydbap.webp",
+    info: "漫画「燁姫」、「緋の稜線」などで知られる佐伯かよのによる描き下ろし作品。\n\n四季折々の樹々や草花を花器に生けるアーティスト。\n命を吹き込み完成させた作品は、場を支配しその空気を一変させる。",
+    category: "エンターテイナー",
+    type: "NORMAL",
+    name: "華道家(Earth)",
+    spec: {
+      status: { hp: 1973, atk: 643, def: 514, spd: 394 },
+      skill: [
+        {
+          title: "花命昇華",
+          desc: "味方全員を大幅に回復するが、自分はダメージを受ける。",
+        },
+        { title: "静謐なる一花一葉", desc: "ランダムな敵に3回ダメージ" },
+        {
+          title: "WABISABI",
+          desc: "敵1体にダメージを与え、自分のHPを回復する",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9coev1s0f8u1umj43vjfbn9",
+    rarity: "LEGENDARY",
+    element: "POISON",
+    image: "/images/amulets/legendary/cl9coev1s0f8u1umj43vjfbn9.webp",
+    info: "自らよりも巨大な蟹籠と呼ばれる罠を次々に海に放り込みカニを狩る。\n極寒の嵐と逆巻く波に翻弄される過酷な船上の日々の果てに待つのは金か、それとも……。\nイラスト：モ太朗",
+    category: "ギャザラー",
+    type: "NORMAL",
+    name: "超・カニ漁師(Poison)",
+    spec: {
+      status: { hp: 1980, atk: 660, def: 528, spd: 396 },
+      skill: [
+        { title: "蟹籠嵐", desc: "ランダムな敵に3回ダメージ" },
+        { title: "蟹々の深淵", desc: "敵全員のSPDを下げる。3ターン有効" },
+        {
+          title: "水底の鋏地獄",
+          desc: "敵1体に特大ダメージをあたえ、DEFを下げる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9coetcw0ezb1umjap4kapwi",
+    rarity: "LEGENDARY",
+    element: "THUNDER",
+    image: "/images/amulets/legendary/cl9coetcw0ezb1umjap4kapwi.webp",
+    info: "漫画「エリア88」で知られる新谷かおるによる描き下ろし作品。\n\n「空の旅の安全はワタクシにお任せください。\n完璧なフライトプランの作成、航路の監視にサポート。\n例えワイバーンに遭遇しても最適解にて誘導しますよ」",
+    category: "情報・運輸",
+    type: "NORMAL",
+    name: "ディスパッチャー(Thunder)",
+    spec: {
+      status: { hp: 1897, atk: 652, def: 534, spd: 389 },
+      skill: [
+        {
+          title: "最適解のフライトプラン",
+          desc: "味方1体にバリアをはる。攻撃されても2ターンダメージを受けない。",
+        },
+        {
+          title: "完璧なるロードコントロール",
+          desc: "味方全員のSPDを上げる。3ターン有効",
+        },
+        {
+          title: "航路誘導：地上のキャプテン",
+          desc: "味方全員のHPを3ターン回復し続ける。",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cofkz40jbx1umjh22b97ep",
+    rarity: "LEGENDARY",
+    element: "FIRE",
+    image: "/images/amulets/legendary/cl9cofkz40jbx1umjh22b97ep.webp",
+    info: "漫画「地獄先生ぬ～べ～」「霊媒師いずな」で知られる岡野剛による描き下ろし作品。\n\n 読み書き計算、そして社会とのかかわり方、子供の成長に必要な教育を行うもの。\n今日も子どもたちを教え、諭し、守り、導く。",
+    category: "教育",
+    type: "NORMAL",
+    name: "小学校教師(Fire)",
+    spec: {
+      status: { hp: 1980, atk: 640, def: 528, spd: 384 },
+      skill: [
+        {
+          title: "算術結界：四則演算",
+          desc: "味方1体にバリアをはる。攻撃されても2ターンダメージを受けない。",
+        },
+        { title: "三角定規ブーメラン", desc: "敵全員に大ダメージ" },
+        {
+          title: "熱血：子供たちへのエール",
+          desc: "味方全員のATKを上げる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cofrfn0kc81umj1i4n4zbm",
+    rarity: "LEGENDARY",
+    element: "NATURE",
+    image: "/images/amulets/legendary/cl9cofrfn0kc81umj1i4n4zbm.webp",
+    info: "日本でも刊行され、アニメ化もされた人気漫画「ラディアン」で知られるフランスのバンド・デシネ作家トニー・ヴァレントによる書き下ろし作品。\n\n「我々の住む地球は、植物が満ち溢れる奇跡の星なの」\n数多の生物の揺り籠たる森から、道端の草木まで、\n彼女の目は等しく理解しようという光をたたえている。",
+    category: "スペシャリスト",
+    type: "NORMAL",
+    name: "植物学者(Nature)",
+    spec: {
+      status: { hp: 1935, atk: 635, def: 524, spd: 399 },
+      skill: [
+        { title: "茨薔薇の鞭", desc: "ランダムな敵に3回ダメージ" },
+        {
+          title: "緑の息吹",
+          desc: "バジェットを3ターン増やし続ける。このアミュレットが破壊されると効果は消える",
+        },
+        {
+          title: "バンブーファランクス",
+          desc: "敵1体に特大ダメージをあたえ、自分のSPDをあげる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cofvoh0l0b1umjhapzfrpg",
+    rarity: "LEGENDARY",
+    element: "WATER",
+    image: "/images/amulets/legendary/cl9cofvoh0l0b1umjhapzfrpg.webp",
+    info: "日本のイラストレーター藤ちょこによる描き下ろし作品。\n\n化粧品と化粧道具の扱いを極めたプロフェッショナルにして\n美しくありたい者の守護者であり、美に至る道を説く者。\n彼女の繰り出す無限の色彩が、誰をも美しく変貌させる。",
+    category: "サービス",
+    type: "NORMAL",
+    name: "美容部員(Water)",
+    spec: {
+      status: { hp: 1912, atk: 632, def: 538, spd: 395 },
+      skill: [
+        {
+          title: "ラッシュエキスパンション",
+          desc: "自分のATKをあげ、敵1体に特大ダメージを与える。3ターン有効",
+        },
+        {
+          title: "攻防一体：ヒアルロンアタック",
+          desc: "敵1体に特大ダメージをあたえ、自分のDEFをあげる。3ターン有効",
+        },
+        {
+          title: "魔爪結界：紅蓮のペデュキュア",
+          desc: "召喚時に確率でSPDをあげる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cofffk0igi1umj8c9mfouv",
+    rarity: "LEGENDARY",
+    element: "POISON",
+    image: "/images/amulets/legendary/cl9cofffk0igi1umj8c9mfouv.webp",
+    info: "漫画「ドーベルマン刑事」「ブラック・エンジェルズ」で知られる平松伸二による描き下ろし作品。\n\n「言葉、感情、理由、事実。私の全てが偽りであり、虚無。\nでも、君たちはいつも騙される。\n”私”なんて何処にも存在しないモノなのにね？」",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "詐欺師(Poison)",
+    spec: {
+      status: { hp: 1867, atk: 628, def: 550, spd: 397 },
+      skill: [
+        {
+          title: "ワンクリック・インフェルノ",
+          desc: "敵1体にダメージを与え、敵のバジェットを減らす",
+        },
+        {
+          title: "偽装：理想の花嫁",
+          desc: "敵1体のDEFを下げ、敵1体に特大ダメージを与える。3ターン有効",
+        },
+        { title: "虚言：横領の息子", desc: "敵のバジェットを減らす" },
       ],
     },
   },
