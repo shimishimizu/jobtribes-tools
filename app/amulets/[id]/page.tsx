@@ -1,9 +1,26 @@
 import React from "react";
 import Header from "@/components/Header";
 import AmuletDetail from "./_components/AmuletDetail";
+import { Metadata } from "next";
+import { AMULETS_DATA } from "../_constants/amulets";
 // import { getAllAmulets } from "@/utils/supabaseFunctions";
 
-const Amulet = ({ params }: { params: { id: string } }) => {
+type Props = {
+  params: { id: string };
+};
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { id } = params;
+  console.log(id);
+  const amulet = AMULETS_DATA.filter((amulet) => amulet.id === id);
+
+  return {
+    title: amulet[0].name,
+    // description: post.description,
+  };
+}
+
+const Amulet = ({ params }: Props) => {
   // // supabaseデータ取得の試し
   // const [amulets, setAmulets] = useState([]);
   // useEffect(() => {
