@@ -68,7 +68,9 @@ export const columns: ColumnDef<Amulet>[] = [
   },
   {
     accessorKey: "rarity",
-    header: "RARITY",
+    header: () => {
+      return <span className="block text-center">RARITY</span>;
+    },
     cell: ({ row }) => {
       const rarity: string = row.getValue("rarity");
       const path = rarityIcon.find((item) => item.name === rarity);
@@ -89,7 +91,9 @@ export const columns: ColumnDef<Amulet>[] = [
   },
   {
     accessorKey: "element",
-    header: "ELEMENT",
+    header: () => {
+      return <span className="block text-center">ELEMENT</span>;
+    },
     cell: ({ row }) => {
       const element: string = row.getValue("element");
       const path = elementIcon.find((item) => item.name === element);
@@ -110,7 +114,9 @@ export const columns: ColumnDef<Amulet>[] = [
   },
   {
     accessorKey: "type",
-    header: "TYPE",
+    header: () => {
+      return <span className="block text-center">TYPE</span>;
+    },
     cell: ({ row }) => {
       const type: string = row.getValue("type");
       const path = typeIcon.find((item) => item.name === type);
@@ -131,7 +137,9 @@ export const columns: ColumnDef<Amulet>[] = [
   },
   {
     accessorKey: "category",
-    header: "CATEGORY",
+    header: () => {
+      return <span className="block text-center">CATEGORY</span>;
+    },
     filterFn: exactTextFilterFn,
     cell: ({ row }) => {
       const category: string = row.getValue("category");
@@ -155,14 +163,16 @@ export const columns: ColumnDef<Amulet>[] = [
     accessorKey: "spec.status.hp",
     header: ({ column }) => {
       return (
-        <Button
-          variant="ghost"
-          onClick={() => column.toggleSorting()}
-          className="px-3"
-        >
-          HP
-          <ArrowUpDown className="ml-2 h-4 w-4" />
-        </Button>
+        <span className="block text-center">
+          <Button
+            variant="ghost"
+            onClick={() => column.toggleSorting()}
+            className="px-3"
+          >
+            HP
+            <ArrowUpDown className="ml-2 h-4 w-4" />
+          </Button>
+        </span>
       );
     },
     cell: ({ row }) => {
@@ -174,14 +184,16 @@ export const columns: ColumnDef<Amulet>[] = [
     accessorKey: "spec.status.atk",
     header: ({ column }) => {
       return (
-        <Button
-          variant="ghost"
-          onClick={() => column.toggleSorting()}
-          className="px-3"
-        >
-          ATK
-          <ArrowUpDown className="ml-2 h-4 w-4" />
-        </Button>
+        <span className="block text-center">
+          <Button
+            variant="ghost"
+            onClick={() => column.toggleSorting()}
+            className="px-3"
+          >
+            ATK
+            <ArrowUpDown className="ml-2 h-4 w-4" />
+          </Button>
+        </span>
       );
     },
     cell: ({ row }) => {
@@ -193,14 +205,16 @@ export const columns: ColumnDef<Amulet>[] = [
     accessorKey: "spec.status.def",
     header: ({ column }) => {
       return (
-        <Button
-          variant="ghost"
-          onClick={() => column.toggleSorting()}
-          className="px-3"
-        >
-          DEF
-          <ArrowUpDown className="ml-2 h-4 w-4" />
-        </Button>
+        <span className="block text-center">
+          <Button
+            variant="ghost"
+            onClick={() => column.toggleSorting()}
+            className="px-3"
+          >
+            DEF
+            <ArrowUpDown className="ml-2 h-4 w-4" />
+          </Button>
+        </span>
       );
     },
     cell: ({ row }) => {
@@ -212,15 +226,17 @@ export const columns: ColumnDef<Amulet>[] = [
     accessorKey: "spec.status.spd",
     header: ({ column }) => {
       return (
-        <Button
-          variant="ghost"
-          onClick={() => column.toggleSorting()}
-          // onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
-          className="px-3"
-        >
-          SPD
-          <ArrowUpDown className="ml-2 h-4 w-4" />
-        </Button>
+        <span className="block text-center">
+          <Button
+            variant="ghost"
+            onClick={() => column.toggleSorting()}
+            // onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
+            className="px-3"
+          >
+            SPD
+            <ArrowUpDown className="ml-2 h-4 w-4" />
+          </Button>
+        </span>
       );
     },
     cell: ({ row }) => {
