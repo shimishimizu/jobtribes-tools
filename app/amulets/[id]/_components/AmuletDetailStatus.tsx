@@ -23,6 +23,24 @@ const AmuletDetailStatus = ({
 
   return (
     <div className="mx-auto flex w-[80%] flex-col space-y-5">
+      <div className="flex justify-center gap-6 text-center text-lg">
+        <dl>
+          <dt className="font-bold">HP</dt>
+          <dd>{calclatedStatus.hp}</dd>
+        </dl>
+        <dl>
+          <dt className="font-bold">ATK</dt>
+          <dd>{calclatedStatus.atk}</dd>
+        </dl>
+        <dl>
+          <dt className="font-bold">DEF</dt>
+          <dd>{calclatedStatus.def}</dd>
+        </dl>
+        <dl>
+          <dt className="font-bold">SPD</dt>
+          <dd>{calclatedStatus.spd}</dd>
+        </dl>
+      </div>
       <div>
         <Label htmlFor="level" className="text-lg">
           Lv：{level}
@@ -52,24 +70,6 @@ const AmuletDetailStatus = ({
           onChange={handleChangeNft}
           className="-mt-1 cursor-pointer px-0 py-5"
         />
-      </div>
-      <div className="flex justify-center gap-6 text-center text-lg">
-        <dl>
-          <dt className="font-bold">HP</dt>
-          <dd>{calclatedStatus.hp}</dd>
-        </dl>
-        <dl>
-          <dt className="font-bold">ATK</dt>
-          <dd>{calclatedStatus.atk}</dd>
-        </dl>
-        <dl>
-          <dt className="font-bold">DEF</dt>
-          <dd>{calclatedStatus.def}</dd>
-        </dl>
-        <dl>
-          <dt className="font-bold">SPD</dt>
-          <dd>{calclatedStatus.spd}</dd>
-        </dl>
       </div>
     </div>
   );
