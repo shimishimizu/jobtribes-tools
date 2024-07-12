@@ -16,10 +16,10 @@ export const useAmuletsTable = () => {
   const [sorting, setSorting] = useState<SortingState>([]);
   const [columnFilters, setColumnFilters] = useState<ColumnFiltersState>([]);
   const [columnVisibility, setColumnVisibility] = useState<VisibilityState>({
-    rarity: false, // デフォルトで非表示
+    // rarity: false, // デフォルトで非表示
     element: false,
     type: false,
-    category: false,
+    // category: false,
     id: false,
   });
   const table = useReactTable({
