@@ -4522,4 +4522,892 @@ export const AMULETS_DATA: Amulet[] = [
       ],
     },
   },
+  {
+    id: "cl9cof8370hat1umjdrhuh91o",
+    rarity: "LEGENDARY",
+    element: "THUNDER",
+    image: "/images/amulets/legendary/cl9cof8370hat1umjdrhuh91o.webp",
+    info: "寺沢武一の漫画「コブラ」より宇宙海賊コブラが登場。\n\nやつの名はコブラ。不死身の宇宙海賊。\n武器は左腕に仕込まれたサイコガン。\nアーマロイド・レディと共に愛機タートル号で 銀河を駆け巡る。",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "宇宙海賊コブラ(Thunder)",
+    spec: {
+      status: { hp: 2010, atk: 660, def: 528, spd: 393 },
+      skill: [
+        { title: "サイコガン", desc: "敵全員に大ダメージ" },
+        {
+          title: "海賊の葉巻",
+          desc: "敵のバジェットを減らし、自分のバジェットを増やす。",
+        },
+        { title: "最終兵器", desc: "敵1体に特大ダメージ" },
+      ],
+    },
+  },
+  {
+    id: "cl9coefi90ct61umj4wrva78y",
+    rarity: "LEGENDARY",
+    element: "THUNDER",
+    image: "/images/amulets/legendary/cl9coefi90ct61umj4wrva78y.webp",
+    info: "大人気マンガ『GetBackers-奪還屋－』で最強のダークヒーロー・メーカーとして名高い綾峰欄人による描き下ろし作品。\n\n麻薬、使い方によっては、人の体と精神を蝕む悪魔となる。\n彼の仕事は、麻薬を流通させる悪人ども相手の狩人だ。\n今日も彼は相棒と共に闇を駆け抜け、密売人どもを狩る。",
+    category: "パブリックサービス",
+    type: "NORMAL",
+    name: "麻薬取締捜査官(Thunder)",
+    spec: {
+      status: { hp: 1912, atk: 647, def: 538, spd: 386 },
+      skill: [
+        {
+          title: "ドラッグ・ディテクション",
+          desc: "敵1体にダメージを与え、自分のHPを回復する",
+        },
+        {
+          title: "潜入：スティング・オペレーション",
+          desc: "敵全員に大ダメージ",
+        },
+        {
+          title: "強制捜査の捕縛",
+          desc: "召喚時に確率でATKをあげる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9coewvb0fj61umjgqbx71tj",
+    rarity: "LEGENDARY",
+    element: "WATER",
+    image: "/images/amulets/legendary/cl9coewvb0fj61umjgqbx71tj.webp",
+    info: "VRアーティスト・せきぐちあいみのライブペインティング作品。\n\nVRアーティスト、それはバーチャルのキャンバスに果てしない創造の世界を描き出すデジタルの魔法使い。",
+    category: "エンターテイナー",
+    type: "NORMAL",
+    name: "VRアーティスト(Water)",
+    spec: {
+      status: { hp: 1912, atk: 618, def: 546, spd: 397 },
+      skill: [
+        {
+          title: "結界：壺中之天",
+          desc: "味方全員のATKとDEFを上げる。3ターン有効",
+        },
+        { title: "画龍飛翔斬", desc: "敵全員に大ダメージ" },
+        {
+          title: "空虚空の主",
+          desc: "バジェットを3ターン増やし続ける。このアミュレットが破壊されると効果は消える",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cof5ht0gw81umj0fwt3jhf",
+    rarity: "LEGENDARY",
+    element: "POISON",
+    image: "/images/amulets/legendary/cl9cof5ht0gw81umj0fwt3jhf.webp",
+    info: "日本のイラストレーター・漫画家小梅けいとによる描き下ろし作品。\n\n読者に最も近い存在は、等身大が最大のアピールポイント。\n幅広い交友関係による口コミ拡散力は侮れない。\nただ、この職業で居続けるのはかなり難しい。",
+    category: "エンターテイナー",
+    type: "NORMAL",
+    name: "読者モデル(Poison)",
+    spec: {
+      status: { hp: 1958, atk: 632, def: 534, spd: 389 },
+      skill: [
+        {
+          title: "映え写真UP",
+          desc: "味方1体にバリアをはる。攻撃されても2ターンダメージを受けない。",
+        },
+        { title: "着回しコーデ", desc: "味方全員のHPを3ターン回復し続ける。" },
+        {
+          title: "インフルエンス・ウェーブ",
+          desc: "敵1体に特大ダメージをあたえ、自分のSPDをあげる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cog0nv0lso1umj6vey69hr",
+    rarity: "LEGENDARY",
+    element: "EARTH",
+    image: "/images/amulets/legendary/cl9cog0nv0lso1umj6vey69hr.webp",
+    info: "日本のイラストレーターiximaによる描き下ろし作品。\n\n「商品を買ってもらって満足するようでは甘いわ。\n完璧な接客でお客様にリピーターになって頂く事……\nそれが私の使命であり喜びなのよ」",
+    category: "マーチャンダイザー",
+    type: "NORMAL",
+    name: "衣料品販売員(Earth)",
+    spec: {
+      status: { hp: 1958, atk: 618, def: 526, spd: 403 },
+      skill: [
+        {
+          title: "リピーター・メイカー",
+          desc: "味方全員のATKとSPDを上げる。3ターン有効",
+        },
+        {
+          title: "察知：季節を先取る者",
+          desc: "敵1体に特大ダメージをあたえ、自分のDEFをあげる。3ターン有効",
+        },
+        {
+          title: "優しき声かけの極意",
+          desc: "味方1体にバリアをはる。攻撃されても2ターンダメージを受けない。",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9coeoiw0e7u1umj4tmbdnf7",
+    rarity: "LEGENDARY",
+    element: "WATER",
+    image: "/images/amulets/legendary/cl9coeoiw0e7u1umj4tmbdnf7.webp",
+    info: "インドネシアのイラストレーターDcrossboneによる描き下ろし作品。\n\n渇きにあえぐ民の声を受けて、\n天空を舞う水神をその身に降ろし、\n自ら龍となりて恵みの雨を齎せしもの。",
+    category: "スペシャリスト",
+    type: "NORMAL",
+    name: "レインシャーマン(Water)",
+    spec: {
+      status: { hp: 1928, atk: 628, def: 534, spd: 397 },
+      skill: [
+        { title: "干天の慈雨", desc: "ランダムな敵に3回ダメージ" },
+        {
+          title: "風雨乱舞",
+          desc: "召喚時に確率で自分のHPを3ターン回復状態にする",
+        },
+        { title: "水神の咆哮：豪雨招来", desc: "敵1体に特大ダメージ" },
+      ],
+    },
+  },
+  {
+    id: "cl9cof5r50gxo1umjbbadepp5",
+    rarity: "LEGENDARY",
+    element: "EARTH",
+    image: "/images/amulets/legendary/cl9cof5r50gxo1umjbbadepp5.webp",
+    info: "世界的大ヒットゲームのスピンオフ作品「ドラゴンクエスト列伝」で知られる人気マンガ家、藤原カムイによる描き下ろし作品。\n\n「誰も抗えない、魅惑のふわっふわオーガニックコットン。ここまで育てるの、大変だったんですよ。ね、気持ちいいでしょう？」",
+    category: "クラフター",
+    type: "NORMAL",
+    name: "綿職人(Earth)",
+    spec: {
+      status: { hp: 1950, atk: 642, def: 526, spd: 390 },
+      skill: [
+        {
+          title: "衝撃吸収コットンボール",
+          desc: "味方1体にバリアをはる。攻撃されても2ターンダメージを受けない。",
+        },
+        {
+          title: "陣地遮断コットンカーテン",
+          desc: "味方全員のDEFを上げる。3ターン有効",
+        },
+        {
+          title: "綿摘みの約束",
+          desc: "バジェットを2ターン後に大きく増やす。このアミュレットが破壊されると効果は消える",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9coeyzb0fv61umj0dgphpje",
+    rarity: "LEGENDARY",
+    element: "NATURE",
+    image: "/images/amulets/legendary/cl9coeyzb0fv61umj0dgphpje.webp",
+    info: "多くのゲームキャラクターデザインを手がける日本のイラストレーター萩谷薫による描き下ろし作品。\n\n刀剣の鞘、食器、人形などなど…。\n歴戦の剣士から子供まで、実は何かとお世話になっているのが塗師である。",
+    category: "クラフター",
+    type: "NORMAL",
+    name: "塗師(Nature)",
+    spec: {
+      status: { hp: 1928, atk: 647, def: 534, spd: 386 },
+      skill: [
+        {
+          title: "朱塗りの一閃",
+          desc: "敵1体にダメージを与え、自分のHPを回復する",
+        },
+        {
+          title: "妙技・武具修繕",
+          desc: "味方1体のHP回復。ATKを上げる。3ターン有効",
+        },
+        { title: "鮮烈！漆スプラッシュ", desc: "敵全員に大ダメージ" },
+      ],
+    },
+  },
+  {
+    id: "cl9coex3d0fkg1umjal0kcptw",
+    rarity: "LEGENDARY",
+    element: "FIRE",
+    image: "/images/amulets/legendary/cl9coex3d0fkg1umjal0kcptw.webp",
+    info: "フランスのバンドデシネ作家ルノー・ルメールによる描き下ろし作品。\n\n炎をまとう剛速球。\nその言葉が比喩ではないのが、彼の恐ろしいところだ。",
+    category: "エンターテイナー",
+    type: "NORMAL",
+    name: "プロ野球選手(Fire)",
+    spec: {
+      status: { hp: 1973, atk: 628, def: 522, spd: 397 },
+      skill: [
+        {
+          title: "挑発的盗塁",
+          desc: "敵1体に特大ダメージをあたえ、自分のSPDをあげる。3ターン有効",
+        },
+        {
+          title: "剛脚スライディング",
+          desc: "敵1体に特大ダメージをあたえ、自分のDEFをあげる。3ターン有効",
+        },
+        {
+          title: "不退転のホームラン宣言！",
+          desc: "召喚時に確率でATKをあげる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cof02r0g1h1umj5w9q30hi",
+    rarity: "LEGENDARY",
+    element: "WATER",
+    image: "/images/amulets/legendary/cl9cof02r0g1h1umj5w9q30hi.webp",
+    info: "温かみのあるレトロSFタッチで大人気のイラストレーター・イトウケイイチロウによる描き下ろし作品。\n\nこのジョブ・ロードが一柱いるだけで、その国のQOLが格段に高まるという。",
+    category: "マーチャンダイザー",
+    type: "NORMAL",
+    name: "カフェ・バリスタ(Water)",
+    spec: {
+      status: { hp: 1958, atk: 632, def: 534, spd: 389 },
+      skill: [
+        {
+          title: "目覚めのカプチーノ",
+          desc: "味方1体にバリアをはる。攻撃されても2ターンダメージを受けない。",
+        },
+        {
+          title: "陽炎のカフェ・ロワイヤル",
+          desc: "敵1体に特大ダメージをあたえ、自分のDEFをあげる。3ターン有効",
+        },
+        {
+          title: "休息のエスプレッソ",
+          desc: "味方全員のHPを3ターン回復し続ける。",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cofd5w0i3q1umjhcashro2",
+    rarity: "LEGENDARY",
+    element: "THUNDER",
+    image: "/images/amulets/legendary/cl9cofd5w0i3q1umjhcashro2.webp",
+    info: "フィリピンのグラフィックデザイナーPajapolによる描き下ろし作品。\n\n「どんなに混んだ道も、華麗にすり抜けて最速で届けてやるよ。ただし1tオーバーの超重量級ジョブ・ロードはお断りだ。タイヤが潰れちまうからな。」",
+    category: "サービス",
+    type: "NORMAL",
+    name: "バイクタクシー運転手(Thunder)",
+    spec: {
+      status: { hp: 1943, atk: 637, def: 530, spd: 392 },
+      skill: [
+        { title: "ヘルメットボンバー", desc: "ランダムな敵に3回ダメージ" },
+        {
+          title: "渋滞すり抜けドライブ",
+          desc: "味方1体のSPDを大幅に上げるが、DEFが下がる。3ターン有効",
+        },
+        {
+          title: "飛ばすぜ！しがみつきな！",
+          desc: "敵1体に特大ダメージをあたえ、自分のSPDをあげる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9coeq340egu1umjht4598tm",
+    rarity: "LEGENDARY",
+    element: "EARTH",
+    image: "/images/amulets/legendary/cl9coeq340egu1umjht4598tm.webp",
+    info: "日本のイラストレーターけーしんによる描き下ろし作品。\n\n「見てください！1万2千年前のワークドッグの化石です。こっちは画家のジョブ・ロードの始祖が描いたと言われる風景画…。どれも素晴らしいでしょう？全部解説しますね！」",
+    category: "スペシャリスト",
+    type: "NORMAL",
+    name: "学芸員(Earth)",
+    spec: {
+      status: { hp: 1882, atk: 642, def: 546, spd: 389 },
+      skill: [
+        { title: "特大展示パネルプレス", desc: "敵全員に大ダメージ" },
+        {
+          title: "学びのアジテーション",
+          desc: "召喚時に確率でATKをあげる。3ターン有効",
+        },
+        {
+          title: "心身消耗・長談義",
+          desc: "敵1体に特大ダメージをあたえ、SPDを下げる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cofg9a0il61umjfx47aqq0",
+    rarity: "LEGENDARY",
+    element: "FIRE",
+    image: "/images/amulets/legendary/cl9cofg9a0il61umjfx47aqq0.webp",
+    info: "フランスの巨匠コミック作家Olivier Vatineによる描き下ろし作品\n\n「戦になれば、他のジョブ・ロードが呼び出した動物を何百匹も見ることになるからな」",
+    category: "医療",
+    type: "NORMAL",
+    name: "動物看護師(Fire)",
+    spec: {
+      status: { hp: 1867, atk: 628, def: 538, spd: 406 },
+      skill: [
+        {
+          title: "捨て身のノーガード看護",
+          desc: "味方全員を大幅に回復するが、自分はダメージを受ける。",
+        },
+        {
+          title: "毛玉ボールシュート",
+          desc: "敵1体にダメージを与え、自分のHPを回復する",
+        },
+        {
+          title: "鋼鉄のエリザベスカラー",
+          desc: "味方全員のDEFを上げる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cof49q0gp61umjf1hh0shl",
+    rarity: "LEGENDARY",
+    element: "NATURE",
+    image: "/images/amulets/legendary/cl9cof49q0gp61umjf1hh0shl.webp",
+    info: "日本のイラストレーターもっつん*による描き下ろし作品。\n\nおもてなしの心が具現化した存在。\n音もなく寝具を整え、呼ばれれば瞬時に姿を現す所作からは、柔和な笑顔の裏にある厳しい鍛錬の蓄積が窺える。",
+    category: "サービス",
+    type: "NORMAL",
+    name: "仲居(Nature)",
+    spec: {
+      status: { hp: 1912, atk: 632, def: 550, spd: 386 },
+      skill: [
+        {
+          title: "おもてなしマインド",
+          desc: "味方1体にバリアをはる。攻撃されても2ターンダメージを受けない。",
+        },
+        { title: "箒ハリケーン", desc: "味方全員のATKを上げる。3ターン有効" },
+        {
+          title: "宗和膳シールドバッシュ",
+          desc: "敵1体に特大ダメージをあたえ、自分のDEFをあげる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cofreg0kc11umj06rjhojp",
+    rarity: "LEGENDARY",
+    element: "POISON",
+    image: "/images/amulets/legendary/cl9cofreg0kc11umj06rjhojp.webp",
+    info: "漫画「ドーベルマン刑事」「ブラック・エンジェルズ」で知られる平松伸二による描き下ろし作品。\n\n「俺が社会の屑だって？本当の屑は、一時の快楽のために金も愛も人生も、全て投げ出したコイツらの方さ」",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "麻薬密売人(Poison)",
+    spec: {
+      status: { hp: 1897, atk: 623, def: 542, spd: 400 },
+      skill: [
+        {
+          title: "疲れが消える薬",
+          desc: "味方1体のATKを大幅に上げるが、DEFが下がる。3ターン有効",
+        },
+        {
+          title: "ジャンキーマニピュレート",
+          desc: "ランダムな敵に3回ダメージ",
+        },
+        {
+          title: "破滅のインジェクション",
+          desc: "敵1体に特大ダメージをあたえ、ATKを下げる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9coejb60dec1umj8d0665q7",
+    rarity: "LEGENDARY",
+    element: "POISON",
+    image: "/images/amulets/legendary/cl9coejb60dec1umj8d0665q7.webp",
+    info: "日本のイラストレーター・漫画家咲良ゆきによる描き下ろし作品。\n\nバーという閉鎖空間の支配神。\nその中で語られた秘密は決して漏れることなく、その中で狼藉をはたらいた者の行方は、その後知られることはない。",
+    category: "サービス",
+    type: "NORMAL",
+    name: "バーテンダー(Poison)",
+    spec: {
+      status: { hp: 1928, atk: 647, def: 522, spd: 395 },
+      skill: [
+        { title: "轟沈グリーン・アラスカ", desc: "敵全員に大ダメージ" },
+        {
+          title: "酩酊スレッジハンマー",
+          desc: "敵1体に特大ダメージをあたえ、DEFを下げる。3ターン有効",
+        },
+        {
+          title: "開幕ショットガン！",
+          desc: "召喚時に確率でATKをあげる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9coenq90e3c1umj5abv02ln",
+    rarity: "LEGENDARY",
+    element: "NATURE",
+    image: "/images/amulets/legendary/cl9coenq90e3c1umj5abv02ln.webp",
+    info: "日本のイラストレーター字消による描き下ろし作品。\n\n「仕事のストレスも怪我の痛みも、みんな忘れてお眠りなさい。あなたが目覚める頃までに、私が全て癒して差し上げますから。」",
+    category: "サービス",
+    type: "NORMAL",
+    name: "快眠セラピスト(Nature)",
+    spec: {
+      status: { hp: 1958, atk: 618, def: 546, spd: 389 },
+      skill: [
+        {
+          title: "眠り羊の突進",
+          desc: "自分のATKをあげ、敵1体に特大ダメージを与える。3ターン有効",
+        },
+        { title: "低反発枕スイング", desc: "敵1体に特大ダメージ" },
+        {
+          title: "爽快覚醒：エナジーMAX",
+          desc: "味方全員のSPDを上げる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9coew1a0fef1umjhq2q4jgh",
+    rarity: "LEGENDARY",
+    element: "THUNDER",
+    image: "/images/amulets/legendary/cl9coew1a0fef1umjhq2q4jgh.webp",
+    info: "アニメ化もされた人気漫画「電波教師」で知られる東毅による書き下ろし作品。\n\n才色兼備の代名詞ともいわれる女神。\n「勉学に美容に社交、全て絶対に妥協しないわ。そして自分自身の言葉と声で、世の中に真実を伝えるの！」",
+    category: "情報・運輸",
+    type: "NORMAL",
+    name: "女性アナウンサー(Thunder)",
+    spec: {
+      status: { hp: 1950, atk: 620, def: 528, spd: 402 },
+      skill: [
+        {
+          title: "熱情の突撃レポート",
+          desc: "召喚時に確率でSPDをあげる。3ターン有効",
+        },
+        {
+          title: "爽快！論破ウェーブ",
+          desc: "敵1体に特大ダメージをあたえ、自分のATKをあげる。3ターン有効",
+        },
+        { title: "直撃マイクラッシュ！", desc: "ランダムな敵に3回ダメージ" },
+      ],
+    },
+  },
+  {
+    id: "cl9coeonz0e8o1umj5vid7hix",
+    rarity: "LEGENDARY",
+    element: "EARTH",
+    image: "/images/amulets/legendary/cl9coeonz0e8o1umj5vid7hix.webp",
+    info: "日本のイラストレーター田中健一による描き下ろし作品。\n\n国家の門番。偽造書類も変装も、彼女の天眼は欺けない。\nこのアミュレットを持つジョブ・トライブスは、常にダークワーカトライブたちの恐怖の的である。",
+    category: "パブリックサービス",
+    type: "NORMAL",
+    name: "入国警備官(Earth)",
+    spec: {
+      status: { hp: 1897, atk: 637, def: 542, spd: 392 },
+      skill: [
+        {
+          title: "許可なき者は誰も通さん！",
+          desc: "ランダムな敵に3回ダメージ",
+        },
+        {
+          title: "パスポートとビザを見せろ",
+          desc: "敵1体に特大ダメージをあたえ、DEFを下げる。3ターン有効",
+        },
+        {
+          title: "私を欺けると思うな！！",
+          desc: "敵1体のATKとDEFを下げる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9coegen0cy31umj33ofcwtv",
+    rarity: "LEGENDARY",
+    element: "WATER",
+    image: "/images/amulets/legendary/cl9coegen0cy31umj33ofcwtv.webp",
+    info: "日本のイラストレーター ミユキルリアによる描き下ろし作品。\n\n人々の祈りを舞へと変えて神に伝え、神の声を託宣として人々に伝える。\nそんな彼女は時として、ジョブ・ロードとジョブ・トライブスの喧嘩を仲裁することもあるという。",
+    category: "スペシャリスト",
+    type: "NORMAL",
+    name: "巫女(Water)",
+    spec: {
+      status: { hp: 1958, atk: 618, def: 546, spd: 389 },
+      skill: [
+        { title: "平定の神託", desc: "敵全員のATKとDEFを下げる。3ターン有効" },
+        {
+          title: "浄化の神酒",
+          desc: "敵1体にダメージを与え、自分のHPを回復する",
+        },
+        {
+          title: "鎮魂の神楽",
+          desc: "敵1体に特大ダメージをあたえ、SPDを下げる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cofhfq0iru1umjht8a863x",
+    rarity: "LEGENDARY",
+    element: "WATER",
+    image: "/images/amulets/legendary/cl9cofhfq0iru1umjht8a863x.webp",
+    info: "「2021年は記念すべきJobTribes正式リリースの年だ！新たなる伝説の幕開けを皆で祝おう。叫べ！HAPPY NEW YEAR！」\nイラスト：DEAartist",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "ハッピーニューイヤーマン2021(Water)",
+    spec: {
+      status: { hp: 1882, atk: 618, def: 546, spd: 403 },
+      skill: [
+        {
+          title: "ハッピーオーラ2021",
+          desc: "味方全員のATKとSPDを上げる。3ターン有効",
+        },
+        {
+          title: "輝くニューイヤー光線！",
+          desc: "敵1体に特大ダメージをあたえ、自分のSPDをあげる。3ターン有効",
+        },
+        { title: "招福！サンライズフラッシュ", desc: "敵1体に特大ダメージ" },
+      ],
+    },
+  },
+  {
+    id: "cl9cofxt60lce1umjceu82zm0",
+    rarity: "LEGENDARY",
+    element: "FIRE",
+    image: "/images/amulets/legendary/cl9cofxt60lce1umjceu82zm0.webp",
+    info: "日本のイラストレーターむらいっちによる描き下ろし作品。\n\n「あらゆる種族の可愛い子供たち。\n可能性の塊のようなこの子たちのをお世話していると、私も未来に希望を抱けるんです。」",
+    category: "教育",
+    type: "NORMAL",
+    name: "ナニー(Fire)",
+    spec: {
+      status: { hp: 1973, atk: 613, def: 534, spd: 397 },
+      skill: [
+        {
+          title: "EQ向上：情操教育",
+          desc: "味方全員のATKとDEFを上げる。3ターン有効",
+        },
+        { title: "守護者の鉄槌", desc: "敵1体に特大ダメージ" },
+        {
+          title: "増強：育児の千手",
+          desc: "召喚時に確率でSPDをあげる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cofmxv0jmy1umj9q9ugqct",
+    rarity: "LEGENDARY",
+    element: "THUNDER",
+    image: "/images/amulets/legendary/cl9cofmxv0jmy1umj9q9ugqct.webp",
+    info: "漫画「サイレントメビウス」「真・快傑蒸気探偵団」「彼女のカレラ」「太陽系SF冒険大全スペオペ! 」などで知られる麻宮騎亜による書き下ろし作品。\n\nより快適なインテリア、よりスタイリッシュなエクステリア。今より速く、今より強く…！\n彼女の瞳はいつでも、未来を見つめている。",
+    category: "クラフター",
+    type: "NORMAL",
+    name: "カーデザイナー(Thunder)",
+    spec: {
+      status: { hp: 1882, atk: 642, def: 526, spd: 403 },
+      skill: [
+        {
+          title: "タフネスオーバーフェンダー",
+          desc: "自分のATKをあげ、敵1体に特大ダメージを与える。3ターン有効",
+        },
+        {
+          title: "流線形エクステリア",
+          desc: "召喚時に確率でSPDをあげる。3ターン有効",
+        },
+        { title: "神速具現化3Dモデルアタック", desc: "敵1体に特大ダメージ" },
+      ],
+    },
+  },
+  {
+    id: "cl9coegkk0cz11umj8w3d1g0k",
+    rarity: "LEGENDARY",
+    element: "FIRE",
+    image: "/images/amulets/legendary/cl9coegkk0cz11umj8w3d1g0k.webp",
+    info: "人気の女性サンタ。年末には世界中を飛び回っている。実はそろそろ100歳になるが、その話をすると危険である。\n「私が100歳？ あなたもプレゼントの材料にしちゃいますよ？」\nイラスト：SAA",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "サンタクロース（レッド）(Fire)",
+    spec: {
+      status: { hp: 1965, atk: 615, def: 552, spd: 384 },
+      skill: [
+        {
+          title: "ウィンターローズの祈り",
+          desc: "召喚時に確率でDEFをあげる。3ターン有効",
+        },
+        { title: "シャイニングもみの木ランス", desc: "敵1体に特大ダメージ" },
+        {
+          title: "癒しのイルミネーションシャワー",
+          desc: "味方全員のHPを3ターン回復し続ける。",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cofljl0jf61umjcuqjh4ky",
+    rarity: "LEGENDARY",
+    element: "POISON",
+    image: "/images/amulets/legendary/cl9cofljl0jf61umjcuqjh4ky.webp",
+    info: "漫画『まりあ†ほりっく』『破天荒遊戯』などで知られる遠藤海成による書き下ろし作品。\n\n研修中といえども医者である。\n若さゆえの情熱と探求心、そして体力を武器に、今日も彼は医学の道を突き進む。",
+    category: "医療",
+    type: "NORMAL",
+    name: "臨床研修医師(Poison)",
+    spec: {
+      status: { hp: 1950, atk: 620, def: 528, spd: 402 },
+      skill: [
+        {
+          title: "恐れ知らずのキュリオシティ",
+          desc: "敵全員のATKとSPDを下げる。3ターン有効",
+        },
+        {
+          title: "自力更生ストレスマネジメント",
+          desc: "敵1体にダメージを与え、自分のHPを回復する",
+        },
+        { title: "オーベンの神撃", desc: "敵1体に特大ダメージ" },
+      ],
+    },
+  },
+  {
+    id: "cl9coeq1w0egn1umj5a2o9gdu",
+    rarity: "LEGENDARY",
+    element: "NATURE",
+    image: "/images/amulets/legendary/cl9coeq1w0egn1umj5a2o9gdu.webp",
+    info: "西尾維新の〈物語〉シリーズ、忘却探偵シリーズのカバーイラストで人気を博す、台湾のイラストレーターVOFANによる描き下ろし作品。\n\n薄皮に包まれた魅惑の肉汁。その誘惑に負けて火傷する者は、太古の昔から後を絶たない。\n「蓮華に乗せて、皮を破るといいんだゾ！」",
+    category: "クラフター",
+    type: "NORMAL",
+    name: "小籠包職人(Nature)",
+    spec: {
+      status: { hp: 1973, atk: 632, def: 522, spd: 395 },
+      skill: [
+        { title: "ムチムチ包子ガトリング", desc: "敵全員に大ダメージ" },
+        {
+          title: "防御的蒸籠カッター",
+          desc: "召喚時に確率でDEFをあげる。3ターン有効",
+        },
+        {
+          title: "みなぎる熱々スープ",
+          desc: "自分のATKとSPDを上げる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9coetri0f1n1umj34ikcted",
+    rarity: "LEGENDARY",
+    element: "FIRE",
+    image: "/images/amulets/legendary/cl9coetri0f1n1umj34ikcted.webp",
+    info: "漫画『ホールインワン』、『ばぁじんロード』、『ロンリーロード』などで知られる金井たつおによる書き下ろし作品。\n\nボウラーの中でもプロの称号を与えられし戦士たち。華麗なスイングから放たれる１６ポンドの剛速球で、立ちはだかるピンの軍勢を薙ぎ倒す。",
+    category: "エンターテイナー",
+    type: "NORMAL",
+    name: "プロボウラー(Fire)",
+    spec: {
+      status: { hp: 1875, atk: 650, def: 520, spd: 405 },
+      skill: [
+        { title: "奇跡のオールウェイ", desc: "ランダムな敵に3回ダメージ" },
+        {
+          title: "美麗なフォロースルー",
+          desc: "敵1体に特大ダメージをあたえ、SPDを下げる。3ターン有効",
+        },
+        {
+          title: "剛速球パンチアウト",
+          desc: "敵全員のSPDを下げる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cof01j0g1a1umj7rqv6ipa",
+    rarity: "LEGENDARY",
+    element: "THUNDER",
+    image: "/images/amulets/legendary/cl9cof01j0g1a1umj7rqv6ipa.webp",
+    info: "ファンタジー要素を含んだ描写で強い感情を表現することを得意とするフィリピンのイラストレーターwickedalucardによる描き下ろし作品。\n\n「離れていても時間が無くても、No problem! 言語と物理の壁を越えてワタシと学びましょ！何事もenjoyする事が大切よ。Let's try♪」",
+    category: "サービス",
+    type: "NORMAL",
+    name: "オンライン英会話教師(Thunder)",
+    spec: {
+      status: { hp: 1980, atk: 610, def: 548, spd: 387 },
+      skill: [
+        {
+          title: "コネクト・ユアマインド",
+          desc: "味方全員のDEFとSPDを上げる。3ターン有効",
+        },
+        { title: "輝きの鼓舞：Go for it!", desc: "敵1体に特大ダメージ" },
+        {
+          title: "絶対支配：ブレイクアウトルーム",
+          desc: "敵1体にダメージを与え、自分のHPを回復する",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cofy3j0le21umjcw1sbbky",
+    rarity: "LEGENDARY",
+    element: "WATER",
+    image: "/images/amulets/legendary/cl9cofy3j0le21umjcw1sbbky.webp",
+    info: "「清閑なる癒しの茶室へようこそ。美味しいお抹茶や和菓子をご用意いたしました。ふふ、お加減はいかがでございますか？」",
+    category: "クラフター",
+    type: "NORMAL",
+    name: "茶道家(Water)",
+    spec: {
+      status: { hp: 1950, atk: 620, def: 536, spd: 396 },
+      skill: [
+        { title: "極上：棗に香る薄茶", desc: "敵全員に大ダメージ" },
+        {
+          title: "練りきり：懐紙に咲く蓮の花",
+          desc: "召喚時に確率でSPDをあげる。3ターン有効",
+        },
+        {
+          title: "聖なる献上茶事結界",
+          desc: "味方全員のATKを上げる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cofyxk0lis1umjgj14g7a6",
+    rarity: "LEGENDARY",
+    element: "EARTH",
+    image: "/images/amulets/legendary/cl9cofyxk0lis1umjgj14g7a6.webp",
+    info: "日本の漫画家あさみ青子による描き下ろしイラスト。\n\n「今日はどんな靴をご所望だい？空を飛べるようになる靴？ 魔法のガラスの靴？それとも…死ぬまで踊り続ける靴かな？」",
+    category: "サービス",
+    type: "NORMAL",
+    name: "靴職人(Earth)",
+    spec: {
+      status: { hp: 1935, atk: 615, def: 540, spd: 399 },
+      skill: [
+        {
+          title: "アサルト・ピンサーペンチ",
+          desc: "敵1体に特大ダメージをあたえ、自分のSPDをあげる。3ターン有効",
+        },
+        {
+          title: "魔法：12時のガラスの靴",
+          desc: "味方全員のSPDを上げる。3ターン有効",
+        },
+        { title: "戒め：永久舞踏の靴", desc: "敵全員に大ダメージ" },
+      ],
+    },
+  },
+  {
+    id: "cl9cofcpt0i151umjbuoh343s",
+    rarity: "LEGENDARY",
+    element: "WATER",
+    image: "/images/amulets/legendary/cl9cofcpt0i151umjbuoh343s.webp",
+    info: "日本のイラストレーターふーみによる描き下ろし作品。\n\n「未来をお知りになりたいのですか？ それとも、意中の相手の胸の内？ いずれにせよ、星の導きとカードが紡ぐ言葉は、悩めるあなたの道しるべとなるでしょう」",
+    category: "クラフター",
+    type: "NORMAL",
+    name: "占い師(Water)",
+    spec: {
+      status: { hp: 1875, atk: 635, def: 540, spd: 399 },
+      skill: [
+        {
+          title: "星詠みのヴェーダ",
+          desc: "味方全員のHPを3ターン回復し、さらにDEFを上げる。",
+        },
+        {
+          title: "大アルカナXXI：世界",
+          desc: "敵1体に特大ダメージをあたえ、自分のDEFをあげる。3ターン有効",
+        },
+        {
+          title: "小アルカナ：剣のナイト",
+          desc: "敵1体に特大ダメージをあたえ、ATKを下げる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cofu330kr81umj3ks0fwq1",
+    rarity: "LEGENDARY",
+    element: "POISON",
+    image: "/images/amulets/legendary/cl9cofu330kr81umj3ks0fwq1.webp",
+    info: "漫画『マリーグレイブ』、『アトランティド』などで知られる山地ひでのりによる書き下ろし作品。\n\n行政を司る精鋭部隊「内閣」を束ねる最高指揮官。他国との交渉の他、鉄壁の覇王として国と国民を守る武神でもある。",
+    category: "パブリックサービス",
+    type: "NORMAL",
+    name: "総理大臣(Poison)",
+    spec: {
+      status: { hp: 1920, atk: 660, def: 528, spd: 384 },
+      skill: [
+        {
+          title: "任命権型レーザーブレード",
+          desc: "ランダムな敵に3回ダメージ",
+        },
+        {
+          title: "内閣改造アーム・クラッシュ",
+          desc: "敵1体に特大ダメージをあたえ、自分のATKをあげる。3ターン有効",
+        },
+        {
+          title: "臨時閣議の号令",
+          desc: "召喚時に確率で自分のHPを3ターン回復状態にする",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cofl7c0jd81umjaatlgpwe",
+    rarity: "LEGENDARY",
+    element: "NATURE",
+    image: "/images/amulets/legendary/cl9cofl7c0jd81umjaatlgpwe.webp",
+    info: "『大東京トイボックス』『南国トムソーヤ』などで知られる二人組漫画家うめによる描き下ろし作品。\n\n多くのレストランで経験を積み、技術を学んだフランス料理の魔術師たち。料理長の称号を得た者は精鋭部隊ブリガード・ド・キュイジーヌの長となる。",
+    category: "サービス",
+    type: "NORMAL",
+    name: "フレンチシェフ(Nature)",
+    spec: {
+      status: { hp: 1920, atk: 650, def: 520, spd: 396 },
+      skill: [
+        {
+          title: "華麗：ポワソン＆ヴィアンド",
+          desc: "敵1体のDEFを下げ、敵1体に特大ダメージを与える。3ターン有効",
+        },
+        { title: "ショコラの四重奏", desc: "敵全員に大ダメージ" },
+        {
+          title: "鮮やかなるオードヴル",
+          desc: "味方全員のHPを3ターン回復し続ける。",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9coerfw0eod1umje2k123iq",
+    rarity: "LEGENDARY",
+    element: "FIRE",
+    image: "/images/amulets/legendary/cl9coerfw0eod1umje2k123iq.webp",
+    info: "漫画『怪盗ルパン伝アバンチュリエ』『ガンダムUC星月の欠片』などで知られる森田崇による描き下ろし作品。\n\n予告状を送り、闇夜に紛れて絵画や宝石を華麗に盗み出す者たち。紳士的、義賊的な行動をポリシーとする彼らをダークヒーローと呼ぶ人々もいる。",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "怪盗(Fire)",
+    spec: {
+      status: { hp: 1890, atk: 665, def: 508, spd: 402 },
+      skill: [
+        { title: "完璧なるディスガイズ", desc: "敵全員に大ダメージ" },
+        {
+          title: "ファンタスティック・スティール",
+          desc: "敵1体に特大ダメージをあたえ、自分のSPDをあげる。3ターン有効",
+        },
+        {
+          title: "機転：脱出ルート発見",
+          desc: "味方全員のSPDを上げる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9coel7a0doz1umj2ig4dei5",
+    rarity: "LEGENDARY",
+    element: "POISON",
+    image: "/images/amulets/legendary/cl9coel7a0doz1umj2ig4dei5.webp",
+    info: "バルセロナFicomicで最優秀国際漫画賞を受賞した『Himawari』、『Millenium Saga』、手塚治虫作『ばるぼら』の翻案作品『ドッペルゲンガー』などで知られるベレン・オルティガによる描き下ろし作品。\n\n「私のカメラは真実を映し、ペンはあらゆる言葉を綴り、情報を発信するの。だから取材のためならこの翼で何処へでも行くわ。戦場でも地獄でも——何処へでも、ね」",
+    category: "情報・運輸",
+    type: "NORMAL",
+    name: "新聞記者(Poison)",
+    spec: {
+      status: { hp: 1965, atk: 630, def: 524, spd: 396 },
+      skill: [
+        {
+          title: "号外型：スクープ・ランス",
+          desc: "自分のATKをあげ、敵1体に特大ダメージを与える。3ターン有効",
+        },
+        {
+          title: "トランスミット・フリューゲル",
+          desc: "味方全員のHPを3ターン回復し続ける。",
+        },
+        {
+          title: "奇襲：夜討ち朝駆けの天つ風",
+          desc: "自分のSPDをあげ、敵1体に特大ダメージを与える。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cofo9x0juf1umj5d2a9urv",
+    rarity: "LEGENDARY",
+    element: "EARTH",
+    image: "/images/amulets/legendary/cl9cofo9x0juf1umj5d2a9urv.webp",
+    info: "巨大な生き物を主とするイラストや風景画を得意とし、アニメ『魔法少女☆俺』全話のエンドカードを担当するなどで知られるイラストレーターもの久保による描き下ろし作品。\n\n獲物を狩る。それは生きていくために必要な事だ。\nだから今日も弾丸を放ち、手にした刃を深紅に染める。\n——尊き命に感謝をしながら。",
+    category: "ギャザラー",
+    type: "NORMAL",
+    name: "猟師(Earth)",
+    spec: {
+      status: { hp: 1935, atk: 635, def: 540, spd: 387 },
+      skill: [
+        { title: "ライフル・テンペスタ", desc: "ランダムな敵に3回ダメージ" },
+        {
+          title: "ジビエ：シュヴルイユ・ヒール",
+          desc: "自分のATKとDEFを上げる。3ターン有効",
+        },
+        { title: "鮮血のハンティングナイフ", desc: "敵1体に特大ダメージ" },
+      ],
+    },
+  },
 ];
