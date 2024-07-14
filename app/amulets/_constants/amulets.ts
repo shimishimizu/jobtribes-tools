@@ -5410,4 +5410,805 @@ export const AMULETS_DATA: Amulet[] = [
       ],
     },
   },
+  {
+    id: "cl9cofoxo0jy31umj8yi4baxp",
+    rarity: "LEGENDARY",
+    element: "WATER",
+    image: "/images/amulets/legendary/cl9cofoxo0jy31umj8yi4baxp.webp",
+    info: "アニメ化や実写化もされた『まいっちんぐマチコ先生』で知られる漫画家えびはら武司による描き下ろし作品。\n\n声を媒介に衝撃波を放つ歌姫。\nその声は人々の心を震わせ感動を与える激励にもなり、あらゆる物質や魔獣を粉砕する武器にもなる。",
+    category: "エンターテイナー",
+    type: "NORMAL",
+    name: "演歌歌手(Water)",
+    spec: {
+      status: { hp: 1950, atk: 620, def: 520, spd: 408 },
+      skill: [
+        {
+          title: "情熱の古謡「レッド・サンシャイン」",
+          desc: "敵1体のDEFを下げ、敵1体に特大ダメージを与える。3ターン有効",
+        },
+        {
+          title: "悲恋の古謡「津軽ウィンター」",
+          desc: "敵1体のATKを下げ、敵1体に特大ダメージを与える。3ターン有効",
+        },
+        { title: "コブシ・テクニック", desc: "バジェットを増やす" },
+      ],
+    },
+  },
+  {
+    id: "cl9coet0g0exc1umj00r21xeu",
+    rarity: "LEGENDARY",
+    element: "THUNDER",
+    image: "/images/amulets/legendary/cl9coet0g0exc1umj00r21xeu.webp",
+    info: "ゲーム『桃太郎電鉄シリーズ』のキャラクターデザイン、作画などで知られる漫画家、イラストレーターの土居孝幸による描き下ろし作品。\n\n旅の出発点、途中、終着点。お客様の旅路を見守り、案内する「駅員」を束ねる彼は、今日もホームから旅人たちが乗る電車を見送る。",
+    category: "情報・運輸",
+    type: "NORMAL",
+    name: "駅長(Thunder)",
+    spec: {
+      status: { hp: 1950, atk: 640, def: 528, spd: 390 },
+      skill: [
+        { title: "ステーション・ルーラー", desc: "敵全員に大ダメージ" },
+        {
+          title: "現場指示：乗客トラブル",
+          desc: "味方全員のATKを上げる。3ターン有効",
+        },
+        {
+          title: "非情の案内「終電」",
+          desc: "敵1体のATKとSPDを下げる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9coff460iep1umj63t6963y",
+    rarity: "LEGENDARY",
+    element: "NATURE",
+    image: "/images/amulets/legendary/cl9coff460iep1umj63t6963y.webp",
+    info: "世界的大ヒットゲームのスピンオフ作品「ドラゴンクエスト列伝」で知られる人気マンガ家藤原カムイによる描き下ろし作品。\n\n「人々の手が色とりどりの実を摘む。それは戦士を奮い立たせる黒き雫や菓子となるのだ」",
+    category: "ギャザラー",
+    type: "NORMAL",
+    name: "カカオ農園主(Nature)",
+    spec: {
+      status: { hp: 1920, atk: 630, def: 544, spd: 390 },
+      skill: [
+        {
+          title: "黒のカカオ・キャノン",
+          desc: "敵1体に特大ダメージをあたえ、自分のDEFをあげる。3ターン有効",
+        },
+        {
+          title: "精製：至高のチョコレート",
+          desc: "味方全員のDEFを上げる。3ターン有効",
+        },
+        {
+          title: "カラフル・カカオマシンガン",
+          desc: "ランダムな敵に3回ダメージ",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9coeu7t0f481umj48k23jrg",
+    rarity: "LEGENDARY",
+    element: "EARTH",
+    image: "/images/amulets/legendary/cl9coeu7t0f481umj48k23jrg.webp",
+    info: "『キャンディ・キャンディ』（原作・水木杏子）『ジョージイ！』（原作・井沢満）『メイミーエンジェル』などで知られるいがらしゆみこによる描き下ろし作品。\n\nいかなる怪我人にも病人にも加護を与えましょう。\nさあ、癒しを求める者はコチラへおいでなさい。",
+    category: "医療",
+    type: "NORMAL",
+    name: "看護師(Earth)",
+    spec: {
+      status: { hp: 1950, atk: 620, def: 520, spd: 408 },
+      skill: [
+        {
+          title: "感知：バイタルサインチェック",
+          desc: "味方全員のHPを3ターン回復し続ける。",
+        },
+        { title: "春霞のレリーヴ・ペイン", desc: "敵1体に特大ダメージ" },
+        {
+          title: "インジェクション・リュミエール",
+          desc: "ランダムな敵に3回ダメージ",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9coeq5g0eh71umjcdb918ly",
+    rarity: "LEGENDARY",
+    element: "FIRE",
+    image: "/images/amulets/legendary/cl9coeq5g0eh71umjcdb918ly.webp",
+    info: "日本のアニメとアメリカンコミックの影響を受けた作風を特徴とし、2020年夏にフランスでのコミック発売が予定されているフランス在住のキャラクターデザイナー、イラストレーター及びコミック作家Ntochaによる描き下ろし作品。\n\n彼らは猛き魂を以ってハンマーを振るい、あらゆる武器を灼熱の焔から生み出す。\n——聖剣でも、魔槍でも。必要とする者がいるならば。",
+    category: "クラフター",
+    type: "NORMAL",
+    name: "鍛冶職人(Fire)",
+    spec: {
+      status: { hp: 1920, atk: 630, def: 544, spd: 390 },
+      skill: [
+        { title: "ヴァルカン・ハンマー", desc: "ランダムな敵に3回ダメージ" },
+        { title: "鍛造：鉄壁の大楯", desc: "敵全員のATKを下げる。3ターン有効" },
+        { title: "業火のトランスファープレス", desc: "敵1体に特大ダメージ" },
+      ],
+    },
+  },
+  {
+    id: "cl9cofzjd0lma1umja6rzhagc",
+    rarity: "LEGENDARY",
+    element: "THUNDER",
+    image: "/images/amulets/legendary/cl9cofzjd0lma1umja6rzhagc.webp",
+    info: "「俺の空」「硬派銀次郎」「サラリーマン金太郎」など多くのヒット作を生み出したレジェンド作家・本宮ひろ志による描き下ろし作品。\n\n暴動の鎮圧などに特化した戦士たる彼らは、高い防御力と戦闘力、機動力を誇る。敵地への突入と防戦においても右に出る者はいない。－ジョブ・ロードと戦争史より－",
+    category: "パブリックサービス",
+    type: "NORMAL",
+    name: "機動隊員(Thunder)",
+    spec: {
+      status: { hp: 1980, atk: 660, def: 512, spd: 384 },
+      skill: [
+        { title: "スパークル・レスキュー", desc: "ランダムな敵に3回ダメージ" },
+        {
+          title: "攻守の大盾・ライオットシールド",
+          desc: "敵のバジェットを3ターン減らし続ける。このアミュレットが破壊されると効果は消える",
+        },
+        { title: "突撃の装甲車", desc: "敵1体に特大ダメージ" },
+      ],
+    },
+  },
+  {
+    id: "cl9cofa6m0hmo1umj3g06hpvm",
+    rarity: "LEGENDARY",
+    element: "NATURE",
+    image: "/images/amulets/legendary/cl9cofa6m0hmo1umj3g06hpvm.webp",
+    info: "温かみのあるレトロSFタッチで大人気のイラストレーター・イトウケイイチロウによる描き下ろし作品。\n\n不思議な噂があった。必ず当たりくじを売ってくれるという女性の話だ。今も探し続けているが、出会えたことはない。",
+    category: "マーチャンダイザー",
+    type: "NORMAL",
+    name: "宝くじ販売員(Nature)",
+    spec: {
+      status: { hp: 1995, atk: 650, def: 508, spd: 390 },
+      skill: [
+        { title: "年末の夢", desc: "敵全員に大ダメージ" },
+        { title: "接客の達人", desc: "敵1体に特大ダメージ" },
+        {
+          title: "ビッグキャリーオーバー",
+          desc: "味方全員のATKを上げる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9coem6n0duj1umj8hg13kxo",
+    rarity: "LEGENDARY",
+    element: "EARTH",
+    image: "/images/amulets/legendary/cl9coem6n0duj1umj8hg13kxo.webp",
+    info: "「ウルトラマン」「ゴジラ」「ガンダム」の画集やプラモデルのパッケージアートで著名なイラストレーター開田裕治による描き下ろし作品。\n\n「彼らがここに来た時は何ができるのか誰もわからなかった。だが、穴を穿つ能力なら都市でも戦場でも引く手数多だ」（エレナ・ルース／アグリールの司祭）",
+    category: "クラフター",
+    type: "NORMAL",
+    name: "シールドマシンオペレーター(Earth)",
+    spec: {
+      status: { hp: 1965, atk: 645, def: 524, spd: 387 },
+      skill: [
+        { title: "進撃のカッターヘッド", desc: "敵全員に大ダメージ" },
+        {
+          title: "ナイン・セグメント",
+          desc: "味方全員のATKを上げる。3ターン有効",
+        },
+        {
+          title: "精密モニターチェック",
+          desc: "味方1体のHP回復。ATKを上げる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9coetx90f2k1umjg23pethp",
+    rarity: "LEGENDARY",
+    element: "POISON",
+    image: "/images/amulets/legendary/cl9coetx90f2k1umjg23pethp.webp",
+    info: "「JobTribes」のゲーム内コミックを手がける新鋭・石島志朗による描き下ろし作品。\n\n殺しは苦手だが、殺さない程度に心と体を壊す方法なら、いくらでも。",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "拷問師(Poison)",
+    spec: {
+      status: { hp: 1980, atk: 645, def: 512, spd: 393 },
+      skill: [
+        {
+          title: "感覚剥奪：ホワイトトーチャー",
+          desc: "敵1体のSPDを下げる。3ターン有効",
+        },
+        { title: "慄然の水責め", desc: "敵1体に特大ダメージ" },
+        {
+          title: "ラフテイクダウン",
+          desc: "召喚時に確率でSPDをあげる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cofpty0k351umjcg287grm",
+    rarity: "LEGENDARY",
+    element: "THUNDER",
+    image: "/images/amulets/legendary/cl9cofpty0k351umjcg287grm.webp",
+    info: "「JobTribes」のゲーム内コミックを手がける新鋭・石島志朗による描き下ろし作品。\n\n強固な防壁も巧妙な電子迷路も、彼の好奇心を満たす玩具に過ぎない。",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "ハッカー(Thunder)",
+    spec: {
+      status: { hp: 1965, atk: 645, def: 516, spd: 393 },
+      skill: [
+        { title: "クラック：標的型攻撃", desc: "敵1体に特大ダメージ" },
+        {
+          title: "電脳遊戯：トロイの木馬",
+          desc: "敵1体のDEFを下げる。3ターン有効",
+        },
+        {
+          title: "ペネトレーションテスト",
+          desc: "召喚時に確率で自分のHPを3ターン回復状態にする",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cof1do0g8s1umj1vppblly",
+    rarity: "LEGENDARY",
+    element: "POISON",
+    image: "/images/amulets/legendary/cl9cof1do0g8s1umj1vppblly.webp",
+    info: "漫画「ドーベルマン刑事」「ブラック・エンジェルズ」で知られる平松伸二による描き下ろし作品。\n\n「ダークワーカトライブスで最も恐れられてるのが奴らだ。元々人を殺すのが仕事なのに、ジョブ・ロードになって強化されてやがる」（チ・ルガール／ドクトールの大臣）\n\n＜中西プロデューサーのオススメ＞\n初期スキルは使いやすい『全体攻撃』\nそれ以外に敵のバジェットを継続的に減らしたり、敵全員のATKを下げる、妨害が得意なジョブ・ロード。\n手持ちのジョブ・ロードやシチュエーションにあわせて『殺し屋』を使いましょう。",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "殺し屋(Poison)",
+    spec: {
+      status: { hp: 1935, atk: 655, def: 516, spd: 393 },
+      skill: [
+        { title: "孤高のヒットマン", desc: "敵全員に大ダメージ" },
+        {
+          title: "深紅：猛毒の美酒",
+          desc: "敵のバジェットを3ターン減らし続ける。このアミュレットが破壊されると効果は消える",
+        },
+        { title: "沈黙：漆黒の拳銃", desc: "敵全員のATKを下げる。3ターン有効" },
+      ],
+    },
+  },
+  {
+    id: "cl9cofbpw0hvg1umj7m6e86q8",
+    rarity: "LEGENDARY",
+    element: "EARTH",
+    image: "/images/amulets/legendary/cl9cofbpw0hvg1umj7m6e86q8.webp",
+    info: "「JobTribes」のゲーム内コミックを手がける新鋭・石島志朗による描き下ろし作品。\n\n人好きされる顔、真実味ある演技力、素早い逃げ足。それがこの仕事の3種の神”技”だ。",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "受け子(Earth)",
+    spec: {
+      status: { hp: 1905, atk: 650, def: 532, spd: 390 },
+      skill: [
+        { title: "リクルーターの誘い", desc: "敵1体に特大ダメージ" },
+        { title: "テレフォントリック", desc: "敵全員に大ダメージ" },
+        {
+          title: "虚構演技：孫",
+          desc: "召喚時に確率でSPDをあげる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9coexr30fo81umj7mwqfwan",
+    rarity: "LEGENDARY",
+    element: "NATURE",
+    image: "/images/amulets/legendary/cl9coexr30fo81umj7mwqfwan.webp",
+    info: "「JobTribes」のゲーム内コミックを手がける新鋭・石島志朗による描き下ろし作品。\n\nちょっとあんたの名義を貸してくれないか？心配ない。あんたも儲かる話だよ。",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "名義貸し(Nature)",
+    spec: {
+      status: { hp: 1935, atk: 655, def: 524, spd: 387 },
+      skill: [
+        { title: "偽りの温情", desc: "敵のバジェットを減らす" },
+        { title: "リスクギフト", desc: "敵1体に特大ダメージ" },
+        {
+          title: "虚偽：ホロウネーム",
+          desc: "召喚時に確率でATKをあげる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cofghd0img1umj7rlbgyz0",
+    rarity: "LEGENDARY",
+    element: "FIRE",
+    image: "/images/amulets/legendary/cl9cofghd0img1umj7rlbgyz0.webp",
+    info: "大ヒットしアニメ化もされたサッカー漫画『エリアの騎士』（原作 伊賀大晃）や『神様の恋人』などで知られる月山可也による書き下ろし作品。\n\n言うまでもなく火薬は兵器として使われるが、彼ら花火師だけは頑としてそれを人々を楽しませるためにだけ使ったという。－ジョブ・ワールド戦史－",
+    category: "クラフター",
+    type: "NORMAL",
+    name: "花火師(Fire)",
+    spec: {
+      status: { hp: 1920, atk: 630, def: 536, spd: 396 },
+      skill: [
+        {
+          title: "開花：八重芯変化菊",
+          desc: "敵1体にダメージを与え、自分のHPを回復する",
+        },
+        { title: "４尺玉の大花・錦冠菊", desc: "ランダムな敵に3回ダメージ" },
+        {
+          title: "百花園：万華鏡の舞",
+          desc: "バジェットを2ターン後に大きく増やす。このアミュレットが破壊されると効果は消える",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9coej7o0ddt1umj8pzk0jgk",
+    rarity: "LEGENDARY",
+    element: "FIRE",
+    image: "/images/amulets/legendary/cl9coej7o0ddt1umj8pzk0jgk.webp",
+    info: "「JobTribes」のゲーム内コミックを手がける新鋭・石島志朗による描き下ろし作品。\n\n国家は優れた者が道を示してこそ機能する。私が民を幸福へと導こう。",
+    category: "パブリックサービス",
+    type: "NORMAL",
+    name: "官僚(Fire)",
+    spec: {
+      status: { hp: 1950, atk: 635, def: 532, spd: 390 },
+      skill: [
+        { title: "リジェクトバレット", desc: "敵1体に特大ダメージ" },
+        { title: "ドミネーションヘイル", desc: "ランダムな敵に3回ダメージ" },
+        {
+          title: "レギュレーションスペル",
+          desc: "召喚時に確率でDEFをあげる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9coep8d0ebx1umj92x66ju8",
+    rarity: "LEGENDARY",
+    element: "WATER",
+    image: "/images/amulets/legendary/cl9coep8d0ebx1umj92x66ju8.webp",
+    info: "「JobTribes」のゲーム内コミックを手がける新鋭・石島志朗による描き下ろし作品。\n\n蛇使いと蛇は聖なる絆で結ばれ、彼の笛は今日も蛇を称えるメロディを紡ぐ。",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "蛇使い(Water)",
+    spec: {
+      status: { hp: 1995, atk: 655, def: 520, spd: 378 },
+      skill: [
+        { title: "葬送曲：毒蛇", desc: "ランダムな敵に3回ダメージ" },
+        { title: "大蛇のヴァルナム", desc: "敵1体に特大ダメージ" },
+        {
+          title: "サーペントアイズ",
+          desc: "召喚時に確率でATKをあげる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cofd9a0i491umj24bd32qz",
+    rarity: "LEGENDARY",
+    element: "THUNDER",
+    image: "/images/amulets/legendary/cl9cofd9a0i491umj24bd32qz.webp",
+    info: "『私立極道高校』で一躍名前をとどろかせ、その後も『激!!極虎一家』『嗚呼!!毘沙門高校』『ボギーTHE GREAT』『魁!!男塾』など多数の人気作で知られる宮下あきらによる書き下ろし作品。\n\n「我々は科学者なのだ。人の体を研究して、最も効率よく力を取り出し、最も効率よく破壊する方法をいつも研究している」",
+    category: "スペシャリスト",
+    type: "NORMAL",
+    name: "中国拳法道場主(Thunder)",
+    spec: {
+      status: { hp: 1920, atk: 670, def: 528, spd: 378 },
+      skill: [
+        { title: "苛烈なる双頭槍演舞", desc: "敵全員に大ダメージ" },
+        { title: "攻防一体：推手の構え", desc: "敵1体に特大ダメージ" },
+        { title: "五行の加護：形意拳の一撃", desc: "敵のバジェットを減らす" },
+      ],
+    },
+  },
+  {
+    id: "cl9cofs3q0kg11umj0x293z11",
+    rarity: "LEGENDARY",
+    element: "NATURE",
+    image: "/images/amulets/legendary/cl9cofs3q0kg11umj0x293z11.webp",
+    info: "彼女の務めは訪れる者に楽しいひと時を与えるだけではない。ある時は悩みを聞き、美酒と共にアドバイスや深い言葉をおくる。それが夜を統べる女王の使命なのだ。\nイラスト：たけみや",
+    category: "エンターテイナー",
+    type: "NORMAL",
+    name: "ホステス(Nature)",
+    spec: {
+      status: { hp: 1890, atk: 640, def: 536, spd: 396 },
+      skill: [
+        { title: "夜の女王の話術", desc: "敵1体に特大ダメージ" },
+        {
+          title: "魅惑のウィスキー（水割り）",
+          desc: "敵全員のDEFを下げる。3ターン有効",
+        },
+        { title: "常夜の楽園", desc: "敵全員に大ダメージ" },
+      ],
+    },
+  },
+  {
+    id: "cl9cof4i30gqj1umj9r0rg3wx",
+    rarity: "LEGENDARY",
+    element: "WATER",
+    image: "/images/amulets/legendary/cl9cof4i30gqj1umj9r0rg3wx.webp",
+    info: "「BEE FREE!」「まじかる☆タルるートくん」「GOLDEN BOY」「東京大学物語」など数多くのヒット漫画で知られる江川達也による書き下ろし作品。\n\nすべての動物は生まれつき泳げる。泳げないのは人間だけ。－ダークワーカトライブのことわざ－",
+    category: "教育",
+    type: "NORMAL",
+    name: "水泳インストラクター(Water)",
+    spec: {
+      status: { hp: 1905, atk: 650, def: 520, spd: 399 },
+      skill: [
+        { title: "女神の高速ストローク", desc: "ランダムな敵に3回ダメージ" },
+        {
+          title: "危険回避の監視術",
+          desc: "味方全員のDEFを上げる。3ターン有効",
+        },
+        {
+          title: "美しいクロールフォーム",
+          desc: "味方1体のHP回復。SPDを上げる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cof2wb0ghc1umj1nrtc1po",
+    rarity: "LEGENDARY",
+    element: "NATURE",
+    image: "/images/amulets/legendary/cl9cof2wb0ghc1umj1nrtc1po.webp",
+    info: "日本でも刊行され、アニメ化もされた人気漫画「ラディアン」で知られるフランスのバンド・デシネ作家トニー・ヴァレントによる書き下ろし作品。\n\n「生命を創造し、彼らの環境、運命すらも決める。元の世界で何をしてたか知らないが、恐ろしい奴らだよ」（名も無き兵士）",
+    category: "クラフター",
+    type: "NORMAL",
+    name: "漫画家(Nature)",
+    spec: {
+      status: { hp: 1890, atk: 670, def: 528, spd: 384 },
+      skill: [
+        {
+          title: "魔法双槍：Gペン＆丸ペンランス",
+          desc: "ランダムな敵に3回ダメージ",
+        },
+        {
+          title: "オノマトペ・カプリティオ",
+          desc: "敵のバジェットを2ターン後に大きく減らす。このアミュレットが破壊されると効果は消える",
+        },
+        { title: "カットバック・ハリケーン", desc: "敵1体に特大ダメージ" },
+      ],
+    },
+  },
+  {
+    id: "cl9cof4ed0gpx1umjh6tves5u",
+    rarity: "LEGENDARY",
+    element: "THUNDER",
+    image: "/images/amulets/legendary/cl9cof4ed0gpx1umjh6tves5u.webp",
+    info: "画集《Bunny Bunny Bang!》で知られ、美少女イラストに定評のある台湾在住イラストレーター蚩尤による描き下ろし作品。\n\n「手早いカロリーとカフェイン補給。ブームが去っても彼女達が戦場からいなくなることはないだろう」（ライト・マイルズ／オートの軍師）",
+    category: "マーチャンダイザー",
+    type: "NORMAL",
+    name: "タピオカミルクティーショップ店員(Thunder)",
+    spec: {
+      status: { hp: 1980, atk: 655, def: 516, spd: 384 },
+      skill: [
+        {
+          title: "魅惑の呪文「タピる」",
+          desc: "敵全員のDEFを下げる。3ターン有効",
+        },
+        { title: "タピオカ・ガトリング砲", desc: "敵全員に大ダメージ" },
+        { title: "スマイル・トッピング", desc: "敵1体に特大ダメージ" },
+      ],
+    },
+  },
+  {
+    id: "cl9cof2v30gh51umj64f63hi6",
+    rarity: "LEGENDARY",
+    element: "EARTH",
+    image: "/images/amulets/legendary/cl9cof2v30gh51umj64f63hi6.webp",
+    info: "テレビアニメ化もされた世界的大ヒット作品「FAIRY TAIL」で知られる真島ヒロによる書き下ろし作品。\n\n当初彼ら人々の治療に役立った。だが、戦乱の世になると軍医になり、そしていつか兵器となった。－ジョブ・ワールド戦史－",
+    category: "医療",
+    type: "NORMAL",
+    name: "外科医(Earth)",
+    spec: {
+      status: { hp: 1950, atk: 635, def: 520, spd: 399 },
+      skill: [
+        {
+          title: "神速のオペラチオンソード",
+          desc: "敵1体にダメージを与え、自分のHPを回復する",
+        },
+        {
+          title: "紅の執刀：ブラッディ・セリオン",
+          desc: "ランダムな敵に3回ダメージ",
+        },
+        { title: "ベハンドルング・ブリーズ", desc: "味方全員のHP回復" },
+      ],
+    },
+  },
+  {
+    id: "cl9cof8x60hfk1umj4r2uf4fe",
+    rarity: "LEGENDARY",
+    element: "WATER",
+    image: "/images/amulets/legendary/cl9cof8x60hfk1umj4r2uf4fe.webp",
+    info: "漫画『マリーグレイブ』、『アトランティド』などで知られる山地ひでのりによる書き下ろし作品。\n\n「よく言うだろ？　タネがわからない手品は魔法と変わらないってことさ」",
+    category: "エンターテイナー",
+    type: "NORMAL",
+    name: "マジシャン(Water)",
+    spec: {
+      status: { hp: 1935, atk: 660, def: 524, spd: 384 },
+      skill: [
+        { title: "幻惑の乱舞トランプマジック", desc: "敵全員に大ダメージ" },
+        {
+          title: "華麗なるイリュージョンマジック",
+          desc: "敵1体に特大ダメージ",
+        },
+        {
+          title: "透視魔術：マインドハック",
+          desc: "敵1体のDEFを下げる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cofk560j751umj1bm51ynx",
+    rarity: "LEGENDARY",
+    element: "FIRE",
+    image: "/images/amulets/legendary/cl9cofk560j751umj1bm51ynx.webp",
+    info: "大人気アニメ「ジョジョの奇妙な冒険 ダイヤモンドは砕けない」のキャラクターデザインを手掛けた西位輝実による描き下ろし作品。\n\n「神は土をこね、竈で焼くことで人間を造り出したという。我らがのはその神の技よ」",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "陶芸家(Fire)",
+    spec: {
+      status: { hp: 1950, atk: 650, def: 508, spd: 399 },
+      skill: [
+        { title: "透かし彫りの舞", desc: "敵1体に特大ダメージ" },
+        { title: "満開：桜花文様", desc: "味方全員のDEFを上げる。3ターン有効" },
+        {
+          title: "浄化：高速ろくろストリーム",
+          desc: "ランダムな敵に3回ダメージ",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cog0sc0ltd1umj7cas21u1",
+    rarity: "LEGENDARY",
+    element: "POISON",
+    image: "/images/amulets/legendary/cl9cog0sc0ltd1umj7cas21u1.webp",
+    info: "金融世界の中心でもあり、多くの人が初めて触れ合う金融業者だ。\nイラスト：ab",
+    category: "金融・不動産",
+    type: "NORMAL",
+    name: "銀行業界人(Poison)",
+    spec: {
+      status: { hp: 1950, atk: 665, def: 508, spd: 390 },
+      skill: [
+        { title: "嘘も真実も言わない", desc: "敵のバジェットを減らす" },
+        { title: "ボリンジャーバンド", desc: "敵全員に大ダメージ" },
+        {
+          title: "アセットスワップ",
+          desc: "バジェットを3ターン増やし続ける。このアミュレットが破壊されると効果は消える",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cof3ky0gl91umj4s7r1zjn",
+    rarity: "LEGENDARY",
+    element: "THUNDER",
+    image: "/images/amulets/legendary/cl9cof3ky0gl91umj4s7r1zjn.webp",
+    info: "金融世界の中心でもあり、多くの人が初めて触れ合う金融業者だ。\nイラスト：ab",
+    category: "金融・不動産",
+    type: "NORMAL",
+    name: "銀行業界人(Thunder)",
+    spec: {
+      status: { hp: 1950, atk: 665, def: 508, spd: 390 },
+      skill: [
+        { title: "嘘も真実も言わない", desc: "敵のバジェットを減らす" },
+        { title: "ボリンジャーバンド", desc: "敵全員に大ダメージ" },
+        {
+          title: "アセットスワップ",
+          desc: "バジェットを3ターン増やし続ける。このアミュレットが破壊されると効果は消える",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9coftbe0kmx1umjcokjfxhx",
+    rarity: "LEGENDARY",
+    element: "NATURE",
+    image: "/images/amulets/legendary/cl9coftbe0kmx1umjcokjfxhx.webp",
+    info: "金融世界の中心でもあり、多くの人が初めて触れ合う金融業者だ。\nイラスト：ab",
+    category: "金融・不動産",
+    type: "NORMAL",
+    name: "銀行業界人(Nature)",
+    spec: {
+      status: { hp: 1950, atk: 665, def: 508, spd: 390 },
+      skill: [
+        { title: "嘘も真実も言わない", desc: "敵のバジェットを減らす" },
+        { title: "ボリンジャーバンド", desc: "敵全員に大ダメージ" },
+        {
+          title: "アセットスワップ",
+          desc: "バジェットを3ターン増やし続ける。このアミュレットが破壊されると効果は消える",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cof9v00hku1umjdq758xfm",
+    rarity: "LEGENDARY",
+    element: "EARTH",
+    image: "/images/amulets/legendary/cl9cof9v00hku1umjdq758xfm.webp",
+    info: "彼らは裁く。善悪ではなく、ルールの守り手たるかを。\nイラスト：色合mdd",
+    category: "パブリックサービス",
+    type: "NORMAL",
+    name: "裁判官(Earth)",
+    spec: {
+      status: { hp: 1995, atk: 650, def: 520, spd: 381 },
+      skill: [
+        { title: "苦渋の決断", desc: "敵全員のATKを下げる。3ターン有効" },
+        {
+          title: "司法権の独立",
+          desc: "敵1体に特大ダメージを与え、自分のHPを回復する",
+        },
+        { title: "判決のガベル", desc: "敵1体に特大ダメージ" },
+      ],
+    },
+  },
+  {
+    id: "cl9cof9bk0hht1umjhe4vfw50",
+    rarity: "LEGENDARY",
+    element: "FIRE",
+    image: "/images/amulets/legendary/cl9cof9bk0hht1umjhe4vfw50.webp",
+    info: "彼らは裁く。善悪ではなく、ルールの守り手たるかを。\nイラスト：色合mdd",
+    category: "パブリックサービス",
+    type: "NORMAL",
+    name: "裁判官(Fire)",
+    spec: {
+      status: { hp: 1995, atk: 650, def: 520, spd: 381 },
+      skill: [
+        { title: "苦渋の決断", desc: "敵全員のATKを下げる。3ターン有効" },
+        {
+          title: "司法権の独立",
+          desc: "敵1体に特大ダメージを与え、自分のHPを回復する",
+        },
+        { title: "判決のガベル", desc: "敵1体に特大ダメージ" },
+      ],
+    },
+  },
+  {
+    id: "cl9cofm1n0jhz1umjdf6uhz0f",
+    rarity: "LEGENDARY",
+    element: "THUNDER",
+    image: "/images/amulets/legendary/cl9cofm1n0jhz1umjdf6uhz0f.webp",
+    info: "眼は心の窓。彼らは心の一部を治すのだ。\nイラスト：色合mdd",
+    category: "医療",
+    type: "NORMAL",
+    name: "眼科医(Thunder)",
+    spec: {
+      status: { hp: 1935, atk: 645, def: 524, spd: 393 },
+      skill: [
+        { title: "入念な診察", desc: "味方全員のHP回復" },
+        { title: "リレックススマイル", desc: "バジェットを増やす" },
+        {
+          title: "スペキュラーマイクロスコープ",
+          desc: "敵1体にダメージを与え、自分のHPを回復する",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cofvv80l1e1umj2ws180mg",
+    rarity: "LEGENDARY",
+    element: "NATURE",
+    image: "/images/amulets/legendary/cl9cofvv80l1e1umj2ws180mg.webp",
+    info: "眼は心の窓。彼らは心の一部を治すのだ。\nイラスト：色合mdd",
+    category: "医療",
+    type: "NORMAL",
+    name: "眼科医(Nature)",
+    spec: {
+      status: { hp: 1935, atk: 645, def: 524, spd: 393 },
+      skill: [
+        { title: "入念な診察", desc: "味方全員のHP回復" },
+        { title: "リレックススマイル", desc: "バジェットを増やす" },
+        {
+          title: "スペキュラーマイクロスコープ",
+          desc: "敵1体にダメージを与え、自分のHPを回復する",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cof7u00h9d1umj2cj032ur",
+    rarity: "LEGENDARY",
+    element: "WATER",
+    image: "/images/amulets/legendary/cl9cof7u00h9d1umj2cj032ur.webp",
+    info: "眼は心の窓。彼らは心の一部を治すのだ。\nイラスト：色合mdd",
+    category: "医療",
+    type: "NORMAL",
+    name: "眼科医(Water)",
+    spec: {
+      status: { hp: 1935, atk: 645, def: 524, spd: 393 },
+      skill: [
+        { title: "入念な診察", desc: "味方全員のHP回復" },
+        { title: "リレックススマイル", desc: "バジェットを増やす" },
+        {
+          title: "スペキュラーマイクロスコープ",
+          desc: "敵1体にダメージを与え、自分のHPを回復する",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cofjjv0j3s1umj6kjq1knl",
+    rarity: "LEGENDARY",
+    element: "THUNDER",
+    image: "/images/amulets/legendary/cl9cofjjv0j3s1umj6kjq1knl.webp",
+    info: "複雑に絡み合うデータ群に許可なく触れられないデータを刻む。",
+    category: "情報・運輸",
+    type: "NORMAL",
+    name: "ブロックチェーンエンジニア(Thunder)",
+    spec: {
+      status: { hp: 1965, atk: 655, def: 516, spd: 387 },
+      skill: [
+        {
+          title: "束縛の鎖マルチシグ",
+          desc: "敵全員のSPDを下げる。3ターン有効",
+        },
+        { title: "マイニングアサルト", desc: "敵1体に特大ダメージ" },
+        {
+          title: "絶対的公正の鎖ブロックチェーン",
+          desc: "敵1体に特大ダメージ",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cofkvn0jbd1umj17dhezov",
+    rarity: "LEGENDARY",
+    element: "NATURE",
+    image: "/images/amulets/legendary/cl9cofkvn0jbd1umj17dhezov.webp",
+    info: "複雑に絡み合うデータ群に許可なく触れられないデータを刻む。",
+    category: "情報・運輸",
+    type: "NORMAL",
+    name: "ブロックチェーンエンジニア(Nature)",
+    spec: {
+      status: { hp: 1965, atk: 655, def: 516, spd: 387 },
+      skill: [
+        {
+          title: "束縛の鎖マルチシグ",
+          desc: "敵全員のSPDを下げる。3ターン有効",
+        },
+        { title: "マイニングアサルト", desc: "敵1体に特大ダメージ" },
+        {
+          title: "絶対的公正の鎖ブロックチェーン",
+          desc: "敵1体に特大ダメージ",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cofjm50j451umjep6t3klk",
+    rarity: "LEGENDARY",
+    element: "WATER",
+    image: "/images/amulets/legendary/cl9cofjm50j451umjep6t3klk.webp",
+    info: "複雑に絡み合うデータ群に許可なく触れられないデータを刻む。",
+    category: "情報・運輸",
+    type: "NORMAL",
+    name: "ブロックチェーンエンジニア(Water)",
+    spec: {
+      status: { hp: 1965, atk: 655, def: 516, spd: 387 },
+      skill: [
+        {
+          title: "束縛の鎖マルチシグ",
+          desc: "敵全員のSPDを下げる。3ターン有効",
+        },
+        { title: "マイニングアサルト", desc: "敵1体に特大ダメージ" },
+        {
+          title: "絶対的公正の鎖ブロックチェーン",
+          desc: "敵1体に特大ダメージ",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cof6bt0h0v1umjhbombgr4",
+    rarity: "LEGENDARY",
+    element: "FIRE",
+    image: "/images/amulets/legendary/cl9cof6bt0h0v1umjhbombgr4.webp",
+    info: "複雑に絡み合うデータ群に許可なく触れられないデータを刻む。",
+    category: "情報・運輸",
+    type: "NORMAL",
+    name: "ブロックチェーンエンジニア(Fire)",
+    spec: {
+      status: { hp: 1965, atk: 655, def: 516, spd: 387 },
+      skill: [
+        {
+          title: "束縛の鎖マルチシグ",
+          desc: "敵全員のSPDを下げる。3ターン有効",
+        },
+        { title: "マイニングアサルト", desc: "敵1体に特大ダメージ" },
+        {
+          title: "絶対的公正の鎖ブロックチェーン",
+          desc: "敵1体に特大ダメージ",
+        },
+      ],
+    },
+  },
 ];
