@@ -5,11 +5,6 @@ import Analytics from "@/components/GoogleAnalytics";
 
 const NotoSansJP = Noto_Sans_JP({ subsets: ["latin"] });
 
-// export const metadata: Metadata = {
-//   title: "JobTribes Tools",
-//   // description: "JobTriblesのツール",
-// };
-
 export const metadata: Metadata = {
   title: {
     template: "%s | JobTribes Tools",
