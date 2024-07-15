@@ -11,12 +11,9 @@ type Props = {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { id } = params;
-  console.log(id);
   const amulet = AMULETS_DATA.filter((amulet) => amulet.id === id);
-
   return {
     title: amulet[0].name,
-    // description: post.description,
   };
 }
 
