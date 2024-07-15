@@ -1,5 +1,11 @@
 export const TermsData = [
   {
+    title: "アクセス解析について",
+    descriptionList: [
+      `本サイトでは、Googleによるアクセス解析ツール「Googleアナリティクス」を使用しています。このGoogleアナリティクスはデータの収集のためにCookieを使用しています。このデータは匿名で収集されており、個人を特定するものではありません。この機能はCookieを無効にすることで収集を拒否することが出来ますので、お使いのブラウザの設定をご確認ください。この規約に関しての詳細は<a href="https://marketingplatform.google.com/about/analytics/terms/jp/" target="_blank" rel="noopener noreferrer" class="underline">Googleアナリティクスサービス利用規約のページ</a>や<a href="https://policies.google.com/technologies/ads?hl=ja" target="_blank" rel="noopener noreferrer" class="underline">Googleポリシーと規約ページ</a>をご覧ください。`,
+    ],
+  },
+  {
     title: "著作権等について",
     descriptionList: [
       "本サイトに掲載された全ての内容に関する権利は、本サイト運営者又は原著作者その他権利者が有します。著作権法その他法律で認められた利用範囲を超えての利用は一切できません。",
