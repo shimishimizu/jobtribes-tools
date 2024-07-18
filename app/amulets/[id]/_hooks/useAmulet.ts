@@ -5,7 +5,7 @@ import {
   statusIncreasePerLevel,
   statusIncreasePerNFT,
 } from "../../_constants/status";
-import { AMULETS_DATA as data } from "../../_constants/amulets";
+import { amuletsData as data } from "../../_constants/amulets";
 import { Amulet } from "../../_types/types";
 import { categoryIcon, rarityIcon, typeIcon } from "../../_constants/Icon";
 

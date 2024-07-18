@@ -2,7 +2,7 @@ import React from "react";
 import Header from "@/components/Header";
 import AmuletDetail from "./_components/AmuletDetail";
 import { Metadata } from "next";
-import { AMULETS_DATA } from "../_constants/amulets";
+import { amuletsData as data } from "../_constants/amulets";
 // import { getAllAmulets } from "@/utils/supabaseFunctions";
 
 type Props = {
@@ -11,7 +11,7 @@ type Props = {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { id } = params;
-  const amulet = AMULETS_DATA.filter((amulet) => amulet.id === id);
+  const amulet = data.filter((amulet) => amulet.id === id);
   return {
     title: amulet[0].name,
   };
