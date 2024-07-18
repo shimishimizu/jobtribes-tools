@@ -48,6 +48,7 @@ export const columns: ColumnDef<Amulet>[] = [
         />
       );
     },
+    enableGlobalFilter: false,
   },
   {
     accessorKey: "name",
@@ -88,6 +89,7 @@ export const columns: ColumnDef<Amulet>[] = [
         <p className="text-center">{rarity}</p>
       );
     },
+    enableGlobalFilter: false,
   },
   {
     accessorKey: "element",
@@ -111,6 +113,7 @@ export const columns: ColumnDef<Amulet>[] = [
         <p className="text-center">{element}</p>
       );
     },
+    enableGlobalFilter: false,
   },
   {
     accessorKey: "type",
@@ -134,6 +137,7 @@ export const columns: ColumnDef<Amulet>[] = [
         <p className="text-center">{type}</p>
       );
     },
+    enableGlobalFilter: false,
   },
   {
     accessorKey: "category",
@@ -158,6 +162,7 @@ export const columns: ColumnDef<Amulet>[] = [
         <p className="text-center">{category}</p>
       );
     },
+    enableGlobalFilter: false,
   },
   {
     accessorKey: "spec.status.hp",
@@ -179,6 +184,7 @@ export const columns: ColumnDef<Amulet>[] = [
       const hp: string = row.getValue("spec_status.hp");
       return <p className="text-center">{hp}</p>;
     },
+    enableGlobalFilter: false,
   },
   {
     accessorKey: "spec.status.atk",
@@ -200,6 +206,7 @@ export const columns: ColumnDef<Amulet>[] = [
       const atk: string = row.getValue("spec_status.atk");
       return <p className="text-center">{atk}</p>;
     },
+    enableGlobalFilter: false,
   },
   {
     accessorKey: "spec.status.def",
@@ -221,6 +228,7 @@ export const columns: ColumnDef<Amulet>[] = [
       const def: string = row.getValue("spec_status.def");
       return <p className="text-center">{def}</p>;
     },
+    enableGlobalFilter: false,
   },
   {
     accessorKey: "spec.status.spd",
@@ -243,6 +251,7 @@ export const columns: ColumnDef<Amulet>[] = [
       const spd: string = row.getValue("spec_status.spd");
       return <p className="text-center">{spd}</p>;
     },
+    enableGlobalFilter: false,
   },
   {
     accessorKey: "id",
@@ -256,6 +265,16 @@ export const columns: ColumnDef<Amulet>[] = [
           </Link>
         </Button>
       );
+    },
+    enableGlobalFilter: false,
+  },
+  {
+    accessorKey: "spec.skill",
+    header: "SKILL",
+    accessorFn: ({ spec }) => {
+      return spec.skill
+        .map((skill, index) => `${index + 1 + "：" + skill.desc}`)
+        .join("");
     },
   },
 ];

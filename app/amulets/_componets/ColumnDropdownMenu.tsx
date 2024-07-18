@@ -27,6 +27,9 @@ const ColumnDropdownMenu = ({ table, changeDisplayValue }: Props) => {
         {table
           .getAllColumns()
           .filter((column: any) => column.getCanHide())
+          .filter(
+            (column: any) => column.id !== "spec_skill" && column.id !== "id",
+          )
           .map((column: any) => {
             return (
               <DropdownMenuCheckboxItem
