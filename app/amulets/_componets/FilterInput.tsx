@@ -10,11 +10,9 @@ type Props = {
 const FilterInput = ({ table }: Props) => {
   return (
     <Input
-      placeholder="アミュレット名で絞り込む ..."
-      value={(table.getColumn("name")?.getFilterValue() as string) ?? ""}
-      onChange={(event) =>
-        table.getColumn("name")?.setFilterValue(event.target.value)
-      }
+      placeholder="名前、スキル詳細で絞り込む ..."
+      value={(table.getState().globalFilter as string) ?? ""}
+      onChange={(event) => table.setGlobalFilter(event.target.value)}
       className="max-w-xl"
     />
   );

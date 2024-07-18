@@ -10,17 +10,18 @@ import {
   getSortedRowModel,
   getPaginationRowModel,
   useReactTable,
+  GlobalFilterTableState,
 } from "@tanstack/react-table";
 
 export const useAmuletsTable = () => {
   const [sorting, setSorting] = useState<SortingState>([]);
   const [columnFilters, setColumnFilters] = useState<ColumnFiltersState>([]);
+  const [globalFilter, setGlobalFilter] = useState("");
   const [columnVisibility, setColumnVisibility] = useState<VisibilityState>({
-    // rarity: false, // デフォルトで非表示
-    element: false,
+    element: false, // デフォルトで非表示
     type: false,
-    // category: false,
     id: false,
+    spec_skill: false,
   });
   const table = useReactTable({
     data,
@@ -30,11 +31,13 @@ export const useAmuletsTable = () => {
     onSortingChange: setSorting,
     getSortedRowModel: getSortedRowModel(),
     onColumnFiltersChange: setColumnFilters,
+    onGlobalFilterChange: setGlobalFilter,
     getFilteredRowModel: getFilteredRowModel(),
     onColumnVisibilityChange: setColumnVisibility,
     state: {
       sorting,
       columnFilters,
+      globalFilter,
       columnVisibility,
     },
     initialState: {
