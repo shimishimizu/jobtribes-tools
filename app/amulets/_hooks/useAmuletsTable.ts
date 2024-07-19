@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { columns } from "../_componets/TableColumn";
-import { AMULETS_DATA as data } from "../_constants/amulets";
+import { amuletsData as data } from "../_constants/amulets";
 import {
   ColumnFiltersState,
   SortingState,

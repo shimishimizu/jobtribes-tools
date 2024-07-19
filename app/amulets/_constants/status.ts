@@ -48,6 +48,54 @@ export const statusIncreasePerLevel = [
     def: 25,
     spd: 20,
   },
+  {
+    rarity: "EPIC",
+    element: "FIRE",
+    hp: 83,
+    atk: 29,
+    def: 22,
+    spd: 16,
+  },
+  {
+    rarity: "EPIC",
+    element: "WATER",
+    hp: 80,
+    atk: 28,
+    def: 23,
+    spd: 17,
+  },
+  {
+    rarity: "EPIC",
+    element: "NATURE",
+    hp: 83,
+    atk: 27,
+    def: 22,
+    spd: 18,
+  },
+  {
+    rarity: "EPIC",
+    element: "EARTH",
+    hp: 86,
+    atk: 29,
+    def: 21,
+    spd: 16,
+  },
+  {
+    rarity: "EPIC",
+    element: "POISON",
+    hp: 80,
+    atk: 27,
+    def: 23,
+    spd: 18,
+  },
+  {
+    rarity: "EPIC",
+    element: "THUNDER",
+    hp: 86,
+    atk: 28,
+    def: 21,
+    spd: 17,
+  },
 ];
 
 // アナザーの追加ステータス（1レベルごとのステータス上昇値に加算する）
@@ -66,14 +114,6 @@ export const statusIncreasePerNFT = [
     def: 260,
     spd: 200,
   },
-  // { @todo: 旧レジェへの対応
-  //   rarity: "LEGENDARY",
-  //   a: 'old',
-  //   hp: 75?,
-  //   atk:
-  //   def:
-  //   spd:
-  // },
   {
     rarity: "EPIC",
     hp: 581,
