@@ -1366,4 +1366,1213 @@ export const epicAmulets: Amulet[] = [
       ],
     },
   },
+  {
+    id: "cld8awo37269208l5nc2ppuvj",
+    rarity: "EPIC",
+    element: "NATURE",
+    image: "/images/amulets/epic/cld8awo37269208l5nc2ppuvj.webp",
+    info: "競走馬のケアに心血を注ぐ者たち。\n馬のコンディションを見抜き、\n飴と鞭を駆使して最高の状態に整える。\nイラスト：モ太朗",
+    category: "エンターテイナー",
+    type: "NORMAL",
+    name: "競馬調教師(Nature)",
+    spec: {
+      status: { hp: 1620, atk: 540, def: 448, spd: 336 },
+      skill: [
+        { title: "人馬一体の極意", desc: "味方全員のHP回復" },
+        {
+          title: "競走馬への昇華",
+          desc: "味方全員のATKとSPDを上げる。3ターン有効",
+        },
+        {
+          title: "コンセントレイト・ブリンカー",
+          desc: "召喚時に確率でSPDをあげる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cld8arrtb201108l597i41qn1",
+    rarity: "EPIC",
+    element: "FIRE",
+    image: "/images/amulets/epic/cld8arrtb201108l597i41qn1.webp",
+    info: "禁断の果実を守る者。\n寒さに負けない鋼の忍耐力を持つクールビューティ。\n非常に働き者だが暑さには弱い。\nイラスト：モ太朗",
+    category: "ギャザラー",
+    type: "NORMAL",
+    name: "リンゴ農家(Fire)",
+    spec: {
+      status: { hp: 1650, atk: 535, def: 452, spd: 330 },
+      skill: [
+        {
+          title: "召喚獣：りんごウサギ",
+          desc: "敵1体に特大ダメージをあたえ、SPDを下げる。3ターン有効",
+        },
+        {
+          title: "りんごの皮ウィップ",
+          desc: "敵1体に特大ダメージをあたえ、DEFを下げる。3ターン有効",
+        },
+        {
+          title: "アップルフェノンの癒し",
+          desc: "バジェットを3ターン増やし続ける。このアミュレットが破壊されると効果は消える",
+        },
+      ],
+    },
+  },
+  {
+    id: "clc085hcv051008lc8jllm6vf",
+    rarity: "EPIC",
+    element: "WATER",
+    image: "/images/amulets/epic/clc085hcv051008lc8jllm6vf.webp",
+    info: "麵屋 ドラゴンラーメンのラン・レイリンとJobTribesのラーメン店店長とのタッグアミュレット\n\n美味しいラーメンを作る為、いまは店長秘伝 ドラゴン湯切りの習得中。\n店長「そう、肘から先の力を抜き、腕と麺の同化を意識して振るんだ！」\nレイリン「これがドラゴン湯切り....！！」",
+    category: "サービス",
+    type: "NORMAL",
+    name: "ラン・レイリン ＆ ラーメン店店長(Water)",
+    spec: {
+      status: { hp: 1590, atk: 545, def: 436, spd: 348 },
+      skill: [
+        {
+          title: "タッグ・ザ・ラーメン",
+          desc: "味方1体をカウンター状態にする。1度だけ受けたダメージを増大して攻撃した相手に与える。",
+        },
+        { title: "秘伝：ドラゴン湯切り", desc: "敵1体に特大ダメージ" },
+        {
+          title: "特選：愛情ましましトッピング",
+          desc: "味方1体のHP回復。SPDを上げる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "clc07u0ts432008lceao63scm",
+    rarity: "EPIC",
+    element: "FIRE",
+    image: "/images/amulets/epic/clc07u0ts432008lceao63scm.webp",
+    info: "麵屋 ドラゴンラーメンのジャク・ロンとJobTribesの古代中国の将軍とのタッグアミュレット\n\nロン「JobTribesの世界にはどんな珍しい食材があるのか、ワクワクするぜ」\n古代中国の将軍「よし、食材探索に向けていざ進軍！」",
+    category: "スペシャリスト",
+    type: "NORMAL",
+    name: "ジャク・ロン ＆ 古代中国の将軍(Fire)",
+    spec: {
+      status: { hp: 1605, atk: 560, def: 436, spd: 336 },
+      skill: [
+        { title: "タッグ・ザ・ハンティング", desc: "敵1体に特大ダメージ" },
+        {
+          title: "忠義の食材探索",
+          desc: "召喚時に100％の確率でDEFとSPDを大幅に上げる。1ターン有効",
+        },
+        { title: "天下無双の二連斬", desc: "2回攻撃する。" },
+      ],
+    },
+  },
+  {
+    id: "clc07ik2v961309l5r3swxylz",
+    rarity: "EPIC",
+    element: "POISON",
+    image: "/images/amulets/epic/clc07ik2v961309l5r3swxylz.webp",
+    info: "SOUL FusersのDRAGNARISEとJobTribesのキャバクラ嬢とのタッグアミュレット\n\n業炎を纏う者と妖美に舞う者。\n圧倒的な存在感を放つ二人は注目を集めながらも、どこか近寄りがたい雰囲気を醸し出す。",
+    category: "エンターテイナー",
+    type: "NORMAL",
+    name: "DRAGNARISE ＆ キャバクラ嬢(Poison)",
+    spec: {
+      status: { hp: 1575, atk: 550, def: 432, spd: 351 },
+      skill: [
+        { title: "タッグ・ザ・プレッシャー", desc: "敵全員に大ダメージ" },
+        {
+          title: "業炎へ誘うコール",
+          desc: "敵全員を毎ターン終了時、ダメージを受ける状態にする。3ターン有効",
+        },
+        {
+          title: "ドラゴニックチャージ",
+          desc: "敵のバジェットを減らし、自分のバジェットを増やす。",
+        },
+      ],
+    },
+  },
+  {
+    id: "clc077phj846009l5nm6115v3",
+    rarity: "EPIC",
+    element: "THUNDER",
+    image: "/images/amulets/epic/clc077phj846009l5nm6115v3.webp",
+    info: "SOUL FusersのIGNILORDとJobTribesのカニ漁師とのタッグアミュレット\n\n灼熱と形容されるIGNILORDのオーラは漁で冷えたカニ漁師の体を温める。",
+    category: "ギャザラー",
+    type: "NORMAL",
+    name: "IGNILORD ＆ カニ漁師(Thunder)",
+    spec: {
+      status: { hp: 1650, atk: 585, def: 440, spd: 309 },
+      skill: [
+        { title: "タッグ・ザ・パッション", desc: "ランダムな敵に3回ダメージ" },
+        {
+          title: "気合の雄たけび",
+          desc: "召喚時に確率でATKを上げる。3ターン有効",
+        },
+        { title: "カニボルケーノ！", desc: "敵1体に特大ダメージ" },
+      ],
+    },
+  },
+  {
+    id: "clc06tuy6642809l5vmbwwbta",
+    rarity: "EPIC",
+    element: "EARTH",
+    image: "/images/amulets/epic/clc06tuy6642809l5vmbwwbta.webp",
+    info: "SOUL FusersのIGNITTOとJobTribesのゲームプロデューサーとのタッグアミュレット\n\nJobTribesに来たIGNITTOは気の合うお友達を見つけたようだ。",
+    category: "情報・運輸",
+    type: "NORMAL",
+    name: "IGNITTO & ゲームプロデューサー(Earth)",
+    spec: {
+      status: { hp: 1770, atk: 535, def: 436, spd: 318 },
+      skill: [
+        {
+          title: "タッグ・ザ・フレンドリー",
+          desc: "召喚時に確率で自分をカウンター状態にする。1度だけ受けるダメージを半減し、受けたダメージを攻撃した相手に与える。",
+        },
+        {
+          title: "トレーニング・スケジュール",
+          desc: "味方全員のDEFとSPDを上げる。3ターン有効",
+        },
+        {
+          title: "これで私たちお友達ね！",
+          desc: "敵1体にダメージを与え、自分のHPを回復する",
+        },
+      ],
+    },
+  },
+  {
+    id: "clbomwm33480708lauo5pgxkt",
+    rarity: "EPIC",
+    element: "NATURE",
+    image: "/images/amulets/epic/clbomwm33480708lauo5pgxkt.webp",
+    info: "幼い頃からドローン操作に中毒的だったため、現在は自分の手足のように操作ができるように。\n働き者であるが故に、仕事の成功のためにはドローンを使い捨てる事もいとわない。",
+    category: "スペシャリスト",
+    type: "NORMAL",
+    name: "ドローン操縦士(Nature)",
+    spec: {
+      status: { hp: 1725, atk: 525, def: 440, spd: 330 },
+      skill: [
+        {
+          title: "かく乱ドローン",
+          desc: "敵1体に特大ダメージを与え、SPDを下げる。3ターン有効",
+        },
+        { title: "偵察ドローン", desc: "敵全員のDEFを下げる。3ターン有効" },
+        { title: "強襲ドローン", desc: "敵全員に大ダメージ" },
+      ],
+    },
+  },
+  {
+    id: "clajh1kwm307008i6pa7swvi5",
+    rarity: "EPIC",
+    element: "NATURE",
+    image: "/images/amulets/epic/clajh1kwm307008i6pa7swvi5.webp",
+    info: "身にまとう香りで美を演出し、放つアロマで回復も攻撃もこなす。人呼んで芳香の魔術師とは彼女の事である。\nイラスト：大滝ノスケ",
+    category: "サービス",
+    type: "NORMAL",
+    name: "アロマセラピスト(Nature)",
+    spec: {
+      status: { hp: 1650, atk: 550, def: 448, spd: 324 },
+      skill: [
+        {
+          title: "ラベンサラ防壁",
+          desc: "味方1体にバリアをはる。攻撃されても2ターンダメージを受けない。",
+        },
+        {
+          title: "鎮静のティーローズ",
+          desc: "敵全員のDEFを下げる。3ターン有効",
+        },
+        { title: "美獣のムスク", desc: "敵1体に特大ダメージ" },
+      ],
+    },
+  },
+  {
+    id: "clajgt766270008i65bmqomct",
+    rarity: "EPIC",
+    element: "WATER",
+    image: "/images/amulets/epic/clajgt766270008i65bmqomct.webp",
+    info: "天より降り来るもの、目前に横たわるもの、自らの内より湧き上がるもの……。描くモチーフは様々なれど、見るものに影響を与えることを使命とする職である。",
+    category: "スペシャリスト",
+    type: "NORMAL",
+    name: "画家(Water)",
+    spec: {
+      status: { hp: 1695, atk: 535, def: 456, spd: 318 },
+      skill: [
+        {
+          title: "美の女神の囁き",
+          desc: "味方1体にバリアをはる。攻撃されても1回ダメージを受けない。さらに味方1体のATKを上げる。3ターン有効。",
+        },
+        { title: "魂の慟哭", desc: "敵全員のDEFとSPDを下げる。3ターン有効" },
+        { title: "パトロンとの出会い", desc: "バジェットを増やす" },
+      ],
+    },
+  },
+  {
+    id: "clajgi6kg197408i6xwzpjiip",
+    rarity: "EPIC",
+    element: "FIRE",
+    image: "/images/amulets/epic/clajgi6kg197408i6xwzpjiip.webp",
+    info: "花のように摘んで、花のように切りそろえ、花のように飾ってあげましょう。あなたも。\nイラスト：沼黒",
+    category: "スペシャリスト",
+    type: "NORMAL",
+    name: "フラワーデザイナー(Fire)",
+    spec: {
+      status: { hp: 1695, atk: 565, def: 424, spd: 324 },
+      skill: [
+        { title: "フラワリング・ウィンド", desc: "ランダムな敵に3回ダメージ" },
+        {
+          title: "深紅の鋏：カーディナル・シザー",
+          desc: "敵1体に特大ダメージ",
+        },
+        {
+          title: "空間精製：装花の迷宮",
+          desc: "敵1体のDEFとSPDを下げる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9z7vrux014608lbkszo40s8",
+    rarity: "EPIC",
+    element: "POISON",
+    image: "/images/amulets/epic/cl9z7vrux014608lbkszo40s8.webp",
+    info: "色のない世界に色を落とし、形のない空間に新たな形を生みだす\n1000色を超える創造の刃で人の価値観をたやすく切り裂く神出鬼没の暗殺者",
+    category: "スペシャリスト",
+    type: "NORMAL",
+    name: "クリエイティブデザイナー(Poison)",
+    spec: {
+      status: { hp: 1590, atk: 570, def: 432, spd: 339 },
+      skill: [
+        {
+          title: "ダルネス・アサシン",
+          desc: "敵全員を毎ターン終了時、ダメージを受ける状態にする。3ターン有効",
+        },
+        { title: "RGBエッジ＆CMYKブレード", desc: "敵1体に特大ダメージ" },
+        {
+          title: "独創性の探求者",
+          desc: "味方1体のHP回復。ATKを上げる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9coelk00dqy1umj6z57g450",
+    rarity: "EPIC",
+    element: "THUNDER",
+    image: "/images/amulets/epic/cl9coelk00dqy1umj6z57g450.webp",
+    info: "より扱いやすく、より壊れにくく・・・人々の生活を\n豊かにするため、創意工夫を重ねる者。\n彼女が生み出した物、それはただの製品ではなく芸術\nである。",
+    category: "クラフター",
+    type: "NORMAL",
+    name: "工業デザイナー(Thunder)",
+    spec: {
+      status: { hp: 1710, atk: 540, def: 416, spd: 342 },
+      skill: [
+        {
+          title: "改善リサーチ",
+          desc: "味方1体のDEFを大幅に上げるが、SPDが下がる。3ターン有効",
+        },
+        {
+          title: "機能美：革新的デザイン",
+          desc: "味方1体をカウンター状態にする。1度だけ受けたダメージを増大して攻撃した相手に与える。",
+        },
+        {
+          title: "素材強度検証",
+          desc: "敵1体に特大ダメージを与え、自分のATKを上げる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9coex7u0fl61umjfp4bdr93",
+    rarity: "EPIC",
+    element: "POISON",
+    image: "/images/amulets/epic/cl9coex7u0fl61umjfp4bdr93.webp",
+    info: "シャフト社が秘密裏に開発した戦闘用試作レイバー。ASURAシステムによる高機動戦闘能力や飛行能力を持つ。",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "【機動警察パトレイバー】TYPE-J9 グリフォン(Poison)",
+    spec: {
+      status: { hp: 1740, atk: 560, def: 420, spd: 321 },
+      skill: [
+        {
+          title: "アクアユニット",
+          desc: "敵1体に特大ダメージを与え、SPDを下げる。3ターン有効",
+        },
+        {
+          title: "フライトユニット",
+          desc: "敵1体に特大ダメージを与え、自分のSPDを上げる。3ターン有効",
+        },
+        {
+          title: "ASURA",
+          desc: "召喚時に確率で味方全員のATKを上げる。1ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cofqo40k7w1umj60vcaq1d",
+    rarity: "EPIC",
+    element: "POISON",
+    image: "/images/amulets/epic/cl9cofqo40k7w1umj60vcaq1d.webp",
+    info: "冷ややかな美貌。物憂げな横顔。明るい笑顔。\nフラッシュの下で自在に作り上げる印象は、着ている服に劣らない。",
+    category: "スペシャリスト",
+    type: "NORMAL",
+    name: "モデル(Poison)",
+    spec: {
+      status: { hp: 1590, atk: 570, def: 432, spd: 336 },
+      skill: [
+        {
+          title: "アラベスク・ジャカード",
+          desc: "味方1体をカウンター状態にする。1度だけ受けたダメージを増大して攻撃した敵に与える。",
+        },
+        {
+          title: "スチール：20カット",
+          desc: "味方1体のSPDを大幅に上げるが、DEFが下がる。3ターン有効",
+        },
+        {
+          title: "揺れないウォーキング",
+          desc: "味方1体のHP大回復し、バジェットを増やす。",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cof4d50gpq1umj2b96gmdi",
+    rarity: "EPIC",
+    element: "WATER",
+    image: "/images/amulets/epic/cl9cof4d50gpq1umj2b96gmdi.webp",
+    info: "スーチーユキ「私がスーチーユキちゃんよ、よろしくね！」\nAmelia「ねーねー。なんでユキちゃんだけ変身のセリフないの？」\nスーチーユキ「ぎくっ」",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "【アイドル雀士スーチーパイ】スーチーユキ＆Amelia(Water)",
+    spec: {
+      status: { hp: 1680, atk: 560, def: 416, spd: 336 },
+      skill: [
+        { title: "イッキツウカン", desc: "2回攻撃する。" },
+        {
+          title: "妄想モード",
+          desc: "召喚時に高確率でDEFを少しあげる。さらに以下のアミュレットが自分のバトル場に存在する場合、DEFの上昇量が上がる。3ターン有効 対象アミュレット：【Idol Janshi Suchie-Pai】Suchie-Pai & Rin",
+        },
+        {
+          title: "ツバメ返し",
+          desc: "敵1体にダメージを与え、バジェットを増やす。",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9coeyio0fsm1umj93s364r2",
+    rarity: "EPIC",
+    element: "EARTH",
+    image: "/images/amulets/epic/cl9coeyio0fsm1umj93s364r2.webp",
+    info: "Youran「ミルキーパイちゃんはウサギ型宇宙人なんだよね？」\nミルキーパイ「ぎくっ、ひ、秘密だぴょん！」\nYouran「ほい、ニンジンだよー」\nミルキーパイ「わーい、カリカリカリカリカリ、ニンジンうめぇ～ぴょん！」",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "【アイドル雀士スーチーパイ】ミルキーパイ＆Youran(Earth)",
+    spec: {
+      status: { hp: 1605, atk: 535, def: 452, spd: 339 },
+      skill: [
+        { title: "ミルキーシャワー", desc: "敵全員に大ダメージ" },
+        {
+          title: "鳴きさらし",
+          desc: "召喚時に高確率でSPDを少しあげる。さらに以下のアミュレットが自分のバトル場に存在する場合、SPDの上昇量が上がる。3ターン有効 対象アミュレット：【Idol Janshi Suchie-Pai】Cherry-Pai & Camille",
+        },
+        { title: "爆弾", desc: "敵全員のSPDを下げる。3ターン有効" },
+      ],
+    },
+  },
+  {
+    id: "cl9cofk6f0j7c1umj8470bdgn",
+    rarity: "EPIC",
+    element: "POISON",
+    image: "/images/amulets/epic/cl9cofk6f0j7c1umj8470bdgn.webp",
+    info: "チェリーパイ「おーほほほほほ！　ってなんで私が毒属性なんだい！？」\nCamille「本当ですね。私もちょっと不満です」\nチェリーパイ「運営に一言言わないとな！」\nCamille「(怪しげに微笑む)」",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "【アイドル雀士スーチーパイ】チェリーパイ＆Camille(Poison)",
+    spec: {
+      status: { hp: 1665, atk: 555, def: 416, spd: 342 },
+      skill: [
+        { title: "チェリーボンバー", desc: "敵1体に特大ダメージ" },
+        {
+          title: "立直",
+          desc: "召喚時に高確率でATKを少しあげる。さらに以下のアミュレットが自分のバトル場に存在する場合、ATKの上昇量が上がる。3ターン有効 対象アミュレット：【Idol Janshi Suchie-Pai】Milky-Pai & Youran",
+        },
+        {
+          title: "ぶっこ抜き",
+          desc: "敵1体にダメージを与え、敵のバジェットを減らす",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cofetp0id21umjaf88ce8o",
+    rarity: "EPIC",
+    element: "THUNDER",
+    image: "/images/amulets/epic/cl9cofetp0id21umjaf88ce8o.webp",
+    info: "Emma「つかささんは年上なんですよね。よろしくです！」\nレモンパイ「オレにはタメ口でいいって」\nEmma「そうなんだ？　よろしくな、つかさ！」\nレモンパイ「…ちなみにミサイルとか撃てるぞ」",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "【アイドル雀士スーチーパイ】レモンパイ＆Emma(Thunder)",
+    spec: {
+      status: { hp: 1695, atk: 545, def: 452, spd: 315 },
+      skill: [
+        { title: "ライトニングブレード", desc: "2回攻撃する。" },
+        {
+          title: "高速平和",
+          desc: "召喚時に100％の確率でDEFとSPDを大幅に上げる。さらに以下のアミュレットが自分のバトル場に存在する場合、DEFとSPDの上昇量が上がる。1ターン有効 対象アミュレット：【Idol Janshi Suchie-Pai】Peach-Pai & Sophia",
+        },
+        { title: "エレベーター", desc: "味方全員のATKを上げる。3ターン有効" },
+      ],
+    },
+  },
+  {
+    id: "cl9cof12l0g711umj5bqmaf8d",
+    rarity: "EPIC",
+    element: "NATURE",
+    image: "/images/amulets/epic/cl9cof12l0g711umj5bqmaf8d.webp",
+    info: "ピーチパイ「Sophiaちゃんもアイドルなんでしょう？　私もアイドルの卵なの！」\nSophia「キミも？　どこで活動しているの？」\nピーチパイ「えーとね、まだ卵だから秘密！」",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "【アイドル雀士スーチーパイ】ピーチパイ＆Sophia(Nature)",
+    spec: {
+      status: { hp: 1710, atk: 530, def: 448, spd: 324 },
+      skill: [
+        { title: "ピンキッシュ・フローレア", desc: "敵全員に大ダメージ" },
+        {
+          title: "プリンセス・リーチ",
+          desc: "召喚時に100％の確率でATKとSPDを大幅に上げる。さらに以下のアミュレットが自分のバトル場に存在する場合、ATKとSPDの上昇量が上がる。1ターン有効 対象アミュレット：【Idol Janshi Suchie-Pai】Lemon-Pai & Emma",
+        },
+        { title: "指ローズ", desc: "味方全員のHP回復" },
+      ],
+    },
+  },
+  {
+    id: "cl9cofiry0izd1umjd5979lof",
+    rarity: "EPIC",
+    element: "FIRE",
+    image: "/images/amulets/epic/cl9cofiry0izd1umjd5979lof.webp",
+    info: "スーチーパイ「Rinちゃん今日はよろしくね！」\nRin「はい恭子さん。よろしくお願いします！」\nスーチーパイ「しー！　正体は秘密だから！」\nRin「あ、すいません御崎さん！」",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "【アイドル雀士スーチーパイ】スーチーパイ&Rin(Fire)",
+    spec: {
+      status: { hp: 1560, atk: 555, def: 448, spd: 339 },
+      skill: [
+        { title: "ハイパーせっかん", desc: "敵1体に特大ダメージ" },
+        {
+          title: "スーチー・アイ",
+          desc: "召喚時に100％の確率でATKとDEFを大幅に上げる。さらに以下のアミュレットが自分のバトル場に存在する場合、ATKとDEFの上昇量が上がる。1ターン有効 対象アミュレット：【Idol Janshi Suchie-Pai】Suchie-Yuki & Amelia",
+        },
+        {
+          title: "コンビ打ち",
+          desc: "味方1体にバリアをはる。攻撃されても2ターンダメージを受けない。",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9coftcl0kn41umj4oze6h39",
+    rarity: "EPIC",
+    element: "NATURE",
+    image: "/images/amulets/epic/cl9coftcl0kn41umj4oze6h39.webp",
+    info: '書いてある事が"嘘"である事は間違いない。でも書いた人、読んだ人、残った記憶は真実なんだ。\nillust：DEA Artist',
+    category: "スペシャリスト",
+    type: "NORMAL",
+    name: "小説家(Nature)",
+    spec: {
+      status: { hp: 1590, atk: 570, def: 432, spd: 336 },
+      skill: [
+        {
+          title: "書きだした世界の断片",
+          desc: "召喚時に100％の確率で発動し、バジェットを3ターンの間増やし続ける。このアミュレットが破壊されると効果は消える。",
+        },
+        { title: "イマジネイト・フィクション", desc: "敵1体に特大ダメージ" },
+        {
+          title: "遠い夏のおもひで：純文学",
+          desc: "味方1体にバリアをはる。攻撃されても1回ダメージを受けない。さらに味方1体のSPDを上げる。3ターン有効。",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cofodb0juy1umjcl9odeox",
+    rarity: "EPIC",
+    element: "POISON",
+    image: "/images/amulets/epic/cl9cofodb0juy1umjcl9odeox.webp",
+    info: "いいゲームとは私……仙水伊鶴を満足させるもの",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "【大東京トイボックス】仙水伊鶴(Poison)",
+    spec: {
+      status: { hp: 1673, atk: 540, def: 424, spd: 344 },
+      skill: [
+        {
+          title: "権謀術数",
+          desc: "敵1体にダメージを与え、バジェットを増やす。",
+        },
+        { title: "SOUP", desc: "味方全員のSPDを上げる。3ターン有効" },
+        { title: "ソードクロニクルVIII", desc: "ランダムな敵に3回ダメージ" },
+      ],
+    },
+  },
+  {
+    id: "cl9cof0up0g5t1umj0drs6m4m",
+    rarity: "EPIC",
+    element: "EARTH",
+    image: "/images/amulets/epic/cl9cof0up0g5t1umj0drs6m4m.webp",
+    info: "JobTribes公式コスプレイヤーThamesによるジョブロード・ソーシャルメディアプランナーのコスプレ作品。\n「画面から飛び出してきたみたいだって？逆だよ。オレが画面に飛び込んだのさ！」",
+    category: "情報・運輸",
+    type: "NORMAL",
+    name: "公式コスプレイヤーThames（ソーシャルメディアプランナー）(Earth)",
+    spec: {
+      status: { hp: 1590, atk: 565, def: 428, spd: 342 },
+      skill: [
+        {
+          title: "ミリオンRTストリーム",
+          desc: "味方1体のHP大回復し、バジェットを増やす。",
+        },
+        {
+          title: "バズカタルシス",
+          desc: "召喚時に確率で自分にバリアをはる。攻撃されても1回ダメージを受けない。",
+        },
+        { title: "ハッシュタグ・レーザー", desc: "敵全員に大ダメージ" },
+      ],
+    },
+  },
+  {
+    id: "cl9cofbdf0hth1umja7s87tv7",
+    rarity: "EPIC",
+    element: "POISON",
+    image: "/images/amulets/epic/cl9cofbdf0hth1umja7s87tv7.webp",
+    info: "JobTribes公式コスプレイヤーSikayによるジョブロード・ショーダンサーのコスプレ作品。\n「画面から飛び出してきたみたいだって？逆よ。私が画面に飛び込んだのよ！」",
+    category: "エンターテイナー",
+    type: "NORMAL",
+    name: "公式コスプレイヤーSikay（ショーダンサー）(Poison)",
+    spec: {
+      status: { hp: 1612, atk: 562, def: 430, spd: 337 },
+      skill: [
+        {
+          title: "情炎のポールダンス",
+          desc: "敵全員のSPDを大幅に下げるが、ATKが上がる。3ターン有効",
+        },
+        {
+          title: "鼓舞のステップ",
+          desc: "味方1体のSPDを大幅に上げるが、DEFが下がる。3ターン有効",
+        },
+        {
+          title: "鮮烈ショータイム",
+          desc: "召喚時に確率で自分のHPを3ターン回復状態にする",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cof3wg0gn31umjcmg8fmnu",
+    rarity: "EPIC",
+    element: "FIRE",
+    image: "/images/amulets/epic/cl9cof3wg0gn31umjcmg8fmnu.webp",
+    info: "JobTribes公式コスプレイヤーmihoによるジョブロード・スポーツトレーナーのコスプレ作品。\n「画面から飛び出してきたみたいだって？逆よ。私が画面に飛び込んだのよ！」",
+    category: "スペシャリスト",
+    type: "NORMAL",
+    name: "公式コスプレイヤーmiho（スポーツトレーナー）(Fire)",
+    spec: {
+      status: { hp: 1612, atk: 538, def: 450, spd: 337 },
+      skill: [
+        { title: "攻撃的マッサージ術", desc: "2回攻撃する。" },
+        {
+          title: "快癒のアイシング",
+          desc: "味方全員のHPを3ターン回復し続ける。",
+        },
+        {
+          title: "防衛的テーピング術",
+          desc: "味方全員のDEFを上げる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cof5np0gx51umjdvh7bh0k",
+    rarity: "EPIC",
+    element: "THUNDER",
+    image: "/images/amulets/epic/cl9cof5np0gx51umjdvh7bh0k.webp",
+    info: "世に溢れ、様々な所に存在する絵を生み出す現代の芸術家。\n「あなたのイラストで一緒に世界（ゲーム）を創るわよ！」ゲームプロデューサー談",
+    category: "スペシャリスト",
+    type: "NORMAL",
+    name: "イラストレーター(Thunder)",
+    spec: {
+      status: { hp: 1680, atk: 545, def: 432, spd: 333 },
+      skill: [
+        {
+          title: "色彩の探究者",
+          desc: "召喚時に100％の確率で発動し、バジェットを3ターンの間減らし続ける。このアミュレットが破壊されると効果は消える",
+        },
+        {
+          title: "三原色の軌跡",
+          desc: "敵1体に特大ダメージをあたえ、ATKを下げる。3ターン有効",
+        },
+        {
+          title: "創造のペイントブラシ",
+          desc: "敵全員のATKとDEFを下げる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9coeyx00fut1umj8siwcmrr",
+    rarity: "EPIC",
+    element: "WATER",
+    image: "/images/amulets/epic/cl9coeyx00fut1umj8siwcmrr.webp",
+    info: "「海の事、風の事、もちろん船の事もおまかせ下さい！安全なクルーズを提供しますよ！」\n単身、または複数で船の征く路を指し示す。\n船員の命を預かる彼女達は、短期間の航海でも無くてはならない存在だ。",
+    category: "スペシャリスト",
+    type: "NORMAL",
+    name: "航海士(Water)",
+    spec: {
+      status: { hp: 1680, atk: 545, def: 432, spd: 333 },
+      skill: [
+        {
+          title: "天測航法",
+          desc: "召喚時に100％の確率でATKとSPDを大幅に上げる。1ターン有効",
+        },
+        { title: "操舵輪ストライク", desc: "2回攻撃する。" },
+        {
+          title: "台風の目",
+          desc: "敵1体に特大ダメージをあたえ、自分のSPDをあげる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cofpxf0k3p1umj33o49tvt",
+    rarity: "EPIC",
+    element: "THUNDER",
+    image: "/images/amulets/epic/cl9cofpxf0k3p1umj33o49tvt.webp",
+    info: "損切りは決して失敗ではない。むしろ次の成功のためのチャンスと思え。",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "【インベスターZ】神代圭介(Thunder)",
+    spec: {
+      status: { hp: 1650, atk: 570, def: 424, spd: 330 },
+      skill: [
+        {
+          title: "損切り",
+          desc: "敵全員のDEFを大幅に下げるが、ATKが上がる。3ターン有効",
+        },
+        { title: "マネーゲームさ", desc: "敵のバジェットを減らす" },
+        {
+          title: "株は法則でやれ",
+          desc: "敵1体に特大ダメージをあたえ、自分のATKをあげる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cofafx0ho41umj9g33drat",
+    rarity: "EPIC",
+    element: "WATER",
+    image: "/images/amulets/epic/cl9cofafx0ho41umj9g33drat.webp",
+    info: "今は待つ……。二人が戻ってくると信じて待つ……。",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "【ドラゴン桜2】水野直美(Water)",
+    spec: {
+      status: { hp: 1605, atk: 545, def: 444, spd: 339 },
+      skill: [
+        {
+          title: "東大合格第一号",
+          desc: "召喚時に100％の確率でATKとDEFを大幅に上げる。1ターン有効",
+        },
+        {
+          title: "歯を磨くように勉強",
+          desc: "バジェットを3ターン増やし続ける。このアミュレットが破壊されると効果は消える",
+        },
+        {
+          title: "バカ鉢巻き",
+          desc: "敵1体にダメージを与え、自分のHPを回復する",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cofbi60hu81umje6vvc09u",
+    rarity: "EPIC",
+    element: "POISON",
+    image: "/images/amulets/epic/cl9cofbi60hu81umje6vvc09u.webp",
+    info: "ワシは本物が見たいっ‥!!　特等席で‥‥!!　人間のドス黒い感情‥‥際の際‥‥本性‥‥!　破滅‥!　絶望‥!　そして死‥!!　それこそが真の娯楽‥!　愉悦‥!!",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "【カイジ】兵藤和尊(Poison)",
+    spec: {
+      status: { hp: 1598, atk: 568, def: 438, spd: 332 },
+      skill: [
+        {
+          title: "エスポワール号",
+          desc: "バジェットを2ターン後に大きく増やす。このアミュレットが破壊されると効果は消える",
+        },
+        {
+          title: "地下強制労働",
+          desc: "敵1体にダメージを与え、敵のバジェットを減らす",
+        },
+        {
+          title: "焼き土下座",
+          desc: "自分のATKを大幅に上げるが、ダメージを受ける。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cof38f0gj91umj50rc03eh",
+    rarity: "EPIC",
+    element: "EARTH",
+    image: "/images/amulets/epic/cl9cof38f0gj91umj50rc03eh.webp",
+    info: "よく考えると‥‥振ってないっ‥‥‥! 　わしは‥‥!!",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "【カイジ】大槻班長(Earth)",
+    spec: {
+      status: { hp: 1673, atk: 535, def: 446, spd: 329 },
+      skill: [
+        {
+          title: "冷えたビール",
+          desc: "自分のSPDを大幅に上げるが、ATKが下がる。3ターン有効",
+        },
+        {
+          title: "ホカホカ焼鳥",
+          desc: "味方1体のHP大回復し、敵のバジェットを減らす",
+        },
+        { title: "四五六賽", desc: "バジェットを増やす" },
+      ],
+    },
+  },
+  {
+    id: "cl9cof8uw0hf71umj9lsfbw3i",
+    rarity: "EPIC",
+    element: "EARTH",
+    image: "/images/amulets/epic/cl9cof8uw0hf71umj9lsfbw3i.webp",
+    info: "金は命より重い‥‥！　そこの認識をごまかす輩は生涯地を這う‥‥!!",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "【カイジ】利根川幸雄(Thunder)",
+    spec: {
+      status: { hp: 1643, atk: 548, def: 454, spd: 323 },
+      skill: [
+        { title: "Eカード", desc: "敵1体にダメージを与え、バジェットを増やす" },
+        {
+          title: "限定ジャンケン",
+          desc: "敵1体に特大ダメージを与えるが、自分のDEFが下がる。3ターン有効",
+        },
+        {
+          title: "電流鉄骨渡り",
+          desc: "自分のATKを大幅に上げるが、SPDが下がる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9coeo1j0e531umjhqw1geg2",
+    rarity: "EPIC",
+    element: "THUNDER",
+    image: "/images/amulets/epic/cl9coeo1j0e531umjhqw1geg2.webp",
+    info: "2021年11月 第10回 JobTribes PvP アリーナランキングバトルチャンピオン、Neoneow。\n圧倒的勝利。さらなる進化を遂げる黒猫魔道士は、次はどんな進化を果たすのだろうか。",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "【PvP チャンピオン】Neoneow ＜2021年11月＞(Thunder)",
+    spec: {
+      status: { hp: 1590, atk: 570, def: 424, spd: 342 },
+      skill: [
+        {
+          title: "猫魔法「超肉球キャノン」",
+          desc: "ランダムな敵に3回ダメージ",
+        },
+        {
+          title: "猫魔法「アクセルハント」",
+          desc: "敵1体に特大ダメージをあたえ、SPDを下げる。3ターン有効",
+        },
+        {
+          title: "猫秘薬「エリクシア・ささみ」",
+          desc: "召喚時に100％の確率でATKとSPDを大幅に上げる。1ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9coei4w0d7s1umj7vzl06q0",
+    rarity: "EPIC",
+    element: "EARTH",
+    image: "/images/amulets/epic/cl9coei4w0d7s1umj7vzl06q0.webp",
+    info: "ショコラティエールは当初、宮廷の宴で活躍したが、\nショコラが戦士を鼓舞するとわかり状況は一変した。",
+    category: "スペシャリスト",
+    type: "NORMAL",
+    name: "ショコラティエール(Earth)",
+    spec: {
+      status: { hp: 1658, atk: 552, def: 438, spd: 329 },
+      skill: [
+        {
+          title: "フェアリー・ブレッドワルツ",
+          desc: "敵全員のATKを下げる。3ターン有効",
+        },
+        {
+          title: "プロフィットロール・ドリーム",
+          desc: "召喚時に100％の確率でDEFとSPDを大幅に上げる。1ターン有効",
+        },
+        { title: "テンパリング・マギア", desc: "2回攻撃する。" },
+      ],
+    },
+  },
+  {
+    id: "cl9coflm00jfk1umj52yxhswg",
+    rarity: "EPIC",
+    element: "POISON",
+    image: "/images/amulets/epic/cl9coflm00jfk1umj52yxhswg.webp",
+    info: "憎しみの心だけを増幅されてこの世を滅ぼす運命を与えられた「仮初めの女王」。",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "＜L-ilith＞魔王(Poison)",
+    spec: {
+      status: { hp: 1650, atk: 550, def: 424, spd: 342 },
+      skill: [
+        {
+          title: "虎と象の護り",
+          desc: "召喚時に100％の確率でATKとSPDを大幅に上げる。1ターン有効",
+        },
+        {
+          title: "女神の癒し",
+          desc: "敵1体に特大ダメージをあたえ、SPDを下げる。3ターン有効",
+        },
+        {
+          title: "堅牢な城壁",
+          desc: "味方1体にバリアをはる。攻撃されても2ターンダメージを受けない。",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9coet9c0eyq1umj7k57a0m1",
+    rarity: "EPIC",
+    element: "NATURE",
+    image: "/images/amulets/epic/cl9coet9c0eyq1umj7k57a0m1.webp",
+    info: "カノアは修業を極め、世界の命運を握る最強の剣士となった。\n「妹は俺が救い出す！」",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "＜Kanoa＞勇者(Nature)",
+    spec: {
+      status: { hp: 1590, atk: 570, def: 424, spd: 342 },
+      skill: [
+        {
+          title: "アンシバーレナーデル(不可視の針)",
+          desc: "ランダムな敵に3回ダメージ",
+        },
+        { title: "シュツルムゴッデス(神の嵐)", desc: "敵1体に特大ダメージ" },
+        {
+          title: "シュテルンデシェナンゲン(揺らぎの加護)",
+          desc: "召喚時に確率でSPDをあげる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9coezs70fzs1umjbwgmg36g",
+    rarity: "EPIC",
+    element: "THUNDER",
+    image: "/images/amulets/epic/cl9coezs70fzs1umjbwgmg36g.webp",
+    info: "アスリートの心身を最高の状態に保つプロフェッショナル。\n故障の予防から、メンタルケアに、試合中の応急処置まで、\nすべてはアスリートのパフォーマンスを高めるために！",
+    category: "スペシャリスト",
+    type: "NORMAL",
+    name: "スポーツトレーナー(Thunder)",
+    spec: {
+      status: { hp: 1612, atk: 538, def: 450, spd: 337 },
+      skill: [
+        { title: "攻撃的マッサージ術", desc: "2回攻撃する。" },
+        {
+          title: "快癒のアイシング",
+          desc: "味方全員のHPを3ターン回復し続ける。",
+        },
+        {
+          title: "防衛的テーピング術",
+          desc: "味方全員のDEFを上げる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cofdr10i711umj57qr447k",
+    rarity: "EPIC",
+    element: "FIRE",
+    image: "/images/amulets/epic/cl9cofdr10i711umj57qr447k.webp",
+    info: "カイロはギリシア語で手を意味するのよ。\n私たちは、西洋医学に基づいて身体の歪みの原因を探しだし、神業的な手技で背骨や骨盤を矯正するの。",
+    category: "スペシャリスト",
+    type: "NORMAL",
+    name: "カイロプラクター(Fire)",
+    spec: {
+      status: { hp: 1627, atk: 557, def: 446, spd: 326 },
+      skill: [
+        { title: "ドロップアジャストメント", desc: "2回攻撃する。" },
+        {
+          title: "アクティベーターメソッド",
+          desc: "味方全員のSPDを上げる。3ターン有効",
+        },
+        {
+          title: "ディバーシファイド",
+          desc: "敵1体に特大ダメージをあたえ、SPDを下げる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9coeu2z0f3g1umj71usbe1v",
+    rarity: "EPIC",
+    element: "POISON",
+    image: "/images/amulets/epic/cl9coeu2z0f3g1umj71usbe1v.webp",
+    info: "ボヤやんばかり目立ってますけど、ドロンボーには筋肉担当のワイもおりまんねん！",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "【ヤッターマン】トンズラー(Poison)",
+    spec: {
+      status: { hp: 1688, atk: 570, def: 430, spd: 318 },
+      skill: [
+        {
+          title: "怪力",
+          desc: "自分のATKをあげ、敵1体に特大ダメージを与える。3ターン有効",
+        },
+        { title: "ドロップキック", desc: "敵1体に特大ダメージ" },
+        {
+          title: "タダじゃおきまへん！",
+          desc: "味方1体のATKを大幅に上げるが、SPDが下がる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cof7670h5k1umjgsp5byp9",
+    rarity: "EPIC",
+    element: "NATURE",
+    image: "/images/amulets/epic/cl9cof7670h5k1umjgsp5byp9.webp",
+    info: "会津若松のおハナちゃん見てる～？ ボクちゃんねNFTデビューなのよ、これが。",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "【ヤッターマン】ボヤッキー(Nature)",
+    spec: {
+      status: { hp: 1613, atk: 530, def: 450, spd: 342 },
+      skill: [
+        {
+          title: "ポチッとな",
+          desc: "味方全員のDEFを上げる。3ターン有効。さらに敵のバジェットを減らす",
+        },
+        {
+          title: "自爆ボタン",
+          desc: "敵全員にダメージをあたえるが、自分のDEFを下げる。3ターン有効",
+        },
+        {
+          title: "ボクちゃんもうイヤ",
+          desc: "味方全員のATKを上げるが、自分のATKを下げる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9coft5s0km11umjdbf9b7ah",
+    rarity: "EPIC",
+    element: "WATER",
+    image: "/images/amulets/epic/cl9coft5s0km11umjdbf9b7ah.webp",
+    info: "説明しよう！ この世に悪がある限り、ガンちゃんとアイちゃんはヤッターマン1号、2号に変身して正義のために戦うのだ！",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "【ヤッターマン】ヤッターマン(Water)",
+    spec: {
+      status: { hp: 1628, atk: 563, def: 430, spd: 335 },
+      skill: [
+        { title: "ケンダマジック", desc: "2回攻撃する。" },
+        {
+          title: "シビレステッキ",
+          desc: "敵1体に特大ダメージをあたえ、DEFを下げる。3ターン有効",
+        },
+        {
+          title: "勝利のポーズ",
+          desc: "味方1体にバリアをはる。攻撃されても2ターンダメージを受けない。",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cof2210gcl1umj0fcr72g2",
+    rarity: "EPIC",
+    element: "NATURE",
+    image: "/images/amulets/epic/cl9cof2210gcl1umj0fcr72g2.webp",
+    info: "2021年7月 第7回 JobTribes PvP アリーナランキングバトルチャンピオン、shinkei。\n誰もが認めるミスターJobTribesは、３度目の栄冠を手にした。\nイラスト：信吉",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "【PvP チャンピオン】shinkei ＜2021年7月＞(Nature)",
+    spec: {
+      status: { hp: 1590, atk: 530, def: 456, spd: 342 },
+      skill: [
+        {
+          title: "shinkei 第３形態",
+          desc: "召喚時に100％の確率でDEFとSPDを大幅に上げる。1ターン有効",
+        },
+        { title: "三位一体アタック", desc: "敵のバジェットを減らす" },
+        { title: "龍の息吹", desc: "バジェットを増やす" },
+      ],
+    },
+  },
+  {
+    id: "cl9coez2s0fvq1umj1ox4hk1u",
+    rarity: "EPIC",
+    element: "POISON",
+    image: "/images/amulets/epic/cl9coez2s0fvq1umj1ox4hk1u.webp",
+    info: "天より降り来るもの、目前に横たわるもの、自らの内より湧き上がるもの……。描くモチーフは様々なれど、見るものに影響を与えることを使命とする職である。",
+    category: "スペシャリスト",
+    type: "NORMAL",
+    name: "画家(Poison)",
+    spec: {
+      status: { hp: 1695, atk: 535, def: 456, spd: 318 },
+      skill: [
+        {
+          title: "美の女神の囁き",
+          desc: "味方1体にバリアをはる。攻撃されても1回ダメージを受けない。さらに味方1体のATKを上げる。3ターン有効。",
+        },
+        { title: "魂の慟哭", desc: "敵全員のDEFとSPDを下げる。3ターン有効" },
+        { title: "パトロンとの出会い", desc: "バジェットを増やす" },
+      ],
+    },
+  },
+  {
+    id: "cl9coehgp0d411umjhs5i9qe8",
+    rarity: "EPIC",
+    element: "EARTH",
+    image: "/images/amulets/epic/cl9coehgp0d411umjhs5i9qe8.webp",
+    info: "図面を読み取り、コンクリートの中に隠される鉄筋を組む者。\n鉄の筋肉をコンクリートにあたえる、気合に満ちたソルジャーである。",
+    category: "クラフター",
+    type: "NORMAL",
+    name: "鉄筋工(Earth)",
+    spec: {
+      status: { hp: 1612, atk: 562, def: 430, spd: 337 },
+      skill: [
+        { title: "番線カッター", desc: "2回攻撃する。" },
+        {
+          title: "ローリング・ハッカー",
+          desc: "敵1体に特大ダメージをあたえ、自分のATKをあげる。3ターン有効",
+        },
+        {
+          title: "耐震の加護",
+          desc: "召喚時に確率で自分のHPを3ターン回復状態にする",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cofv520kx81umjbjf523su",
+    rarity: "EPIC",
+    element: "THUNDER",
+    image: "/images/amulets/epic/cl9cofv520kx81umjbjf523su.webp",
+    info: "競走馬のケアに心血を注ぐ者たち。\n馬のコンディションを見抜き、\n飴と鞭を駆使して最高の状態に整える。\nイラスト：モ太朗",
+    category: "エンターテイナー",
+    type: "NORMAL",
+    name: "競馬調教師(Thunder)",
+    spec: {
+      status: { hp: 1620, atk: 540, def: 448, spd: 336 },
+      skill: [
+        { title: "人馬一体の極意", desc: "味方全員のHP回復" },
+        {
+          title: "競走馬への昇華",
+          desc: "味方全員のATKとSPDを上げる。3ターン有効",
+        },
+        {
+          title: "コンセントレイト・ブリンカー",
+          desc: "召喚時に確率でSPDをあげる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9coei3n0d7l1umjdsjmehwy",
+    rarity: "EPIC",
+    element: "FIRE",
+    image: "/images/amulets/epic/cl9coei3n0d7l1umjdsjmehwy.webp",
+    info: "患者の手術への恐怖や痛みを消す魔術師。\n麻酔や医学の知識はもちろん、\n患者の不安を和らげる術も持ち合わせている。\nイラスト：Youki",
+    category: "医療",
+    type: "NORMAL",
+    name: "麻酔科医(Fire)",
+    spec: {
+      status: { hp: 1703, atk: 533, def: 438, spd: 331 },
+      skill: [
+        {
+          title: "ペイン・コントローラー",
+          desc: "味方1体にバリアをはる。攻撃されても1回ダメージを受けない。さらに味方1体のATKを上げる。3ターン有効。",
+        },
+        {
+          title: "秘薬精製：ダチュラの花",
+          desc: "味方全員のDEFを上げる。3ターン有効",
+        },
+        { title: "スリーピング・ペネトレイト", desc: "敵1体に特大ダメージ" },
+      ],
+    },
+  },
+  {
+    id: "cl9cofqe20k6d1umj6sxwcizc",
+    rarity: "EPIC",
+    element: "NATURE",
+    image: "/images/amulets/epic/cl9cofqe20k6d1umj6sxwcizc.webp",
+    info: "食に関するプロデュースやコーディネートを行う者。\n料理をおいしく「見せる」様々な魔法を使う事ができるという。\nイラスト：Maeka",
+    category: "サービス",
+    type: "NORMAL",
+    name: "フードコーディネーター(Nature)",
+    spec: {
+      status: { hp: 1665, atk: 535, def: 444, spd: 333 },
+      skill: [
+        {
+          title: "料理のスタイリスト",
+          desc: "味方1体にバリアをはる。攻撃されても2ターンダメージを受けない。",
+        },
+        {
+          title: "フードコンサルティング",
+          desc: "味方1体のATKを大幅に上げるが、SPDが下がる。3ターン有効",
+        },
+        { title: "シズル感の演出", desc: "敵1体に特大ダメージ" },
+      ],
+    },
+  },
+  {
+    id: "cl9cofaja0hon1umj8war2i7m",
+    rarity: "EPIC",
+    element: "WATER",
+    image: "/images/amulets/epic/cl9cofaja0hon1umj8war2i7m.webp",
+    info: "船舶や海事に特化した「海の法律家」の別名を持つ者。\n船舶の登記や登録、依頼人の免許の更新や様々な手続きを代行する海の侍である。",
+    category: "スペシャリスト",
+    type: "NORMAL",
+    name: "海事代理士(Water)",
+    spec: {
+      status: { hp: 1605, atk: 570, def: 424, spd: 339 },
+      skill: [
+        {
+          title: "海事の刀：無窮",
+          desc: "敵1体にダメージを与え、自分のHPを回復する",
+        },
+        {
+          title: "船舶登記の極意",
+          desc: "敵1体に特大ダメージをあたえ、自分のATKをあげる。3ターン有効",
+        },
+        {
+          title: "秘技・船舶国籍証書取得",
+          desc: "敵全員のATKを下げる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9cofa390hm51umj4mqugmyf",
+    rarity: "EPIC",
+    element: "WATER",
+    image: "/images/amulets/epic/cl9cofa390hm51umj4mqugmyf.webp",
+    info: "財務や会計に特化した力を持つ武将。\n秘技「監査」で不正な経営を行った企業を容赦なく斬る他、\n経営戦略の助言といった軍師的な側面を持つ。",
+    category: "スペシャリスト",
+    type: "NORMAL",
+    name: "公認会計士(Water)",
+    spec: {
+      status: { hp: 1612, atk: 562, def: 430, spd: 337 },
+      skill: [
+        { title: "監査の刀・明鏡止水", desc: "敵全員に大ダメージ" },
+        {
+          title: "CF計算書乱舞",
+          desc: "召喚時に確率でATKをあげる。3ターン有効",
+        },
+        {
+          title: "陣形：勝機の経営戦略",
+          desc: "敵1体に特大ダメージをあたえ、自分のDEFをあげる。3ターン有効",
+        },
+      ],
+    },
+  },
 ];
