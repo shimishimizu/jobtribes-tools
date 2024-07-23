@@ -33,6 +33,17 @@ export const statusIncreasePerLevel = [
       { element: "THUNDER", hp: 68, atk: 23, def: 18, spd: 14 },
     ],
   },
+  {
+    rarity: "COMMON",
+    status: [
+      { element: "FIRE", hp: 53, atk: 18, def: 14, spd: 11 },
+      { element: "WATER", hp: 53, atk: 18, def: 14, spd: 11 },
+      { element: "NATURE", hp: 53, atk: 18, def: 14, spd: 11 },
+      { element: "EARTH", hp: 53, atk: 18, def: 14, spd: 11 },
+      { element: "POISON", hp: 53, atk: 18, def: 14, spd: 11 },
+      { element: "THUNDER", hp: 53, atk: 18, def: 14, spd: 11 },
+    ],
+  },
 ];
 
 // アナザーの追加ステータス（1レベルごとのステータス上昇値に加算する）
