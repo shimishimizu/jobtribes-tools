@@ -2,6 +2,30 @@ import { Amulet } from "../_types/types";
 
 export const epicAmulets: Amulet[] = [
   {
+    id: "cl121857dcbdf445859802ab85",
+    rarity: "EPIC",
+    element: "POISON",
+    image: "/images/amulets/epic/cl121857dcbdf445859802ab85.webp",
+    info: "世界中でアイスを売ってわたり歩く少女。\nどんな種族にもアイスを提供でき、ディッシャーの大きさを自由に変え提供する。\nまた彼女はアイスを高く乗せるのが得意で、最高記録は20段乗せという凄腕の持ち主である",
+    category: "マーチャンダイザー",
+    type: "NORMAL",
+    name: "アイスクリーム販売業者(Poison)",
+    spec: {
+      status: { hp: 1650, atk: 525, def: 420, spd: 360 },
+      skill: [
+        {
+          title: "大玉ディッシャーストライク",
+          desc: "敵1体に特大ダメージをあたえ、自分のATKをあげる。3ターン有効",
+        },
+        {
+          title: "78色のフレーバー",
+          desc: "味方全員のATKとDEFとSPDを上げる。3ターン有効",
+        },
+        { title: "トリプルXトリプル", desc: "ランダムな敵に3回ダメージ" },
+      ],
+    },
+  },
+  {
     id: "cl81da7b27d5a242128986b9eb",
     rarity: "EPIC",
     element: "WATER",

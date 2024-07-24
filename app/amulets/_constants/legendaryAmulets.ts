@@ -2,6 +2,39 @@ import { Amulet } from "../_types/types";
 
 export const legendaryAmulets: Amulet[] = [
   {
+    id: "clbfff1b5be7aa4931a3c11548",
+    rarity: "LEGENDARY",
+    element: "NATURE",
+    image: "/images/amulets/legendary/clbfff1b5be7aa4931a3c11548.webp",
+    info: "南の国の遺跡調査ついでに海を満喫する考古学者。\n傍ら後輩はいなくなった彼女を探しに迷宮へ潜ったというのに…\n「行先くらい書いてきたらよかったかしら？」",
+    category: "スペシャリスト",
+    type: "ANOTHER",
+    name: "【常夏の探究】考古学者(Nature)",
+    spec: {
+      status: { hp: 1950, atk: 705, def: 520, spd: 417 },
+      skill: [
+        {
+          title: "夏・海・発見！",
+          desc: "自分にバリアをはる。攻撃されても1ターンダメージを受けない。さらにこのスキルは必ず先制で発動する。",
+        },
+        {
+          title: "砂の城創作ツール",
+          desc: "敵1体にダメージを与え、自分のHPを回復する",
+        },
+        {
+          title: "「できたわ、砂の迷宮」",
+          desc: "敵1体に特大ダメージを与え、高確率で毒状態にする。 毒状態中はターン終了ごとに割合ダメージを受ける。3ターン有効",
+        },
+      ],
+      ability: [
+        {
+          title: "スリープレジストLv3",
+          desc: "戦闘開始時、フィールドを展開する。そのフィールド下では、敵のフィールドによる眠り状態を一定確率で防ぐ。フィールドの持続は長め",
+        },
+      ],
+    },
+  },
+  {
     id: "clec11e985a7154be4a11b79af",
     rarity: "LEGENDARY",
     element: "POISON",
