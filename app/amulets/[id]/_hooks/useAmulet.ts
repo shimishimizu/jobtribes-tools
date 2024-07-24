@@ -30,10 +30,9 @@ export const useAmulet = (id: string) => {
   );
 
   // 1レベル毎のステータス上昇値
-  const statusIncreasePerLevelValues = statusIncreasePerLevel.find(
-    (item) =>
-      item.rarity === amulet?.rarity && item.element === amulet?.element,
-  );
+  const statusIncreasePerLevelValues = statusIncreasePerLevel
+    .find((item) => item.rarity === amulet?.rarity)
+    ?.status.find((item) => item.element === amulet?.element);
 
   // 1レベル毎のステータス上昇値(ANOTHERを考慮)
   const statusIncreasePerLevelValuesWithAnother = {
@@ -56,7 +55,7 @@ export const useAmulet = (id: string) => {
     (item) => item.rarity === amulet?.rarity,
   );
 
-  // 旧レジェの考慮
+  // NFT1枚毎のステータス上昇値（旧レジェの考慮）
   // HP 980 - 784
   // ATK 330 - 264
   // DEF 260 - 208
