@@ -41,7 +41,7 @@ const AmuletsTable = () => {
         />
       </div>
       <Pagination table={table} />
-      {/* <DisplayNum table={table} /> */}
+      <DisplayNum table={table} />
       <DataTable table={table} columns={columns} />
       <Pagination table={table} tableBottom />
     </div>
