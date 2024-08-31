@@ -2,6 +2,117 @@ import { Amulet } from "../_types/types";
 
 export const legendaryAmulets: Amulet[] = [
   {
+    id: "clc5bfe991136843aeb3280f07",
+    rarity: "LEGENDARY",
+    element: "NATURE",
+    image: "/images/amulets/legendary/clc5bfe991136843aeb3280f07.webp",
+    info: "イラスト：徳之ゆいか\n常に全力で元気いっぱいのムードメーカー。持ち前の人懐っこさと好奇心でトラブルを引き起こすこともしばしば。",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "【B-idol】Amelia (クリエーターコラボ)(Nature)",
+    spec: {
+      status: { hp: 1875, atk: 675, def: 500, spd: 405 },
+      skill: [
+        {
+          title: "Ameliaの輝き",
+          desc: "召喚時に100%の確率でATKを大幅に上げる。1ターン有効",
+        },
+        {
+          title: "Eternal Promise",
+          desc: "敵1体にダメージを与え、自分のHPを回復する",
+        },
+        {
+          title: "歌ってすごいパワーがあるよねっ！",
+          desc: "敵1体にダメージを与え、敵のバジェットを減らす",
+        },
+      ],
+    },
+  },
+  {
+    id: "clb0d57c2f0b124fd3a2fc8abf",
+    rarity: "LEGENDARY",
+    element: "WATER",
+    image: "/images/amulets/legendary/clb0d57c2f0b124fd3a2fc8abf.webp",
+    info: "イラスト：MISUBARU＋ 御統リン\n歌もダンスも得意な優等生。やや人見知りなところがあるが、本当はみんなともっと仲良くなりたい。",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "【B-idol】Sophia (クリエーターコラボ)(Water)",
+    spec: {
+      status: { hp: 1920, atk: 610, def: 552, spd: 396 },
+      skill: [
+        {
+          title: "Sophiaの輝き",
+          desc: "召喚時に100%の確率でDEFを大幅に上げる。1ターン有効",
+        },
+        {
+          title: "花唄",
+          desc: "敵1体に特大ダメージを与え、高確率で眠り状態にする。 眠り状態中は行動できなくなるが、ダメージを受けると解除される。2ターン有効",
+        },
+        { title: "唄うアイドルになる！", desc: "敵1体に特大ダメージ" },
+      ],
+    },
+  },
+  {
+    id: "cl7dae39d3d7634ba3b8929aa3",
+    rarity: "LEGENDARY",
+    element: "FIRE",
+    image: "/images/amulets/legendary/cl7dae39d3d7634ba3b8929aa3.webp",
+    info: "イラスト：MISUBARU＋ 高司\n常にまわりを楽しませたいと考えているエンターテイナー。身体能力が高く身軽で華やかなダンスを披露する。",
+    category: "アンノウン",
+    type: "NORMAL",
+    name: "【B-idol】Youran (クリエーターコラボ)(Fire)",
+    spec: {
+      status: { hp: 1920, atk: 690, def: 512, spd: 378 },
+      skill: [
+        {
+          title: "Youranの輝き",
+          desc: "召喚時に100%の確率でSPDを大幅に上げる。1ターン有効",
+        },
+        {
+          title: "Unchained Hearts",
+          desc: "味方1体にバリアをはる。攻撃されても2ターンダメージを受けない。",
+        },
+        {
+          title: "楽しませることに才能なんて関係ない",
+          desc: "敵1体にダメージを与え、バジェットを増やす",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl06069d346a464b329c3a640e",
+    rarity: "LEGENDARY",
+    element: "THUNDER",
+    image: "/images/amulets/legendary/cl06069d346a464b329c3a640e.webp",
+    info: "イラスト：大熊まい\nいつもニコニコと仲間たちを見守るお姉さん。アイドルとしての実力も高く、一目置かれる存在。しかし…",
+    category: "アンノウン",
+    type: "ANOTHER",
+    name: "【B-idol】Camille (クリエーターコラボ)(Thunder)",
+    spec: {
+      status: { hp: 2025, atk: 685, def: 524, spd: 411 },
+      skill: [
+        {
+          title: "Camilleの輝き",
+          desc: "召喚時に100%の確率でSPDを大幅に上げる。1ターン有効",
+        },
+        {
+          title: "Vivid! Girly!",
+          desc: "敵1体に特大ダメージを与え、高確率で毒状態にする。 毒状態中はターン終了ごとに割合ダメージを受ける。3ターン有効",
+        },
+        {
+          title: "応援するアイドルになりたいんです",
+          desc: "味方1体にバリアをはる。攻撃されても2ターンダメージを受けない。",
+        },
+      ],
+      ability: [
+        {
+          title: "ポイズンレジストLv3",
+          desc: "戦闘開始時、フィールドを展開する。そのフィールド下では、敵のフィールドによる毒状態を一定確率で防ぐ。フィールドの持続は長め",
+        },
+      ],
+    },
+  },
+  {
     id: "clbfff1b5be7aa4931a3c11548",
     rarity: "LEGENDARY",
     element: "NATURE",
