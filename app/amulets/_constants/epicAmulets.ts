@@ -2,6 +2,48 @@ import { Amulet } from "../_types/types";
 
 export const epicAmulets: Amulet[] = [
   {
+    id: "clc4c2bbdeb7194258ab23ebcb",
+    rarity: "EPIC",
+    element: "FIRE",
+    image: "/images/amulets/epic/clc4c2bbdeb7194258ab23ebcb.webp",
+    info: "異世界で販売されているお菓子「かっぱえびせん」をJobTribesの世界で売り歩く少女。\n彼女の持つバスケットは異世界とつながるゲートになっており、いつでもできたてのかっぱえびせんを仕入れることができる。\nたまに自分で食べているのは内緒。",
+    category: "マーチャンダイザー",
+    type: "NORMAL",
+    name: "かっぱえびせん販売員(Fire)",
+    spec: {
+      status: { hp: 1620, atk: 550, def: 472, spd: 312 },
+      skill: [
+        { title: "無限えびせんバスケット", desc: "ランダムな敵に3回ダメージ" },
+        { title: "シュリンプレッドの赤ずきん", desc: "味方全員のHP回復" },
+        { title: "「食べたら止まらないわよ！」", desc: "2回攻撃する。" },
+      ],
+    },
+  },
+  {
+    id: "cl2b032f4f9fdb4617997b45e8",
+    rarity: "EPIC",
+    element: "NATURE",
+    image: "/images/amulets/epic/cl2b032f4f9fdb4617997b45e8.webp",
+    info: "異世界で販売されているお菓子「じゃがりこ」をJobTribesの世界でPRするアイドルグループ。\n彼女らはそれぞれ味の担当があり、それに合わせた衣装の色になっている。\nまだメンバーが居るらしい…。",
+    category: "マーチャンダイザー",
+    type: "NORMAL",
+    name: "じゃがりこ販売員(Nature)",
+    spec: {
+      status: { hp: 1725, atk: 550, def: 460, spd: 300 },
+      skill: [
+        {
+          title: "「心ほっこりじゃがバター！」",
+          desc: "敵全員を毎ターン終了時、ダメージを受ける状態にする。3ターン有効",
+        },
+        {
+          title: "「みんな大好きサラダ！」",
+          desc: "敵1体にダメージを与え、自分のHPを回復する",
+        },
+        { title: "「にこっと笑って、チーズ！」", desc: "敵1体に特大ダメージ" },
+      ],
+    },
+  },
+  {
     id: "cl121857dcbdf445859802ab85",
     rarity: "EPIC",
     element: "POISON",
