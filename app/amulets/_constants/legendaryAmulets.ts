@@ -2,6 +2,111 @@ import { Amulet } from "../_types/types";
 
 export const legendaryAmulets: Amulet[] = [
   {
+    id: "cl6b6215d1b4df40e8bc7d2921",
+    rarity: "LEGENDARY",
+    element: "POISON",
+    image: "/images/amulets/legendary/cl6b6215d1b4df40e8bc7d2921.webp",
+    info: "なんとも（彼らよりは遥かに）大きなものの作成を依頼された妖精たち。\nいつもよりリズミカルに作業を進めていく彼らは、今度も魔法を起こすに違いない。",
+    category: "スペシャリスト",
+    type: "NORMAL",
+    name: "グッズクリエイター(Poison)",
+    spec: {
+      status: { hp: 1905, atk: 635, def: 532, spd: 399 },
+      skill: [
+        {
+          title: "「ちょきちょきぬいぬい…」",
+          desc: "ランダムな敵に3回ダメージ",
+        },
+        {
+          title: "「おっきくつくるよ～」",
+          desc: "味方1体にバリアをはる。攻撃されても2ターンダメージを受けない。",
+        },
+        {
+          title: "「ふたをとじるね～！」",
+          desc: "敵1体に特大ダメージを与え、高確率で暗闇状態にする。暗闇状態中は全ての行動が一定確率でミスになる。2ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl48d438da079b4ca6bd62a914",
+    rarity: "LEGENDARY",
+    element: "WATER",
+    image: "/images/amulets/legendary/cl48d438da079b4ca6bd62a914.webp",
+    info: "お菓子にするための海老を獲りに来た少女。\n海老の姿に半身を変身させることで仲間意識を高めて、毎度大漁で帰っていく。",
+    category: "ギャザラー",
+    type: "NORMAL",
+    name: "えび漁師(Water)",
+    spec: {
+      status: { hp: 1950, atk: 610, def: 560, spd: 384 },
+      skill: [
+        {
+          title: "あみいっぽんづり！",
+          desc: "敵1体に特大ダメージを与え、高確率で混乱状態にする。 混乱状態のアミュレットは、ターン開始時に入力する行動を自分で決められない。３ターン有効",
+        },
+        {
+          title: "たいりょうとまらない！？",
+          desc: "召喚時に確率で自分のHPを3ターン回復状態にする",
+        },
+        {
+          title: "おうぎ「えびにんぎょ」",
+          desc: "味方1体のATKを大幅に上げるが、SPDが下がる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl1d221a7a26ad43dda6cfd6b5",
+    rarity: "LEGENDARY",
+    element: "THUNDER",
+    image: "/images/amulets/legendary/cl1d221a7a26ad43dda6cfd6b5.webp",
+    info: "ヒット曲を世に出すためには時に休息が必要不可欠。\n彼の秘書がすっと取り出したのは異世界で長年愛され続けている短い棒状のスナック菓子だった。",
+    category: "スペシャリスト",
+    type: "NORMAL",
+    name: "【じゃがりこ】音楽プロデューサー(Thunder)",
+    spec: {
+      status: { hp: 1950, atk: 620, def: 552, spd: 384 },
+      skill: [
+        {
+          title: "減速せしチルアウト",
+          desc: "敵1体に特大ダメージを与え、高確率で麻痺状態にする。 麻痺状態中はATK,DEF,SPDが大幅に低下する。2ターン有効",
+        },
+        { title: "「まぁ、一本」", desc: "味方全員のHP回復" },
+        {
+          title: "販促グッズの接触テスト",
+          desc: "敵1体にダメージを与え、敵のバジェットを減らす",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl108116c2464444889d5bf78c",
+    rarity: "LEGENDARY",
+    element: "EARTH",
+    image: "/images/amulets/legendary/cl108116c2464444889d5bf78c.webp",
+    info: "ひよこを愛し、見極め、共にする、そのお休みはまるで悠久。\nやめられない、とまらないスナック菓子を頬張る彼女の休日は始まったばかりだ。",
+    category: "スペシャリスト",
+    type: "NORMAL",
+    name: "【かっぱえびせん】ひよこ鑑定士(Earth)",
+    spec: {
+      status: { hp: 1920, atk: 700, def: 504, spd: 378 },
+      skill: [
+        {
+          title: "スナックラッシュ",
+          desc: "敵1体にダメージを与え、バジェットを増やす",
+        },
+        {
+          title: "特製のパジャマ",
+          desc: "召喚時に確率で自分にバリアをはる。攻撃されても1回ダメージを受けない。",
+        },
+        {
+          title: "「君たちも食べるかい？なんてね」",
+          desc: "敵1体に特大ダメージを与え、高確率で火傷状態にする。 火傷状態中は、スキルのバジェット消費量が増大する。2ターン有効",
+        },
+      ],
+    },
+  },
+  {
     id: "clc5bfe991136843aeb3280f07",
     rarity: "LEGENDARY",
     element: "NATURE",
