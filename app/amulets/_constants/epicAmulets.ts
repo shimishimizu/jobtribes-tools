@@ -2,6 +2,48 @@ import { Amulet } from "../_types/types";
 
 export const epicAmulets: Amulet[] = [
   {
+    id: "clb9eb30e48d7f4aff89563ce5",
+    rarity: "EPIC",
+    element: "FIRE",
+    image: "/images/amulets/epic/clb9eb30e48d7f4aff89563ce5.webp",
+    info: "かの遠くの東の地にて帝、ひいては宮廷に仕えた音楽のスペシャリスト。\n彼女の笛は聞くものに癒しや安らぎを与え、平穏の願いと豊穣の祈りを込めて奏でられる。\n「私が常に願うのは平和な世、それだけですよ」",
+    category: "エンターテイナー",
+    type: "NORMAL",
+    name: "雅楽師(Fire)",
+    spec: {
+      status: { hp: 1650, atk: 580, def: 428, spd: 321 },
+      skill: [
+        { title: "遥か遠く越殿楽", desc: "敵1体に特大ダメージ" },
+        { title: "舞うは喜春楽", desc: "味方全員のDEFを上げる。3ターン有効" },
+        {
+          title: "願う喜び萬歳楽",
+          desc: "敵1体に特大ダメージを与え、自分のATKを上げる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
+    id: "cla773c09bafdc49a2aefa998c",
+    rarity: "EPIC",
+    element: "EARTH",
+    image: "/images/amulets/epic/cla773c09bafdc49a2aefa998c.webp",
+    info: "彼が話すのは人々のあれこれ。彼が語るのは物事の面白。\n彼が見せるのは黒い感情。\n彼は一人で全てを見せる、面白可笑しく鮮やかに。\n「という訳でこの一席、どうぞよろしく」",
+    category: "エンターテイナー",
+    type: "NORMAL",
+    name: "噺家(Earth)",
+    spec: {
+      status: { hp: 1650, atk: 550, def: 472, spd: 306 },
+      skill: [
+        { title: "ふっと消える「死神」", desc: "敵全員に大ダメージ" },
+        { title: "情景が映る「富士詣り」", desc: "2回攻撃する。" },
+        {
+          title: "今宵はこれにて「金の大黒」",
+          desc: "味方1体のHP回復。SPDを上げる。3ターン有効",
+        },
+      ],
+    },
+  },
+  {
     id: "clc4c2bbdeb7194258ab23ebcb",
     rarity: "EPIC",
     element: "FIRE",
