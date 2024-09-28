@@ -2,6 +2,30 @@ import { Amulet } from "../_types/types";
 
 export const rareAmulets: Amulet[] = [
   {
+    id: "clacbd4884c8ae4d6db5c61620",
+    rarity: "RARE",
+    element: "WATER",
+    image: "/images/amulets/rare/clacbd4884c8ae4d6db5c61620.webp",
+    info: "かの南の国で伝えられる舞踊を守り続ける者。\n彼女の舞そのものが貴重な文化であり、重要な芸術の1つである。\nかつて南の国の王の前で披露されたという由緒正しい舞である。",
+    category: "スペシャリスト",
+    type: "NORMAL",
+    name: "琉球舞踊家(Water)",
+    spec: {
+      status: { hp: 1290, atk: 475, def: 380, spd: 252 },
+      skill: [
+        {
+          title: "開演の老人踊り",
+          desc: "ランダムな敵に3回ダメージ。ただしこの攻撃は確率でミスになる。",
+        },
+        {
+          title: "紅型胴衣の女踊り",
+          desc: "敵全員を毎ターン終了時、ダメージを受ける状態にする。3ターン有効",
+        },
+        { title: "五穀豊穣の寿ぐ二才", desc: "味方全員のHP回復" },
+      ],
+    },
+  },
+  {
     id: "cl4f3bdacef2854524872e31e7",
     rarity: "RARE",
     element: "NATURE",
