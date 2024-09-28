@@ -2,6 +2,66 @@ import { Amulet } from "../_types/types";
 
 export const legendaryAmulets: Amulet[] = [
   {
+    id: "clec467eafaac74182b3e63abc",
+    rarity: "LEGENDARY",
+    element: "FIRE",
+    image: "/images/amulets/legendary/clec467eafaac74182b3e63abc.webp",
+    info: "JobTribesの世界で遠く東の地の文化を広めるためにやってきた。\n彼の演じる演目はまるでそこにかつて居た亡霊が命を吹き込まれたかのように見えると人々は語る。\n「某が語るはかつてこの地を滅ぼした鬼哉」",
+    category: "エンターテイナー",
+    type: "ANOTHER",
+    name: "【悪鬼の語部】能楽師(Fire)",
+    spec: {
+      status: { hp: 2130, atk: 690, def: 520, spd: 390 },
+      skill: [
+        {
+          title: "シテ型「鬼」",
+          desc: "敵1体に特大ダメージを与え、高確率で暗闇状態にする。暗闇状態中は全ての行動が一定確率でミスになる。2ターン有効",
+        },
+        {
+          title: "ワキ型「僧侶」",
+          desc: "自分にバリアをはる。攻撃されても1ターンダメージを受けない。さらにこのスキルは必ず先制で発動する。",
+        },
+        { title: "囃子型「四拍子」", desc: "敵全員に大ダメージ" },
+      ],
+      ability: [
+        {
+          title: "コンフューズレジストLv3",
+          desc: "戦闘開始時、フィールドを展開する。そのフィールド下では、敵のフィールドによる混乱状態を一定確率で防ぐ。フィールドの持続は長め",
+        },
+      ],
+    },
+  },
+  {
+    id: "cla5b18811a5e84d45bb2ded10",
+    rarity: "LEGENDARY",
+    element: "EARTH",
+    image: "/images/amulets/legendary/cla5b18811a5e84d45bb2ded10.webp",
+    info: "JobTribesの世界で遠く東の地の文化を広めるためにやってきた。\n彼の演じる演目はまるでそこにかつて居た亡霊が命を吹き込まれたかのように見えると人々は語る。\n「某が見せるはかつてこの地に縛られた霊也」",
+    category: "エンターテイナー",
+    type: "ANOTHER",
+    name: "【霊現の言霊】能楽師(Earth)",
+    spec: {
+      status: { hp: 2130, atk: 690, def: 520, spd: 390 },
+      skill: [
+        {
+          title: "シテ型「亡霊」",
+          desc: "敵1体に特大ダメージを与え、高確率で混乱状態にする。 混乱状態のアミュレットは、ターン開始時に入力する行動を自分で決められない。３ターン有効",
+        },
+        {
+          title: "ワキ型「祈祷師」",
+          desc: "自分にバリアをはる。攻撃されても1ターンダメージを受けない。さらにこのスキルは必ず先制で発動する。",
+        },
+        { title: "狂言型「居語アイ」", desc: "敵全員に大ダメージ" },
+      ],
+      ability: [
+        {
+          title: "パライズレジストLv3",
+          desc: "戦闘開始時、フィールドを展開する。そのフィールド下では、敵のフィールドによる麻痺状態を一定確率で防ぐ。フィールドの持続は長め",
+        },
+      ],
+    },
+  },
+  {
     id: "cl6b6215d1b4df40e8bc7d2921",
     rarity: "LEGENDARY",
     element: "POISON",
