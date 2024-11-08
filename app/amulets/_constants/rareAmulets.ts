@@ -2,6 +2,39 @@ import { Amulet } from "../_types/types";
 
 export const rareAmulets: Amulet[] = [
   {
+    id: "cl42202ce4b2744e1283249d25",
+    rarity: "RARE",
+    element: "POISON",
+    image: "/images/amulets/rare/cl42202ce4b2744e1283249d25.webp",
+    info: "警察の中でもとりわけ市民に寄り添うことをモットーに交通整理を行うスペシャリスト。\n彼は巧みな音楽技術と巧妙な言葉で大量の人間の誘導を行う特殊スキルを持っている。\n彼の持つ神器は使い方を誤ると多くの人間を危険にさらすため、国が認めた人間しか持つことができない。",
+    category: "パブリックサービス",
+    type: "ANOTHER",
+    name: "DJポリス(Poison)",
+    spec: {
+      status: { hp: 1470, atk: 475, def: 392, spd: 267 },
+      skill: [
+        {
+          title: "同調術：メイトワード",
+          desc: "敵1体に特大ダメージを与え、確率で毒状態にする。 毒状態中はターン終了ごとに割合ダメージを受ける。3ターン有効",
+        },
+        {
+          title: "神器：ゼパルのメガホン",
+          desc: "味方全員のHPを3ターン回復し、さらにATKを上げる。",
+        },
+        {
+          title: "パト＝リミックス",
+          desc: "召喚時に確率でATKを大幅に上げる。1ターン有効",
+        },
+      ],
+      ability: [
+        {
+          title: "ダークネスレジストLv1",
+          desc: "戦闘開始時、フィールドを展開する。そのフィールド下では、敵のフィールドによる暗闇状態を一定確率で防ぐ。フィールドの持続は短め",
+        },
+      ],
+    },
+  },
+  {
     id: "clacbd4884c8ae4d6db5c61620",
     rarity: "RARE",
     element: "WATER",
