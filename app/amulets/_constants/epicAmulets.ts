@@ -2,6 +2,54 @@ import { Amulet } from "../_types/types";
 
 export const epicAmulets: Amulet[] = [
   {
+    id: "clcec991c6c6e14724aa4e0fe1",
+    rarity: "EPIC",
+    element: "POISON",
+    image: "/images/amulets/epic/clcec991c6c6e14724aa4e0fe1.webp",
+    info: "生物の仕組みを遺伝子やゲノム単位で操ることができる工学者。\n顔所の研究は協会の規定すれすれのものだが多くの医療の現場で役立つ反面、\n一歩間違うと危険視されるため、警戒している者も多い。",
+    category: "医療",
+    type: "ANOTHER",
+    name: "遺伝子工学者(Poison)",
+    spec: {
+      status: { hp: 1695, atk: 600, def: 448, spd: 345 },
+      skill: [
+        {
+          title: "融合術：マルチゲノム",
+          desc: "自分にバリアをはる。攻撃されても1ターンダメージを受けない。さらにこのスキルは必ず先制で発動する。",
+        },
+        { title: "「特製のフランケンさん！」", desc: "敵1体に特大ダメージ" },
+        { title: "遺伝子操作：バイオドライブ", desc: "敵1体に特大ダメージ" },
+      ],
+      ability: [
+        {
+          title: "ダークネスレジストLv2",
+          desc: "戦闘開始時、フィールドを展開する。そのフィールド下では、敵のフィールドによる暗闇状態を一定確率で防ぐ。",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl9713458f6dab47258935c5f0",
+    rarity: "EPIC",
+    element: "EARTH",
+    image: "/images/amulets/epic/cl9713458f6dab47258935c5f0.webp",
+    info: "大富豪、資産家、財を持ちしあらゆる人間が求めるのが彼女の料理である。\n少しドジなところはあるものの、彼女の作る料理はどれも独創的で美味。\nたちまち虜になった人間は多額の報酬で彼女に依頼をするといわれる。",
+    category: "スペシャリスト",
+    type: "NORMAL",
+    name: "宮廷料理人(Earth)",
+    spec: {
+      status: { hp: 1770, atk: 540, def: 448, spd: 306 },
+      skill: [
+        {
+          title: "度肝を抜く東坡肉",
+          desc: "味方1体にバリアをはる。攻撃されても2ターンダメージを受けない。",
+        },
+        { title: "喝采のフカヒレ", desc: "味方全員のHP回復" },
+        { title: "特大飲茶フルコース", desc: "敵1体に特大ダメージ" },
+      ],
+    },
+  },
+  {
     id: "clb9eb30e48d7f4aff89563ce5",
     rarity: "EPIC",
     element: "FIRE",

@@ -2,6 +2,60 @@ import { Amulet } from "../_types/types";
 
 export const legendaryAmulets: Amulet[] = [
   {
+    id: "clad9f397fab0f40a88b3c92bb",
+    rarity: "LEGENDARY",
+    element: "POISON",
+    image: "/images/amulets/legendary/clad9f397fab0f40a88b3c92bb.webp",
+    info: "この世界で彼女ほど紙という媒体の魅力にとり憑かれた者もそういないであろう。\n遠い東の国、あるいは旧世界の紙等様々な紙を自分の工場で生産している。\nハロウィンの時期には自分を旧世界の紙でぐるぐる巻きにする",
+    category: "サービス",
+    type: "ANOTHER",
+    name: "製紙工場長(Poison)",
+    spec: {
+      status: { hp: 2100, atk: 675, def: 560, spd: 375 },
+      skill: [
+        {
+          title: "工員パンプキンズ",
+          desc: "自分にバリアをはる。攻撃されても1ターンダメージを受けない。さらにこのスキルは必ず先制で発動する。",
+        },
+        {
+          title: "超超ロングパピルス",
+          desc: "敵1体を毒状態にする。 毒状態中はターン終了ごとに割合ダメージを受ける。3ターン有効",
+        },
+        { title: "「ぐるぐるミイラ！」", desc: "敵1体に特大ダメージ" },
+      ],
+      ability: [
+        {
+          title: "ダークネスレジストLv3",
+          desc: "戦闘開始時、フィールドを展開する。そのフィールド下では、敵のフィールドによる暗闇状態を一定確率で防ぐ。フィールドの持続は長め",
+        },
+      ],
+    },
+  },
+  {
+    id: "cl462560307931443ba8073d51",
+    rarity: "LEGENDARY",
+    element: "EARTH",
+    image: "/images/amulets/legendary/cl462560307931443ba8073d51.webp",
+    info: "山を越え谷を越え、時には海をも超えていくお宝集めを生業としているもの。\nどんなに宝箱の鍵があちこちにあっても、どんなに扉を解く暗号が複雑難解であっても、\n彼にかかれば古代人の知恵など無力なのである。",
+    category: "ギャザラー",
+    type: "NORMAL",
+    name: "トレジャーハンター(Earth)",
+    spec: {
+      status: { hp: 1950, atk: 680, def: 520, spd: 372 },
+      skill: [
+        { title: "神器：アンのサーベル", desc: "敵1体に特大ダメージ" },
+        {
+          title: "開錠術：バリアブルキー",
+          desc: "敵全員を毎ターン終了時、ダメージを受ける状態にする。3ターン有効",
+        },
+        {
+          title: "「宝で支払ってやるよ」",
+          desc: "敵1体にダメージを与え、バジェットを増やす",
+        },
+      ],
+    },
+  },
+  {
     id: "clec467eafaac74182b3e63abc",
     rarity: "LEGENDARY",
     element: "FIRE",
